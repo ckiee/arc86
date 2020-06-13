@@ -1,0 +1,1 @@
+execute as @a[tag=in-credits] run function arc81:credits/tick
