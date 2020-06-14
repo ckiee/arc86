@@ -1,0 +1,1 @@
+give @s barrier{FLICKER_REMOVER: 1b, display: {Name: '{"text":"Flickering Remover","color":"red"}'}}
