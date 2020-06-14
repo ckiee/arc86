@@ -1,0 +1,1 @@
+give @s minecraft:ghast_spawn_egg{EntityTag: {Tags: ["make-flicker"]}, display: {Name: '{"text":"Flickering Light","color":"red"}'}}
