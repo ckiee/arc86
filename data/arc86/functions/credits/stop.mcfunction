@@ -1,5 +1,5 @@
 tag @s remove in-credits
 scoreboard players reset @s creditTime
 gamemode creative
-tp 0 150 0
-effect give @s minecraft:blindness 1 255 true
+tp @s 7.5 142 -27.5 90 0
+effect give @s minecraft:blindness 2 255 true
