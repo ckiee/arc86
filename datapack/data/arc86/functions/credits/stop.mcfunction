@@ -4,4 +4,6 @@ gamemode creative
 tp @s -23 150.00 -2 -90 0
 effect give @s minecraft:blindness 2 255 true
 scoreboard players set @e[tag=flicker-lamp] flickerTime -40
-bossbar set arc86:escape players @s
+# player was tped so current ~~~ isnt accurate
+execute at @s run playsound arc86.red ambient @s ~ ~ ~ 0.7
+scoreboard players set credits_over globals 1

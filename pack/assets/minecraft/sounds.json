@@ -1,7 +1,11 @@
 {
 	"arc86.yellow": {
 		"sounds": ["yellow"],
-		"subtitle": "Condition Yellow Alert"
+		"subtitle": "Code YELLOW Alert"
+	},
+	"arc86.red": {
+		"sounds": ["red"],
+		"subtitle": "Code RED Alert"
 	},
 	"arc86.electrical_fail": {
 		"sounds": ["electrical_fail"],
