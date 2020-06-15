@@ -8,9 +8,3 @@ tp @e[tag=credits-lock,limit=1] 0 -10 0 0 90
 
 scoreboard objectives remove creditTime
 scoreboard objectives add creditTime dummy
-
-# Escape Bossbar
-bossbar add arc86:escape {"text":"Escape!","color":"red"}
-bossbar set arc86:escape color red
-bossbar set arc86:escape value 100
-bossbar set arc86:escape visible true

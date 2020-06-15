@@ -1,3 +1,8 @@
 {
-	"values": ["arc86:credits/load", "arc86:flicker/load", "arc86:load"]
+	"values": [
+		"arc86:credits/load",
+		"arc86:flicker/load",
+		"arc86:escape/load",
+		"arc86:load"
+	]
 }
