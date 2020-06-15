@@ -1,0 +1,1 @@
+execute as @e[tag=door] at @s run function arc86:doors/door_tick

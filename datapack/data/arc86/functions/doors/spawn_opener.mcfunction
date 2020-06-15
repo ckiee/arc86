@@ -1,0 +1,2 @@
+setblock ~ ~ ~ air
+execute align xyz run summon falling_block ~.5 ~4 ~.5 {NoGravity: 1b, BlockState: {Name: "minecraft:smooth_stone"}, Time: -2147483648, DropItem: 0, Tags: ["door-opener"], Motion: [0.0d, 0.2d, 0.0d]}
