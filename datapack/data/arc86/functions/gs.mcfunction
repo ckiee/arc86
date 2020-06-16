@@ -1,1 +1,0 @@
-scoreboard players set game_started globals 1
