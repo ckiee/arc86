@@ -3,6 +3,7 @@
 		"arc86:tick",
 		"arc86:flicker/tick",
 		"arc86:escape/tick",
-		"arc86:doors/tick"
+		"arc86:doors/tick",
+		"arc86:game_starter/tick"
 	]
 }
