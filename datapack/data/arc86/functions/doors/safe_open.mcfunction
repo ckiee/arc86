@@ -1,0 +1,1 @@
+execute unless score @s doorState matches 2 run function arc86:doors/open
