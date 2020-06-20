@@ -8,6 +8,22 @@
 		{
 			"predicate": { "custom_model_data": 8601 },
 			"model": "cards/l1"
+		},
+		{
+			"predicate": { "custom_model_data": 8602 },
+			"model": "cards/l2"
+		},
+		{
+			"predicate": { "custom_model_data": 8603 },
+			"model": "cards/l3"
+		},
+		{
+			"predicate": { "custom_model_data": 8604 },
+			"model": "cards/l4"
+		},
+		{
+			"predicate": { "custom_model_data": 8605 },
+			"model": "cards/l5"
 		}
 	]
 }
