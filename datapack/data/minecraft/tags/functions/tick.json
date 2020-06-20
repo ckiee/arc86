@@ -1,9 +1,10 @@
 {
 	"values": [
-		"arc86:tick",
 		"arc86:flicker/tick",
 		"arc86:escape/tick",
 		"arc86:doors/tick",
-		"arc86:game_starter/tick"
+		"arc86:game_starter/tick",
+		"arc86:keycard/tick",
+		"arc86:tick"
 	]
 }

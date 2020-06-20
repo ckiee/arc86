@@ -1,5 +1,6 @@
 {
 	"values": [
+		"arc86:keycard/load",
 		"arc86:game_starter/load",
 		"arc86:credits/load",
 		"arc86:flicker/load",
