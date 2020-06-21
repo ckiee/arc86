@@ -6,4 +6,3 @@ effect give @s minecraft:blindness 2 255 true
 scoreboard players set @e[tag=flicker-lamp] flickerTime -40
 # player was tped so current ~~~ isnt accurate
 execute at @s run playsound arc86.red ambient @s ~ ~ ~ 0.7
-scoreboard players set credits_over globals 1
