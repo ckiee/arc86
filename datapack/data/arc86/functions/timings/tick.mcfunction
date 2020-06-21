@@ -1,1 +1,1 @@
-execute positioned -91 150 -73 if entity @a[distance=..3]
+execute positioned -91 150 -73 if entity @a[distance=..3] if score stage globals matches 0 run function arc86:timings/s1
