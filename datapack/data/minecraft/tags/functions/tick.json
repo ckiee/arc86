@@ -6,6 +6,7 @@
 		"arc86:game_starter/tick",
 		"arc86:keycard/tick",
 		"arc86:debug/tick",
-		"arc86:credits/tick"
+		"arc86:credits/tick",
+		"arc86:timings/tick"
 	]
 }
