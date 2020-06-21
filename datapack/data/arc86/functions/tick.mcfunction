@@ -11,4 +11,3 @@ execute as @a at @s if score game_time globals matches 800 run playsound arc86.e
 execute as @a if score game_time globals matches 950 run function arc86:credits/start
 execute as @a at @s if score game_time globals matches 1580 run function arc86:escape/start
 
-tellraw @a[nbt={SelectedItemSlot: 8, SelectedItem: {id: "minecraft:debug_stick"}}] ["",{"text":"Flicker Controls: ","color":"gold"},{"text":"OFF","color":"red","clickEvent":{"action":"run_command","value":"/function arc86:debug/flicker_off"}},{"text":" | ","color":"gold"},{"text":"ON","color":"green","clickEvent":{"action":"run_command","value":"/function arc86:debug/flicker_on"}}]
