@@ -1,4 +1,7 @@
-execute as @a[tag=in-credits] at @s run function arc86:credits/tick
+## THIS FILE IS DEAD ##
+## THIS FILE IS DEAD ##
+## THIS FILE IS DEAD ##
+
 execute if score game_started globals matches 1 run scoreboard players add game_time globals 1
 
 execute if score game_time globals matches 0..300 run scoreboard players set @e[tag=flicker-lamp] flickerTime 69
