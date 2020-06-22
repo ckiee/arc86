@@ -8,15 +8,25 @@
 		"subtitle": "Code RED Alert"
 	},
 	"arc86.granted": {
-		"sounds": ["granted"],
+		"sounds": [
+			{ "name": "granted", "attenuation_distance": 6, "volume": 0.6 }
+		],
 		"subtitle": "Reader bleeps"
 	},
 	"arc86.denied": {
-		"sounds": ["denied"],
+		"sounds": [
+			{ "name": "denied", "attenuation_distance": 6, "volume": 0.6 }
+		],
 		"subtitle": "Reader bleeps"
 	},
 	"arc86.door": {
-		"sounds": ["door"],
+		"sounds": [
+			{
+				"name": "door",
+				"attenuation_distance": 16,
+				"volume": 0.9
+			}
+		],
 		"subtitle": "Door slides"
 	},
 	"arc86.alarm": {
