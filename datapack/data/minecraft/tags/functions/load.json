@@ -5,6 +5,7 @@
 		"arc86:flicker/load",
 		"arc86:escape/load",
 		"arc86:doors/load",
+		"arc86:introatrium/load",
 		"arc86:load"
 	]
 }
