@@ -13,5 +13,8 @@ execute positioned -113 156 -38 run tag @e[tag=introatrium-moving,distance=..3] 
 execute positioned -113 156 -38 run tag @e[tag=introatrium-moving,distance=..3] remove introatrium-moving
 execute if entity @e[tag=introatrium-wasmoving] run kill @e[tag=introatrium-point]
 
+# item kill
+execute if entity @e[tag=introatrium-wasmoving] positioned -104 154 -38 run kill @e[type=item,distance=..15]
+
 # NoNoGravity
 execute as @e[tag=AFB_FBs] run data merge entity @s {NoGravity: 0b}
