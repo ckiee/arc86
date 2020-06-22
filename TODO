@@ -6,10 +6,9 @@
 ✔ Update the intro voicelines to the new ones (sent below on Discord) @done(20-06-22 01:16)
 ✘ Make it so if you right-click a flint item that is in your inventory, it will set your spawn point to where you are (a sort of save function) and say in chat— &9[Save point set.] I will retexture it sometime. @cancelled(20-06-22 17:50)
 ✔ Change L1 card texture to this, since the current one has the "1" far too large and it irks me. It is irksome. @done(20-06-22 17:58)
+✔ Make it so keycard readers will either tell you in actionbar near inventory “[Access Granted]”, or “[Access Denied—L3+ Card Required]”, or whatever L# the reader is @done(20-06-22 19:01)
+✔ Implement the keycard accepted/door open sound (sent on Discord) @done(20-06-22 19:01)
+✔ Implement the keycard denied sound (sent on Discord) @done(20-06-22 19:01)
 - Tutorial center is now done—the button at the very end of the hall should put the player(s) in spectator mode, black out the screen—and small white titles on the screen should say “0853 Hours. 15th of April, 2012. Northern Seattle.”
 - It can then spawn the player in their bunk and start the game.
 - Also, hitting this button will clear their inventory and give them only one item—their L1 Card.
-
-- Implement the keycard accepted/door open sound (sent on Discord)
-- Implement the keycard denied sound (sent on Discord)
-- Make it so keycard readers will either tell you in actionbar near inventory “[Access Granted]”, or “[Access Denied—L3+ Card Required]”, or whatever L# the reader is
