@@ -1,2 +1,2 @@
-title @a actionbar ["",{"text":"Access Denied (requires ","color":"red"},{"text":"L","color":"dark_red"},{"score":{"name":"$required","objective":"keycard"},"color":"dark_red"},{"text":")","color":"red"}]
+title @s actionbar ["",{"text":"Access Denied (requires ","color":"red"},{"text":"L","color":"dark_red"},{"score":{"name":"$required","objective":"keycard"},"color":"dark_red"},{"text":")","color":"red"}]
 playsound arc86.denied block @a ~ ~ ~
