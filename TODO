@@ -9,6 +9,6 @@
 ✔ Make it so keycard readers will either tell you in actionbar near inventory “[Access Granted]”, or “[Access Denied—L3+ Card Required]”, or whatever L# the reader is @done(20-06-22 19:01)
 ✔ Implement the keycard accepted/door open sound (sent on Discord) @done(20-06-22 19:01)
 ✔ Implement the keycard denied sound (sent on Discord) @done(20-06-22 19:01)
+✔ Also, hitting this button will clear their inventory and give them only one item—their L1 Card. @done(20-06-22 19:53)
 - Tutorial center is now done—the button at the very end of the hall should put the player(s) in spectator mode, black out the screen—and small white titles on the screen should say “0853 Hours. 15th of April, 2012. Northern Seattle.”
 - It can then spawn the player in their bunk and start the game.
-- Also, hitting this button will clear their inventory and give them only one item—their L1 Card.
