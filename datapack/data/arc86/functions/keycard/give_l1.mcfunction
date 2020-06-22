@@ -1,0 +1,1 @@
+give @s carrot_on_a_stick{KeycardLevel: 1, CustomModelData: 8601, Damage: 0, display: {Name: '{"text":"§eL1 CAC Card"}', Lore: ['{"text":"§6Used to access low-level research and habitation areas."}', '{"text":"§9Owner: [AYLWIN, P.]"}']}}
