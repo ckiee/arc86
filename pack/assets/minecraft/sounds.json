@@ -9,11 +9,15 @@
 	},
 	"arc86.granted": {
 		"sounds": ["granted"],
-		"subtitle": "Door slides open"
+		"subtitle": "Reader bleeps"
 	},
 	"arc86.denied": {
 		"sounds": ["denied"],
-		"subtitle": "Access denied"
+		"subtitle": "Reader bleeps"
+	},
+	"arc86.door": {
+		"sounds": ["door"],
+		"subtitle": "Door slides"
 	},
 	"arc86.alarm": {
 		"sounds": ["alarm"],
