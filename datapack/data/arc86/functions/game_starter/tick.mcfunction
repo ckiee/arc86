@@ -5,6 +5,6 @@ scoreboard players reset @a[scores={gameStart=1}] gameStart
 
 # (Re)join detection
 tag @a[scores={leave=1..}] remove init
-execute as @a[tag=!init] run function arc86:game_starter/gs_tellraw
+execute as @a[tag=!init] run function arc86:game_starter/on_join
 tag @a[tag=!init] add init
 scoreboard players set @a[scores={leave=1..}] leave 0
