@@ -7,6 +7,14 @@
 		"sounds": ["s2"],
 		"subtitle": "Code RED Alert"
 	},
+	"arc86.granted": {
+		"sounds": ["granted"],
+		"subtitle": "Door slides open"
+	},
+	"arc86.denied": {
+		"sounds": ["denied"],
+		"subtitle": "Access denied"
+	},
 	"arc86.alarm": {
 		"sounds": ["alarm"],
 		"subtitle": "Alarm"
