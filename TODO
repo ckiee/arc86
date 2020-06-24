@@ -13,8 +13,8 @@
 ✔ It can then spawn the player in their bunk and start the game. @done(20-06-22 20:38)
 ✔ Tutorial center is now done—the button at the very end of the hall should put the player(s) in spectator mode, black out the screen—and small white titles on the screen should say “0853 Hours. 15th of April, 2012. Northern Seattle.” @done(20-06-22 20:58)
 ✔ tp far away players in s2 cutscene @done(20-06-24 21:58)
+✘ Teslagates - make ‘em. There is the frame of one in the tutorial center. Make it so it activates if any player is within 10 blocks of it (electricity through it, the usual). It activates once every 3 seconds. If the player is standing in it when it activates, instant death. @cancelled(20-06-24 22:22)
 - glow outline with the thing in mc cmds discord (on card readers)
 @major:
-- Teslagates - make ‘em. There is the frame of one in the tutorial center. Make it so it activates if any player is within 10 blocks of it (electricity through it, the usual). It activates once every 3 seconds. If the player is standing in it when it activates, instant death.
 - Make it so in the intro, when the bridge falls and just before the blackout, explosion particles are summoned on the player (give it a sense of “o yeah, that’s what knocked me out and not the collapse of a platform I’m observing from a distance”)—can give it the explosion sound too if you want
 - Use an object that can be a radio (my idea is the radio will trigger certain lines when you walk past a certain block and won’t trigger it again), so begin to set that up
