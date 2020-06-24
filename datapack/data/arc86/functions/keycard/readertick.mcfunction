@@ -1,0 +1,2 @@
+execute unless entity @a[distance=..25] run kill @e[tag=keycard-outline,sort=nearest,distance=..1]
+execute if entity @e[type=player,distance=..25] unless entity @e[tag=keycard-outline,distance=..1] run function arc86:keycard/outliner
