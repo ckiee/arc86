@@ -24,6 +24,10 @@
 		{
 			"predicate": { "custom_model_data": 8605 },
 			"model": "cards/l5"
+		},
+		{
+			"predicate": { "custom_model_data": 9001 },
+			"model": "highlight/head"
 		}
 	]
 }
