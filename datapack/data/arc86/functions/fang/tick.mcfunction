@@ -1,0 +1,1 @@
+execute as @e[tag=fang] at @s if entity @a[distance=..1] unless entity @e[type=evoker_fangs,distance=..1] run summon evoker_fangs
