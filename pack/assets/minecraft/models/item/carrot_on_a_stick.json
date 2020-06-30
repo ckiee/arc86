@@ -32,6 +32,10 @@
 		{
 			"predicate": { "custom_model_data": 9001 },
 			"model": "highlight/wall_head_west"
+		},
+		{
+			"predicate": { "custom_model_data": 9002 },
+			"model": "item/blaster"
 		}
 	]
 }
