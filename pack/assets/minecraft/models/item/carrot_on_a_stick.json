@@ -35,7 +35,7 @@
 		},
 		{
 			"predicate": { "custom_model_data": 9002 },
-			"model": "item/blaster"
+			"model": "item/rifle"
 		}
 	]
 }
