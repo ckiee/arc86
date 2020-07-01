@@ -9,6 +9,7 @@
 		"arc86:timings/tick",
 		"arc86:introatrium/tick",
 		"arc86:fang/tick",
-		"arc86:rifle/tick"
+		"arc86:rifle/tick",
+		"arc86:click/tick"
 	]
 }
