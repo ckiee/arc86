@@ -1,0 +1,12 @@
+{
+	"values": [
+		"#minecraft:buttons",
+		"#minecraft:walls",
+		"minecraft:iron_bars",
+		"minecraft:chain",
+		"minecraft:white_stained_glass_pane",
+		"minecraft:black_stained_glass_pane",
+		"minecraft:air",
+		"minecraft:end_rod"
+	]
+}
