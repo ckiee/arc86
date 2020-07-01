@@ -1,0 +1,1 @@
+give @s carrot_on_a_stick{rifle: 1b, display: {Name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"TRX-16 (5.56mm)"}],"text":""}'}, Damage: 0, CustomModelData: 9002}
