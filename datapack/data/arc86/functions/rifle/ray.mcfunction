@@ -4,4 +4,4 @@ scoreboard players add $distance gunRaycast 1
 execute if score $hit gunRaycast matches 0 if score $distance gunRaycast matches ..300 positioned ^ ^-0.005 ^0.1 run function arc86:rifle/ray
 #execute if score $hit gunRaycast matches 0 if score $distance gunRaycast matches 300..500 positioned ^ ^ ^0.1 rotated 0 90 run function arc86:rifle/ray
 
-execute unless entity @a[distance=..2] run particle flame
+execute unless entity @a[distance=..2] run particle dust 1 1 1 1
