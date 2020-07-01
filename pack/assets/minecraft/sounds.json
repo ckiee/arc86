@@ -32,5 +32,17 @@
 	"arc86.alarm": {
 		"sounds": ["alarm"],
 		"subtitle": "Alarm"
+	},
+	"arc86.rifle.fire": {
+		"sounds": ["rifle/fire"],
+		"subtitle": "Rifle Fire"
+	},
+	"arc86.rifle.empty": {
+		"sounds": ["rifle/empty"],
+		"subtitle": "Rifle Empty"
+	},
+	"arc86.rifle.load": {
+		"sounds": ["rifle/load"],
+		"subtitle": "Rifle Reload"
 	}
 }
