@@ -1,4 +1,4 @@
-scoreboard players set @s gunCooldown 10
+scoreboard players set @s gunCooldown 0
 tag @s add ray
 scoreboard players set $hit gunRaycast 0
 scoreboard players set $distance gunRaycast 0
