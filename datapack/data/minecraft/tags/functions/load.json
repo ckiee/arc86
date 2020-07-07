@@ -1,12 +1,3 @@
 {
-	"values": [
-		"arc86:keycard/load",
-		"arc86:flicker/load",
-		"arc86:escape/load",
-		"arc86:doors/load",
-		"arc86:introatrium/load",
-		"arc86:rifle/load",
-		"arc86:click/load",
-		"arc86:load"
-	]
+	"values": ["arc86:escape/load", "arc86:introatrium/load", "arc86:load"]
 }
