@@ -44,5 +44,13 @@
 	"arc86.rifle.load": {
 		"sounds": ["rifle/load"],
 		"subtitle": "Rifle Reload"
+	},
+	"arc86.music.intro": {
+		"sounds": ["music/intro"],
+		"subtitle": "SCTIMFSI Intro"
+	},
+	"arc86.music.exit": {
+		"sounds": ["music/exit"],
+		"subtitle": "SCTIMFSI Exit"
 	}
 }
