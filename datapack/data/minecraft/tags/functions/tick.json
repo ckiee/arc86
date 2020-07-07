@@ -5,7 +5,6 @@
 		"arc86:doors/tick",
 		"arc86:lobby/tick",
 		"arc86:keycard/tick",
-		"arc86:debug/tick",
 		"arc86:timings/tick",
 		"arc86:introatrium/tick",
 		"arc86:fang/tick",
