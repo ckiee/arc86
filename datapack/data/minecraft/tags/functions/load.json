@@ -1,7 +1,6 @@
 {
 	"values": [
 		"arc86:keycard/load",
-		"arc86:game_starter/load",
 		"arc86:flicker/load",
 		"arc86:escape/load",
 		"arc86:doors/load",
