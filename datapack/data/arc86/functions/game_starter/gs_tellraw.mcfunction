@@ -1,2 +1,0 @@
-execute if score stage globals matches -1 run tellraw @s ["",{"score":{"name":"player_count","objective":"globals"},"color":"red"},{"text":" players online ","color":"gold"},{"text":"[Start Game]","bold":true,"color":"red","clickEvent":{"action":"run_command","value":"/trigger gameStart set 1"}}]
-execute unless score stage globals matches -1 run tellraw @s ["",{"score":{"name":"player_count","objective":"globals"},"color":"red"},{"text":" players online ","color":"gold"},{"text":"[Start Game]","bold":true,"color":"gray"}]
