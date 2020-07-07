@@ -27,3 +27,4 @@ execute if score @s gunAmmoMath matches 20 run replaceitem entity @s weapon carr
 execute if score @s gunAmmoMath matches 1.. run function arc86:rifle/fire
 execute if score @s gunAmmoMath matches 0 run function arc86:rifle/empty
 execute if score @s gunAmmoMath matches -1 run function arc86:rifle/reload
+#																    ^ doesnt exist yet
