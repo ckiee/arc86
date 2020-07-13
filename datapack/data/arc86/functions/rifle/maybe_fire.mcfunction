@@ -1,7 +1,13 @@
 # ammo dec
 execute store result score @s gunAmmoMath run data get entity @s SelectedItem.tag.ammo
-execute if score @s gunAmmoMath matches 0.. run scoreboard players operation @s gunAmmoMath += $DEC gunAmmoMath
+execute if score @s gunAmmoMath matches 1.. run scoreboard players operation @s gunAmmoMath += $DEC gunAmmoMath
 
+# Can engage reload?
+execute if score @s gunAmmoMath matches 0 run execute store result score $RL gunAmmoMath run clear @s netherite_ingot 1
+execute if score @s gunAmmoMath matches 0 if score $RL gunAmmoMath matches 1 run scoreboard players operation @s gunAmmoMath += $DEC gunAmmoMath
+
+# Update item
+execute if score @s gunAmmoMath matches -1 run replaceitem entity @s weapon carrot_on_a_stick{rifle: 1b, CustomModelData: 9002, ammo: -1, display: {Name: '"§6TRX-16 (5.56mm) <R>"'}}
 execute if score @s gunAmmoMath matches 0 run replaceitem entity @s weapon carrot_on_a_stick{rifle: 1b, CustomModelData: 9002, ammo: 0, display: {Name: '"§6TRX-16 (5.56mm) <0>"'}}
 execute if score @s gunAmmoMath matches 1 run replaceitem entity @s weapon carrot_on_a_stick{rifle: 1b, CustomModelData: 9002, ammo: 1, display: {Name: '"§6TRX-16 (5.56mm) <1>"'}}
 execute if score @s gunAmmoMath matches 2 run replaceitem entity @s weapon carrot_on_a_stick{rifle: 1b, CustomModelData: 9002, ammo: 2, display: {Name: '"§6TRX-16 (5.56mm) <2>"'}}
@@ -27,4 +33,3 @@ execute if score @s gunAmmoMath matches 20 run replaceitem entity @s weapon carr
 execute if score @s gunAmmoMath matches 1.. run function arc86:rifle/fire
 execute if score @s gunAmmoMath matches 0 run function arc86:rifle/empty
 execute if score @s gunAmmoMath matches -1 run function arc86:rifle/reload
-#																    ^ doesnt exist yet
