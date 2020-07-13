@@ -18,9 +18,8 @@
 ✔ Make it so in the intro, when the bridge falls and just before the blackout, explosion particles are summoned on the player (give it a sense of “o yeah, that’s what knocked me out and not the collapse of a platform I’m observing from a distance”)—can give it the explosion sound too if you want @done(20-06-30 23:04)
 ✔ figure out why first join detection isnt working properly @done(20-07-07 23:45)
 ✔ include door playsound in antispam @done(20-07-07 23:46)
+✔ rifle @done(20-07-13 22:20)
+✔ S H O W E R S @done(20-07-13 23:08)
 - Use an object that can be a radio (my idea is the radio will trigger certain lines when you walk past a certain block and won’t trigger it again), so begin to set that up
 - graphics quality interactable sign in lobby that adjusts flicker time and other things to reduce fps lag
 - investigate choppy introatrium start
-- S H O W E R S
-
-- rifle
