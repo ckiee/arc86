@@ -1,0 +1,68 @@
+{
+	"s1": {
+		"sounds": ["arc86:s1"],
+		"subtitle": "Code YELLOW Alert"
+	},
+	"s2": {
+		"sounds": ["arc86:s2"],
+		"subtitle": "Code RED Alert"
+	},
+	"s4": {
+		"sounds": ["arc86:s4"]
+	},
+	"keycard.granted": {
+		"sounds": [
+			{
+				"name": "arc86:keycard/granted",
+				"attenuation_distance": 6,
+				"volume": 0.6
+			}
+		],
+		"subtitle": "Reader bleeps"
+	},
+	"keycard.denied": {
+		"sounds": [
+			{
+				"name": "arc86:keycard/denied",
+				"attenuation_distance": 6,
+				"volume": 0.6
+			}
+		],
+		"subtitle": "Reader bleeps"
+	},
+	"door": {
+		"sounds": [
+			{
+				"name": "arc86:door",
+				"attenuation_distance": 16,
+				"volume": 0.9
+			}
+		],
+		"subtitle": "Door slides"
+	},
+	"alarm": {
+		"sounds": ["arc86:alarm"],
+		"subtitle": "(UNUSED) Alarm"
+	},
+	"rifle.fire": {
+		"sounds": ["arc86:rifle/fire"],
+		"subtitle": "Rifle Fire"
+	},
+	"rifle.empty": {
+		"sounds": ["arc86:rifle/empty"],
+		"subtitle": "Rifle Empty"
+	},
+	"rifle.load": {
+		"sounds": ["arc86:rifle/load"],
+		"subtitle": "Rifle Reload"
+	},
+
+	"music.intro": {
+		"sounds": ["arc86:music/intro"],
+		"subtitle": "SCTIMFSI Intro"
+	},
+	"music.exit": {
+		"sounds": ["arc86:music/exit"],
+		"subtitle": "SCTIMFSI Exit"
+	}
+}
