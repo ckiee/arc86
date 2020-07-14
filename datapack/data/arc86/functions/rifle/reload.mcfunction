@@ -1,1 +1,1 @@
-execute at @s run playsound arc86.rifle.load player @s ~ ~ ~
+execute at @s run playsound arc86:rifle.load player @s ~ ~ ~
