@@ -1,0 +1,1 @@
+execute as @a at @s if block ~ ~-1 ~ campfire[lit=true] run function arc86:vents/touch_tick
