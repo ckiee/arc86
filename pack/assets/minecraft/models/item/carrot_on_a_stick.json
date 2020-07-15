@@ -36,6 +36,14 @@
 		{
 			"predicate": { "custom_model_data": 9002 },
 			"model": "item/rifle"
+		},
+		{
+			"predicate": { "custom_model_data": 9003 },
+			"model": "radio/off"
+		},
+		{
+			"predicate": { "custom_model_data": 9004 },
+			"model": "radio/on"
 		}
 	]
 }
