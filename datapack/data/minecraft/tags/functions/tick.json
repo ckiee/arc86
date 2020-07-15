@@ -10,6 +10,7 @@
 		"arc86:fang/tick",
 		"arc86:rifle/tick",
 		"arc86:click/tick",
-		"arc86:showers/tick"
+		"arc86:showers/tick",
+		"arc86:vents/tick"
 	]
 }
