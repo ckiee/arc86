@@ -11,6 +11,7 @@
 		"arc86:rifle/tick",
 		"arc86:click/tick",
 		"arc86:showers/tick",
-		"arc86:vents/tick"
+		"arc86:vents/tick",
+		"arc86:thermal/tick"
 	]
 }
