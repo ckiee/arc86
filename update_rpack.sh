@@ -5,7 +5,7 @@
 # 	mv $(basename $f .mp3).ogg $(dirname $f)/
 # done
 
-cd pack
+cd resourcepack
 zip -qr /tmp/pack.zip *
 cd ..
 rsync /tmp/pack.zip vps:compose/data/cdn/arc86pack.zip
