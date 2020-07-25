@@ -10,6 +10,10 @@
 			"model": "cards/l1"
 		},
 		{
+			"predicate": { "custom_model_data": 8621 },
+			"model": "cards/l12"
+		},
+		{
 			"predicate": { "custom_model_data": 8602 },
 			"model": "cards/l2"
 		},
@@ -26,14 +30,6 @@
 			"model": "cards/l5"
 		},
 		{
-			"predicate": { "custom_model_data": 9000 },
-			"model": "highlight/head"
-		},
-		{
-			"predicate": { "custom_model_data": 9001 },
-			"model": "highlight/wall_head_west"
-		},
-		{
 			"predicate": { "custom_model_data": 9002 },
 			"model": "item/rifle"
 		},
@@ -44,6 +40,10 @@
 		{
 			"predicate": { "custom_model_data": 9004 },
 			"model": "radio/on"
+		},
+		{
+			"predicate": { "custom_model_data": 9005 },
+			"model": "item/m18"
 		}
 	]
 }
