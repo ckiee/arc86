@@ -10,10 +10,6 @@
 			"model": "cards/l1"
 		},
 		{
-			"predicate": { "custom_model_data": 8621 },
-			"model": "cards/l12"
-		},
-		{
 			"predicate": { "custom_model_data": 8602 },
 			"model": "cards/l2"
 		},
@@ -28,6 +24,10 @@
 		{
 			"predicate": { "custom_model_data": 8605 },
 			"model": "cards/l5"
+		},
+		{
+			"predicate": { "custom_model_data": 8621 },
+			"model": "cards/l12"
 		},
 		{
 			"predicate": { "custom_model_data": 9002 },
