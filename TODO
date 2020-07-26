@@ -25,3 +25,4 @@
 - Use an object that can be a radio (my idea is the radio will trigger certain lines when you walk past a certain block and won’t trigger it again), so begin to set that up
 - graphics quality interactable sign in lobby that adjusts flicker time and other things to reduce fps lag
 - get star to make vents sfx
+- fix problem where jumping/moving sideways while opening keycard door only opens some of the door
