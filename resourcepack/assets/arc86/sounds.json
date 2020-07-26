@@ -1,14 +1,18 @@
 {
-	"s1": {
-		"sounds": ["arc86:s1"],
+	"s5": {
+		"sounds": ["arc86:s5"],
+		"subtitle": "Distant whispering"
+	},
+	"s20": {
+		"sounds": ["arc86:s20"],
 		"subtitle": "Code YELLOW Alert"
 	},
-	"s2": {
-		"sounds": ["arc86:s2"],
+	"s30": {
+		"sounds": ["arc86:s30"],
 		"subtitle": "Code RED Alert"
 	},
-	"s4": {
-		"sounds": ["arc86:s4"]
+	"s50": {
+		"sounds": ["arc86:s50"]
 	},
 	"keycard.granted": {
 		"sounds": [
@@ -40,10 +44,6 @@
 		],
 		"subtitle": "Door slides"
 	},
-	"alarm": {
-		"sounds": ["arc86:alarm"],
-		"subtitle": "(UNUSED) Alarm"
-	},
 	"rifle.fire": {
 		"sounds": ["arc86:rifle/fire"],
 		"subtitle": "Rifle Fire"
@@ -55,14 +55,5 @@
 	"rifle.load": {
 		"sounds": ["arc86:rifle/load"],
 		"subtitle": "Rifle Reload"
-	},
-
-	"music.intro": {
-		"sounds": ["arc86:music/intro"],
-		"subtitle": "SCTIMFSI Intro"
-	},
-	"music.exit": {
-		"sounds": ["arc86:music/exit"],
-		"subtitle": "SCTIMFSI Exit"
 	}
 }
