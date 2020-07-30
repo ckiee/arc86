@@ -45,7 +45,13 @@
 		"subtitle": "Door slides"
 	},
 	"rifle.fire": {
-		"sounds": ["arc86:rifle/fire"],
+		"sounds": [
+			{
+				"name": "arc86:rifle/fire",
+				"attenuation_distance": 16,
+				"volume": 0.9
+			}
+		],
 		"subtitle": "Rifle Fire"
 	},
 	"rifle.empty": {
