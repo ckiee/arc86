@@ -44,22 +44,39 @@
 		],
 		"subtitle": "Door slides"
 	},
-	"rifle.fire": {
+
+	"guns.empty": {
+		"sounds": ["arc86:guns/empty"],
+		"subtitle": "Rifle Empty"
+	},
+
+	"guns.rifle.fire": {
 		"sounds": [
 			{
-				"name": "arc86:rifle/fire",
+				"name": "arc86:guns/rifle/fire",
 				"attenuation_distance": 16,
 				"volume": 0.9
 			}
 		],
 		"subtitle": "Rifle Fire"
 	},
-	"rifle.empty": {
-		"sounds": ["arc86:rifle/empty"],
-		"subtitle": "Rifle Empty"
-	},
-	"rifle.load": {
-		"sounds": ["arc86:rifle/load"],
+	"guns.rifle.load": {
+		"sounds": ["arc86:guns/rifle/load"],
 		"subtitle": "Rifle Reload"
+	},
+
+	"guns.pistol.fire": {
+		"sounds": [
+			{
+				"name": "arc86:guns/pistol/fire",
+				"attenuation_distance": 16,
+				"volume": 0.9
+			}
+		],
+		"subtitle": "Pistol Fire"
+	},
+	"guns.pistol.load": {
+		"sounds": ["arc86:guns/pistol/load"],
+		"subtitle": "Pistol Reload"
 	}
 }
