@@ -13,6 +13,7 @@
 		"arc86:showers/tick",
 		"arc86:vents/tick",
 		"arc86:thermal/tick",
-		"arc86:experiment/tick"
+		"arc86:experiment/tick",
+		"arc86:clift/tick"
 	]
 }
