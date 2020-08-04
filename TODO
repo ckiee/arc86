@@ -27,6 +27,11 @@
 - get star to make vents sfx
 - fix problem where jumping/moving sideways while opening keycard door only opens some of the door
 
+- Working lifts for containment levels @started(20-08-05 01:28)
+- Teslagates
+- Voice line captions
+- Working trams that move
+- Difficulty setting
 
 wait:
 	- for the end: balance all the audio
