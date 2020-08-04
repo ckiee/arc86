@@ -1,3 +1,6 @@
+# cleanup from s10
+bossbar set arc86:s10-goal visible false
+
 scoreboard players set stage globals 20
 execute as @a at @s run playsound arc86:s20 voice @s ~ ~ ~
 # big call, makes like 500 entities
