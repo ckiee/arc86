@@ -14,6 +14,7 @@
 		"arc86:vents/tick",
 		"arc86:thermal/tick",
 		"arc86:experiment/tick",
-		"arc86:clift/tick"
+		"arc86:clift/tick",
+		"arc86:diffset/tick"
 	]
 }
