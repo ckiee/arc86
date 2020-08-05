@@ -3,7 +3,7 @@
 		{
 			"type": "bitmap",
 			"file": "minecraft:font/epwarn.png",
-			"ascent": -32,
+			"ascent": 64,
 			"height": 64,
 			"chars": ["\uEC01"]
 		}

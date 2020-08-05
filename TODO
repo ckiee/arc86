@@ -24,13 +24,13 @@
 ✘ investigate choppy introatrium start @cancelled(20-07-19 22:03)
 ✔ pistol @done(20-07-31 01:21)
 ✔ Difficulty setting @done(20-08-05 05:27)
+✔ Change player spawn @done(20-08-05 22:36)
+✔ Add PA broadcast https://cdn.discordapp.com/attachments/698688605320773703/740634667845156884/PelleaJerniganPA.ogg @done(20-08-05 22:36)
+✔ https://cdn.discordapp.com/attachments/726903192956174432/740390043130003486/unknown.png fix so it fits on all screens regardless of res -- also test @done(20-08-05 22:59)
 chore:
+	- fix bug where jumping/moving sideways while opening keycard door only opens some of the door
 	- Use an object that can be a radio (my idea is the radio will trigger certain lines when you walk past a certain block and won’t trigger it again), so begin to set that up @started(20-08-05 01:29)
 	- get star to make vents sfx
-	- fix problem where jumping/moving sideways while opening keycard door only opens some of the door
-	- https://cdn.discordapp.com/attachments/726903192956174432/740390043130003486/unknown.png fix so it fits on all screens regardless of res -- also test
-	- Change player spawn
-	- Add PA broadcast https://cdn.discordapp.com/attachments/698688605320773703/740634667845156884/PelleaJerniganPA.ogg
 
 feat:
 	- Working lifts for containment levels @started(20-08-05 01:28)
