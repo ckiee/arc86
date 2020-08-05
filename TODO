@@ -24,15 +24,20 @@
 ✘ investigate choppy introatrium start @cancelled(20-07-19 22:03)
 ✔ pistol @done(20-07-31 01:21)
 ✔ Difficulty setting @done(20-08-05 05:27)
-- Use an object that can be a radio (my idea is the radio will trigger certain lines when you walk past a certain block and won’t trigger it again), so begin to set that up @started(20-08-05 01:29)
-- get star to make vents sfx
-- fix problem where jumping/moving sideways while opening keycard door only opens some of the door
+chore:
+	- Use an object that can be a radio (my idea is the radio will trigger certain lines when you walk past a certain block and won’t trigger it again), so begin to set that up @started(20-08-05 01:29)
+	- get star to make vents sfx
+	- fix problem where jumping/moving sideways while opening keycard door only opens some of the door
+	- https://cdn.discordapp.com/attachments/726903192956174432/740390043130003486/unknown.png fix so it fits on all screens regardless of res -- also test
+	- Change player spawn
+	- Add PA broadcast https://cdn.discordapp.com/attachments/698688605320773703/740634667845156884/PelleaJerniganPA.ogg
 
-- Working lifts for containment levels @started(20-08-05 01:28)
-- Teslagates
-- Voice line captions
-- Working trams that move
+feat:
+	- Working lifts for containment levels @started(20-08-05 01:28)
+	- Teslagates
+	- Voice line captions
+	- Working trams that move
 
-wait:
+blocked:
 	- for the end: balance all the audio
 	- graphics quality interactable sign in lobby that adjusts flicker time and other things to reduce fps lag

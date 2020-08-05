@@ -1,5 +1,5 @@
-# cleanup from s10
-bossbar set arc86:s10-goal visible false
+# cleanup from s17
+scoreboard players reset $passed s17
 
 scoreboard players set stage globals 20
 execute as @a at @s run playsound arc86:s20 voice @s ~ ~ ~

@@ -3,6 +3,10 @@
 		"sounds": ["arc86:s5"],
 		"subtitle": "Distant whispering"
 	},
+	"s17": {
+		"sounds": ["arc86:s17"],
+		"subtitle": "PA broadcast"
+	},
 	"s20": {
 		"sounds": ["arc86:s20"],
 		"subtitle": "Code YELLOW Alert"
