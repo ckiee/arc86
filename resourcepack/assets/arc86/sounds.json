@@ -82,5 +82,9 @@
 	"guns.pistol.load": {
 		"sounds": ["arc86:guns/pistol/load"],
 		"subtitle": "Pistol Reload"
+	},
+	"ambient": {
+		"sounds": ["arc86:ambient/pac", "arc86:ambient/ron"],
+		"subtitle": "Ambient"
 	}
 }
