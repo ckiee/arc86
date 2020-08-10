@@ -38,6 +38,7 @@ feat:
 	- Working lifts for containment levels @started(20-08-05 01:28)
 	- Voice line captions
 	- Working trams that move
+	- death msgs
 
 blocked:
 	- for the end: balance all the audio
