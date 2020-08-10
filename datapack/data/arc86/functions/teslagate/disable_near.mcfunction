@@ -1,0 +1,1 @@
+scoreboard players operation @e[tag=teslagate,distance=..7] teslagateTimer = $ticks teslagateTimer
