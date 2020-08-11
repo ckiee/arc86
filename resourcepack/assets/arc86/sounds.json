@@ -223,8 +223,7 @@
 	},
 	"guns.pistol.load": {
 		"sounds": ["arc86:guns/pistol/load"],
-		"subtitle": "Pistol Reload",
-		"voicelog": 10
+		"subtitle": "Pistol Reload"
 	},
 	"ambient": {
 		"sounds": ["arc86:ambient/pac"],
@@ -240,5 +239,10 @@
 				}
 			}
 		}
+	},
+	"voicelog.endler": {
+		"sounds": ["arc86:voicelogs/endler"],
+		"voicelog": 1,
+		"endTicks": 1140
 	}
 }
