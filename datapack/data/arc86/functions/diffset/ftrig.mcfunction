@@ -1,4 +1,4 @@
-data merge entity @s {ItemRotation: 2b}
+data merge entity @s {ItemRotation: 0b}
 execute as @e[tag=diffset] run function arc86:diffset/swap_map
 # invert diff by *-1 mul
 scoreboard players operation $diff diffset *= $-1 diffset 

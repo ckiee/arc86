@@ -17,6 +17,7 @@
 		"arc86:clift/tick",
 		"arc86:diffset/tick",
 		"arc86:teslagate/tick",
-		"arc86:absub/tick"
+		"arc86:absub/tick",
+		"arc86:voicelogs/tick"
 	]
 }
