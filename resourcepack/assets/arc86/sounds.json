@@ -1,22 +1,42 @@
 {
 	"s5": {
 		"sounds": ["arc86:s5"],
-		"subtitle": "Distant whispering"
+		"subtitle": "Distant whispering",
+		"absub": {
+			"id": 1,
+			"points": {}
+		}
 	},
 	"s17": {
 		"sounds": ["arc86:s17"],
-		"subtitle": "PA broadcast"
+		"subtitle": "PA broadcast",
+		"absub": {
+			"id": 2,
+			"points": {}
+		}
 	},
 	"s20": {
 		"sounds": ["arc86:s20"],
-		"subtitle": "Code YELLOW Alert"
+		"subtitle": "Code YELLOW Alert",
+		"absub": {
+			"id": 3,
+			"points": {}
+		}
 	},
 	"s30": {
 		"sounds": ["arc86:s30"],
-		"subtitle": "Code RED Alert"
+		"subtitle": "Code RED Alert",
+		"absub": {
+			"id": 4,
+			"points": {}
+		}
 	},
 	"s50": {
-		"sounds": ["arc86:s50"]
+		"sounds": ["arc86:s50"],
+		"absub": {
+			"id": 5,
+			"points": {}
+		}
 	},
 	"keycard.granted": {
 		"sounds": [
@@ -89,7 +109,8 @@
 		"absub": {
 			"id": 10,
 			"points": {
-				"123123": { "person": "FartMan", "msg": "Y u fart on my bed" }
+				"1": { "person": "FartMan", "msg": "Y u fart on my bed" },
+				"15": { "person": "PoopMan", "msg": "why not?" }
 			}
 		}
 	}
