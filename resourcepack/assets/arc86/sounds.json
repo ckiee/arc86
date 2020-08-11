@@ -109,8 +109,12 @@
 		"absub": {
 			"id": 10,
 			"points": {
-				"1": { "person": "FartMan", "msg": "Y u fart on my bed" },
-				"15": { "person": "PoopMan", "msg": "why not?" }
+				"0": { "person": "rambo", "msg": "i farted!!!" },
+				"25": { "person": "threepenny", "msg": "i didnt fart" },
+				"33": {
+					"person": "xxxxxxxxxxone two four gayming",
+					"msg": "i am obese"
+				}
 			}
 		}
 	}
