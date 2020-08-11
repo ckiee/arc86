@@ -84,7 +84,13 @@
 		"subtitle": "Pistol Reload"
 	},
 	"ambient": {
-		"sounds": ["arc86:ambient/pac", "arc86:ambient/ron"],
-		"subtitle": "Ambient"
+		"sounds": ["arc86:ambient/pac"],
+		"subtitle": "Ambient",
+		"absub": {
+			"id": 10,
+			"points": {
+				"123123": { "person": "FartMan", "msg": "Y u fart on my bed" }
+			}
+		}
 	}
 }
