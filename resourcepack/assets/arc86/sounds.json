@@ -20,7 +20,16 @@
 		"subtitle": "Code YELLOW Alert",
 		"absub": {
 			"id": 3,
-			"points": {}
+			"points": {
+				"130": {
+					"person": "?",
+					"msg": "All personnel, set Condition Yellow—we have lost main power, "
+				},
+				"160": {
+					"person": "?",
+					"msg": "backup generators are starting up. Standing by."
+				}
+			}
 		}
 	},
 	"s30": {
