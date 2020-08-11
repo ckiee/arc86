@@ -4,15 +4,84 @@
 		"subtitle": "Distant whispering",
 		"absub": {
 			"id": 1,
-			"points": {}
+			"points": {
+				"1520": { "person": "Fiorillo", "msg": "Preston?" },
+				"1600": { "person": "Fiorillo", "msg": "Preston..." },
+				"1640": {
+					"person": "Fiorillo",
+					"msg": "Preston, get the hell over here."
+				},
+				"1660": {
+					"person": "Fiorillo",
+					"msg": "I told you 'Wake up on time, cmon'"
+				},
+				"1700": {
+					"person": "Fiorillo",
+					"msg": "and you fall right back to sleep again."
+				},
+				"1760": {
+					"person": "Fiorillo",
+					"msg": " I don’t even know why I bother."
+				},
+				"1800": { "person": "Fiorillo", "msg": "Hurry up!" },
+				"1840": {
+					"person": "Fiorillo",
+					"msg": "Scientific atrium. Or else Heermann’ll be pissed."
+				},
+				"1900": { "person": "Fiorillo", "msg": "Again!" },
+				"1920": { "person": "Steven", "msg": "Oh well, Preston -" },
+				"1960": { "person": "Steven", "msg": "This is Steven" },
+				"1980": { "person": "Steven", "msg": "with a V." },
+				"2000": {
+					"person": "Steven",
+					"msg": "I, ugh, I think I might have left my medication"
+				},
+				"2060": {
+					"person": "Steven",
+					"msg": "...in my room, can you, ugh"
+				},
+				"2120": { "person": "Steven", "msg": "Can you bring that?" },
+				"2160": { "person": "Steven", "msg": "Thanks." }
+			}
 		}
 	},
 	"s17": {
 		"sounds": ["arc86:s17"],
 		"subtitle": "PA broadcast",
+
 		"absub": {
 			"id": 2,
-			"points": {}
+			"points": {
+				"20": {
+					"person": "Pellea",
+					"msg": "Good morning, eight-six"
+				},
+				"60": {
+					"person": "Pellea",
+					"msg": "Standard morning shift briefings are to take place in five minutes, department centers."
+				},
+				"160": {
+					"person": "Pellea",
+					"msg": "Night shift is officially relieved as of now; try and get some rest."
+				},
+				"280": {
+					"person": "Pellea",
+					"msg": "Division heads, expect a visit from Ethics Committee at eleven-hundred hours."
+				},
+				"360": { "person": "Pellea", "msg": "Now hear this" },
+				"440": {
+					"person": "Jernigan",
+					"msg": " This is Assistant Site Director Sita Jernigan."
+				},
+				"500": {
+					"person": "Jernigan",
+					"msg": "I expect site security teams alpha through echo at main gate for cycle out."
+				},
+				"600": {
+					"person": "Jernigan",
+					"msg": "Site security teams alpha through echo. Ten minutes. Be fleet."
+				}
+			}
 		}
 	},
 	"s20": {
@@ -21,14 +90,23 @@
 		"absub": {
 			"id": 3,
 			"points": {
-				"130": {
-					"person": "?",
-					"msg": "All personnel, set Condition Yellow—we have lost main power, "
+				"80": {
+					"person": "Richthofen",
+					"msg": "All personnel, set Condition Yellow,"
+				},
+				"120": {
+					"person": "Richthofen",
+					"msg": "I repeat, set condition yellow."
 				},
 				"160": {
-					"person": "?",
-					"msg": "backup generators are starting up. Standing by."
-				}
+					"person": "Richthofen",
+					"msg": "We have lost main power in the site,"
+				},
+				"220": {
+					"person": "Richthofen",
+					"msg": "Backup generators are starting up,"
+				},
+				"260": { "person": "Richthofen", "msg": "Stand by." }
 			}
 		}
 	},
@@ -37,14 +115,49 @@
 		"subtitle": "Code RED Alert",
 		"absub": {
 			"id": 4,
-			"points": {}
+			"points": {
+				"80": {
+					"person": "Richthofen",
+					"msg": "All personnel, be advised."
+				},
+				"104": {
+					"person": "Richthofen",
+					"msg": "All electrical systems have failed."
+				},
+				"140": {
+					"person": "Richthofen",
+					"msg": "Containment may not be feasible."
+				},
+				"192": { "person": "Richthofen", "msg": "Stan-" }
+			}
 		}
 	},
 	"s50": {
 		"sounds": ["arc86:s50"],
 		"absub": {
 			"id": 5,
-			"points": {}
+			"points": {
+				"113": {
+					"person": "E.C.S",
+					"msg": "This is a Code Red containment breach alert."
+				},
+				"168": {
+					"person": "E.C.S",
+					"msg": "All personnel, set your stations to condition one."
+				},
+				"258": {
+					"person": "E.C.S",
+					"msg": "Site security is to immediately attempt recontainment procedures."
+				},
+				"322": {
+					"person": "E.C.S",
+					"msg": "All other non-essential personnel."
+				},
+				"378": {
+					"person": "E.C.S",
+					"msg": "Evacuate Site-86 at once."
+				}
+			}
 		}
 	},
 	"keycard.granted": {
@@ -121,7 +234,7 @@
 				"0": { "person": "rambo", "msg": "i farted!!!" },
 				"25": { "person": "threepenny", "msg": "i didnt fart" },
 				"33": {
-					"person": "xxxxxxxxxxone two four gayming",
+					"person": "two four gayming",
 					"msg": "i am obese"
 				}
 			}
