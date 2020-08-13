@@ -5,7 +5,10 @@ const postLines = [];
 const lines = Object.keys(sounds)
 	.map(key => {
 		if (!sounds[key].absub) return [];
-		const { id, points } = sounds[key].absub;
+		const {
+			id,
+			absub: { points },
+		} = sounds[key];
 		const lastPoint = Math.max(
 			...Object.keys(points).map(x => parseInt(x, 10))
 		);

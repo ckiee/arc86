@@ -5,13 +5,13 @@ const tickLines = [];
 const psLines = [];
 
 Object.keys(sounds).map(key => {
-	const { voicelog, endTicks } = sounds[key];
-	if (!voicelog || !endTicks) return;
+	const { id, endTicks } = sounds[key];
+	if (!id || !endTicks) return;
 	tickLines.push(
-		`execute if score $current voicelog matches ${voicelog} if score $time voicelog matches ${endTicks}.. run function arc86:voicelogs/ps_over`
+		`execute if score $current voicelog matches ${id} if score $time voicelog matches ${endTicks}.. run function arc86:voicelogs/ps_over`
 	);
 	psLines.push(
-		`execute if score $current voicelog matches ${voicelog} run playsound arc86:${key} voice @a[distance=..10] ~ ~ ~ 1 1 1`
+		`execute if score $current voicelog matches ${id} run playsound arc86:${key} voice @a[distance=..10] ~ ~ ~ 1 1 1`
 	);
 });
 

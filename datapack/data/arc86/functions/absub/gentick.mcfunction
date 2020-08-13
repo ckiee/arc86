@@ -22,7 +22,7 @@ execute if score $id absubState matches 2 if score $time absubState matches 60..
 execute if score $id absubState matches 2 if score $time absubState matches 160..279 run title @a actionbar [{"text":"Pellea","bold":true},{"text":": ","bold":true},{"text":"Night shift is officially relieved as of now; try and get some rest.","bold":false}]
 execute if score $id absubState matches 2 if score $time absubState matches 280..359 run title @a actionbar [{"text":"Pellea","bold":true},{"text":": ","bold":true},{"text":"Division heads, expect a visit from Ethics Committee at eleven-hundred hours.","bold":false}]
 execute if score $id absubState matches 2 if score $time absubState matches 360..439 run title @a actionbar [{"text":"Pellea","bold":true},{"text":": ","bold":true},{"text":"Now hear this","bold":false}]
-execute if score $id absubState matches 2 if score $time absubState matches 440..499 run title @a actionbar [{"text":"Jernigan","bold":true},{"text":": ","bold":true},{"text":" This is Assistant Site Director Sita Jernigan.","bold":false}]
+execute if score $id absubState matches 2 if score $time absubState matches 440..499 run title @a actionbar [{"text":"Jernigan","bold":true},{"text":": ","bold":true},{"text":" This is Assistant Site Director Jernigan.","bold":false}]
 execute if score $id absubState matches 2 if score $time absubState matches 500..599 run title @a actionbar [{"text":"Jernigan","bold":true},{"text":": ","bold":true},{"text":"I expect site security teams alpha through echo at main gate for cycle out.","bold":false}]
 execute if score $id absubState matches 2 if score $time absubState matches 600 run title @a actionbar [{"text":"Jernigan","bold":true},{"text":": ","bold":true},{"text":"Site security teams alpha through echo. Ten minutes. Be fleet.","bold":false}]
 execute if score $id absubState matches 3 if score $time absubState matches 80..119 run title @a actionbar [{"text":"Richthofen","bold":true},{"text":": ","bold":true},{"text":"All personnel, set Condition Yellow,","bold":false}]
@@ -42,6 +42,17 @@ execute if score $id absubState matches 5 if score $time absubState matches 378 
 execute if score $id absubState matches 10 if score $time absubState matches 0..24 run title @a actionbar [{"text":"rambo","bold":true},{"text":": ","bold":true},{"text":"i farted!!!","bold":false}]
 execute if score $id absubState matches 10 if score $time absubState matches 25..32 run title @a actionbar [{"text":"threepenny","bold":true},{"text":": ","bold":true},{"text":"i didnt fart","bold":false}]
 execute if score $id absubState matches 10 if score $time absubState matches 33 run title @a actionbar [{"text":"two four gayming","bold":true},{"text":": ","bold":true},{"text":"i am obese","bold":false}]
+execute if score $id absubState matches 6 if score $time absubState matches 20..81 run title @a actionbar [{"text":"Endler","bold":true},{"text":": ","bold":true},{"text":"Personal log. Fourth of April.","bold":false}]
+execute if score $id absubState matches 6 if score $time absubState matches 82..139 run title @a actionbar [{"text":"Endler","bold":true},{"text":": ","bold":true},{"text":"Had an Osprey fail to take off today.","bold":false}]
+execute if score $id absubState matches 6 if score $time absubState matches 140..199 run title @a actionbar [{"text":"Endler","bold":true},{"text":": ","bold":true},{"text":"Something went off with the left-side tiltrotor.","bold":false}]
+execute if score $id absubState matches 6 if score $time absubState matches 200..319 run title @a actionbar [{"text":"Endler","bold":true},{"text":": ","bold":true},{"text":"That makes, what, one hundred and forty-seven, no.","bold":false}]
+execute if score $id absubState matches 6 if score $time absubState matches 320..421 run title @a actionbar [{"text":"Endler","bold":true},{"text":": ","bold":true},{"text":"One hundred and forty-eight days without incident here at Site: 86.","bold":false}]
+execute if score $id absubState matches 6 if score $time absubState matches 422..461 run title @a actionbar [{"text":"Endler","bold":true},{"text":": ","bold":true},{"text":"Until now.","bold":false}]
+execute if score $id absubState matches 6 if score $time absubState matches 462..579 run title @a actionbar [{"text":"Endler","bold":true},{"text":": ","bold":true},{"text":"Pfft. Well, if that is the worst that it is going to get, I'll take it.","bold":false}]
+execute if score $id absubState matches 6 if score $time absubState matches 580..711 run title @a actionbar [{"text":"Endler","bold":true},{"text":": ","bold":true},{"text":"It is all peace and quiet here in Seattle.","bold":false}]
+execute if score $id absubState matches 6 if score $time absubState matches 712..903 run title @a actionbar [{"text":"Endler","bold":true},{"text":": ","bold":true},{"text":"I don't like it. They say it is darkest before the dawn, but they also say it is calm before the storm.","bold":false}]
+execute if score $id absubState matches 6 if score $time absubState matches 904..1015 run title @a actionbar [{"text":"Endler","bold":true},{"text":": ","bold":true},{"text":"I heard ICR47 may have a lead on to something.","bold":false}]
+execute if score $id absubState matches 6 if score $time absubState matches 1016 run title @a actionbar [{"text":"Endler","bold":true},{"text":": ","bold":true},{"text":"I hope it's the former of the two, and not the latter.","bold":false}]
 
 execute if score $id absubState matches 1 if score $time absubState matches 2160 run function arc86:absub/reset
 execute if score $id absubState matches 2 if score $time absubState matches 600 run function arc86:absub/reset
@@ -49,4 +60,5 @@ execute if score $id absubState matches 3 if score $time absubState matches 260 
 execute if score $id absubState matches 4 if score $time absubState matches 192 run function arc86:absub/reset
 execute if score $id absubState matches 5 if score $time absubState matches 378 run function arc86:absub/reset
 execute if score $id absubState matches 10 if score $time absubState matches 33 run function arc86:absub/reset
+execute if score $id absubState matches 6 if score $time absubState matches 1016 run function arc86:absub/reset
 

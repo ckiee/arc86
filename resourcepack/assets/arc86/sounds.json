@@ -2,8 +2,8 @@
 	"s5": {
 		"sounds": ["arc86:s5"],
 		"subtitle": "Distant whispering",
+		"id": 1,
 		"absub": {
-			"id": 1,
 			"points": {
 				"1520": { "person": "Fiorillo", "msg": "Preston?" },
 				"1600": { "person": "Fiorillo", "msg": "Preston..." },
@@ -49,8 +49,8 @@
 		"sounds": ["arc86:s17"],
 		"subtitle": "PA broadcast",
 
+		"id": 2,
 		"absub": {
-			"id": 2,
 			"points": {
 				"20": {
 					"person": "Pellea",
@@ -71,7 +71,7 @@
 				"360": { "person": "Pellea", "msg": "Now hear this" },
 				"440": {
 					"person": "Jernigan",
-					"msg": " This is Assistant Site Director Sita Jernigan."
+					"msg": " This is Assistant Site Director Jernigan."
 				},
 				"500": {
 					"person": "Jernigan",
@@ -87,8 +87,8 @@
 	"s20": {
 		"sounds": ["arc86:s20"],
 		"subtitle": "Code YELLOW Alert",
+		"id": 3,
 		"absub": {
-			"id": 3,
 			"points": {
 				"80": {
 					"person": "Richthofen",
@@ -113,8 +113,8 @@
 	"s30": {
 		"sounds": ["arc86:s30"],
 		"subtitle": "Code RED Alert",
+		"id": 4,
 		"absub": {
-			"id": 4,
 			"points": {
 				"80": {
 					"person": "Richthofen",
@@ -134,8 +134,8 @@
 	},
 	"s50": {
 		"sounds": ["arc86:s50"],
+		"id": 5,
 		"absub": {
-			"id": 5,
 			"points": {
 				"113": {
 					"person": "E.C.S",
@@ -228,8 +228,8 @@
 	"ambient": {
 		"sounds": ["arc86:ambient/pac"],
 		"subtitle": "Ambient",
+		"id": 10,
 		"absub": {
-			"id": 10,
 			"points": {
 				"0": { "person": "rambo", "msg": "i farted!!!" },
 				"25": { "person": "threepenny", "msg": "i didnt fart" },
@@ -240,9 +240,54 @@
 			}
 		}
 	},
-	"voicelog.endler": {
+	"voicelogs.endler": {
 		"sounds": ["arc86:voicelogs/endler"],
-		"voicelog": 1,
-		"endTicks": 1140
+		"id": 6,
+		"endTicks": 1140,
+		"absub": {
+			"points": {
+				"20": {
+					"person": "Endler",
+					"msg": "Personal log. Fourth of April."
+				},
+				"82": {
+					"person": "Endler",
+					"msg": "Had an Osprey fail to take off today."
+				},
+				"140": {
+					"person": "Endler",
+					"msg": "Something went off with the left-side tiltrotor."
+				},
+				"200": {
+					"person": "Endler",
+					"msg": "That makes, what, one hundred and forty-seven, no."
+				},
+				"320": {
+					"person": "Endler",
+					"msg": "One hundred and forty-eight days without incident here at Site: 86."
+				},
+				"422": { "person": "Endler", "msg": "Until now." },
+				"462": {
+					"person": "Endler",
+					"msg": "Pfft. Well, if that is the worst that it is going to get, I'll take it."
+				},
+				"580": {
+					"person": "Endler",
+					"msg": "It is all peace and quiet here in Seattle."
+				},
+				"712": {
+					"person": "Endler",
+					"msg": "I don't like it. They say it is darkest before the dawn, but they also say it is calm before the storm."
+				},
+				"904": {
+					"person": "Endler",
+					"msg": "I heard ICR47 may have a lead on to something."
+				},
+				"1016": {
+					"person": "Endler",
+					"msg": "I hope it's the former of the two, and not the latter."
+				}
+			}
+		}
 	}
 }
