@@ -2,5 +2,5 @@
 # Edit sounds.json def and rerun to edit
 scoreboard players set $time voicelog 0
 
-execute if score $current voicelog matches 1 run playsound arc86:voicelog.endler voice @a[distance=..10] ~ ~ ~ 1 1 1
+execute if score $current voicelog matches 6 run playsound arc86:voicelogs.endler voice @a[distance=..10] ~ ~ ~ 1 1 1
 
