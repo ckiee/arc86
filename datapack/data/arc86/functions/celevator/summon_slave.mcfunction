@@ -1,0 +1,3 @@
+# {NoGravity:1b,AttachFace:0,Color:15b,Invulnerable:1,NoAI:1,Silent:1}
+execute align xyz run summon armor_stand ~.5 ~ ~.5 {Tags: ["elevator"], NoGravity: 0b, Marker: 0b, Invisible: 0b, Passengers: [{id: "minecraft:shulker", Tags: ["elevator-collison"], ActiveEffects: [{Id: 14b, Amplifier: 255, Duration: 2000000, ShowParticles: 0b}], NoGravity: 0b, AttachFace: 0, Color: 15b, Invulnerable: 1, NoAI: 1, Silent: 1}, {id: "minecraft:falling_block", Tags: ["elevator-display"], BlockState: {Name: "polished_andesite"}, Time: -2147483648, NoGravity: 1b}]}
+setblock ~ ~ ~ air
