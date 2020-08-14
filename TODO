@@ -31,13 +31,14 @@
 ✔ Voice line captions @done(20-08-11 23:26)
 ✔ voicelog @started(20-08-11 23:34) @done(20-08-12 00:20) @lasted(46m27s)
 ✘ Working elevators for containment levels @started(20-08-05 01:28) @cancelled(20-08-15 00:13) @wasted(1w2d22h45m7s)
+✔ checkpoints @done(20-08-15 01:43)
 chore:
 	- fix bug where jumping/moving sideways while opening keycard door only opens some of the door
 	- Use an object that can be a radio (my idea is the radio will trigger certain lines when you walk past a certain block and won’t trigger it again), so begin to set that up @started(20-08-05 01:29)
 	- get star to make {vents,teslagate} sfx
 
 feat:
-	- Working trams that move
+	- Working trains that move
 	- death msgs
 
 blocked:
