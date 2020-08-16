@@ -32,6 +32,7 @@
 ✔ voicelog @started(20-08-11 23:34) @done(20-08-12 00:20) @lasted(46m27s)
 ✘ Working elevators for containment levels @started(20-08-05 01:28) @cancelled(20-08-15 00:13) @wasted(1w2d22h45m7s)
 ✔ checkpoints @done(20-08-15 01:43)
+✔ feedback for checkpoints @done(20-08-16 21:11)
 chore:
 	- fix bug where jumping/moving sideways while opening keycard door only opens some of the door
 	- get star to make {vents,teslagate} sfx
