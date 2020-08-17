@@ -1,0 +1,20 @@
+{
+	"parent": "arc86:endings/root",
+
+	"display": {
+		"icon": {
+			"item": "sunflower"
+		},
+		"title": "Escape and Egress",
+		"description": "Breathing in the sun, among the rays of light",
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": false,
+		"hidden": true
+	},
+	"criteria": {
+		"impossible": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

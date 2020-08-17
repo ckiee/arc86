@@ -19,7 +19,6 @@
 		"arc86:teslagate/tick",
 		"arc86:absub/tick",
 		"arc86:voicelogs/tick",
-		"arc86:debugstick/tick",
 		"arc86:checkpoints/tick",
 		"arc86:respawn/tick"
 	]
