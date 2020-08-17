@@ -1,0 +1,20 @@
+{
+	"parent": "arc86:endings/root",
+
+	"display": {
+		"icon": {
+			"item": "ender_pearl"
+		},
+		"title": "Sacrifice",
+		"description": "Will you give your life for those in the dark?",
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": false,
+		"hidden": true
+	},
+	"criteria": {
+		"impossible": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

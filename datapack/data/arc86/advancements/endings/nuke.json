@@ -1,0 +1,20 @@
+{
+	"parent": "arc86:endings/root",
+
+	"display": {
+		"icon": {
+			"item": "ender_eye"
+		},
+		"title": "For the Greater Good",
+		"description": "The needs of the many outweigh the needs of the few...",
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": false,
+		"hidden": true
+	},
+	"criteria": {
+		"impossible": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

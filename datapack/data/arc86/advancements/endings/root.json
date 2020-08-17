@@ -1,0 +1,14 @@
+{
+	"display": {
+		"icon": {},
+		"background": "dirt",
+		"hidden": true,
+		"title": "PLACEHOLDER",
+		"description": "You're not meant to see this"
+	},
+	"criteria": {
+		"impossible": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}
