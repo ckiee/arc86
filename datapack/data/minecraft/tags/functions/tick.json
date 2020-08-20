@@ -20,6 +20,7 @@
 		"arc86:absub/tick",
 		"arc86:voicelogs/tick",
 		"arc86:checkpoints/tick",
-		"arc86:respawn/tick"
+		"arc86:respawn/tick",
+		"arc86:scps/729/tick"
 	]
 }
