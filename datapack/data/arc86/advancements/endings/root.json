@@ -1,10 +1,11 @@
 {
 	"display": {
-		"icon": {},
-		"background": "dirt",
-		"hidden": true,
-		"title": "PLACEHOLDER",
-		"description": "You're not meant to see this"
+		"icon": { "item": "netherite_sword" },
+		"title": "The End",
+		"description": "",
+		"background": "minecraft:textures/block/end_stone_bricks.png",
+		"show_toast": false,
+		"announce_to_chat": false
 	},
 	"criteria": {
 		"impossible": {
