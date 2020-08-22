@@ -39,9 +39,9 @@ execute if score $id absubState matches 5 if score $time absubState matches 168.
 execute if score $id absubState matches 5 if score $time absubState matches 258..321 run title @a actionbar [{"text":"E.C.S","bold":true},{"text":": ","bold":true},{"text":"Site security is to immediately attempt recontainment procedures.","bold":false}]
 execute if score $id absubState matches 5 if score $time absubState matches 322..377 run title @a actionbar [{"text":"E.C.S","bold":true},{"text":": ","bold":true},{"text":"All other non-essential personnel.","bold":false}]
 execute if score $id absubState matches 5 if score $time absubState matches 378 run title @a actionbar [{"text":"E.C.S","bold":true},{"text":": ","bold":true},{"text":"Evacuate Site-86 at once.","bold":false}]
-execute if score $id absubState matches 10 if score $time absubState matches 0..24 run title @a actionbar [{"text":"rambo","bold":true},{"text":": ","bold":true},{"text":"i farted!!!","bold":false}]
-execute if score $id absubState matches 10 if score $time absubState matches 25..32 run title @a actionbar [{"text":"threepenny","bold":true},{"text":": ","bold":true},{"text":"i didnt fart","bold":false}]
-execute if score $id absubState matches 10 if score $time absubState matches 33 run title @a actionbar [{"text":"two four gayming","bold":true},{"text":": ","bold":true},{"text":"i am obese","bold":false}]
+execute if score $id absubState matches 7 if score $time absubState matches 0..24 run title @a actionbar [{"text":"rambo","bold":true},{"text":": ","bold":true},{"text":"i farted!!!","bold":false}]
+execute if score $id absubState matches 7 if score $time absubState matches 25..32 run title @a actionbar [{"text":"threepenny","bold":true},{"text":": ","bold":true},{"text":"i didnt fart","bold":false}]
+execute if score $id absubState matches 7 if score $time absubState matches 33 run title @a actionbar [{"text":"two four gayming","bold":true},{"text":": ","bold":true},{"text":"i am obese","bold":false}]
 execute if score $id absubState matches 6 if score $time absubState matches 20..81 run title @a actionbar [{"text":"Endler","bold":true},{"text":": ","bold":true},{"text":"Personal log. Fourth of April.","bold":false}]
 execute if score $id absubState matches 6 if score $time absubState matches 82..139 run title @a actionbar [{"text":"Endler","bold":true},{"text":": ","bold":true},{"text":"Had an Osprey fail to take off today.","bold":false}]
 execute if score $id absubState matches 6 if score $time absubState matches 140..199 run title @a actionbar [{"text":"Endler","bold":true},{"text":": ","bold":true},{"text":"Something went off with the left-side tiltrotor.","bold":false}]
@@ -59,6 +59,6 @@ execute if score $id absubState matches 2 if score $time absubState matches 600 
 execute if score $id absubState matches 3 if score $time absubState matches 260 run function arc86:absub/reset
 execute if score $id absubState matches 4 if score $time absubState matches 192 run function arc86:absub/reset
 execute if score $id absubState matches 5 if score $time absubState matches 378 run function arc86:absub/reset
-execute if score $id absubState matches 10 if score $time absubState matches 33 run function arc86:absub/reset
+execute if score $id absubState matches 7 if score $time absubState matches 33 run function arc86:absub/reset
 execute if score $id absubState matches 6 if score $time absubState matches 1016 run function arc86:absub/reset
 

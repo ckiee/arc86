@@ -228,7 +228,7 @@
 	"ambient": {
 		"sounds": ["arc86:ambient/pac"],
 		"subtitle": "Ambient",
-		"id": 10,
+		"id": 7,
 		"absub": {
 			"points": {
 				"0": { "person": "rambo", "msg": "i farted!!!" },
@@ -289,5 +289,11 @@
 				}
 			}
 		}
-	}
+	},
+	"voicelogs.rorkecafe": {
+		"sounds": ["arc86:voicelogs/rorkecafe"],
+		"id": 8,
+		"endTicks": 620
+	},
+	"hedream": { "sounds": ["arc86:hedream"] }
 }
