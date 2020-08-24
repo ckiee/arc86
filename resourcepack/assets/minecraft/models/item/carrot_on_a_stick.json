@@ -60,6 +60,15 @@
 		{
 			"predicate": { "custom_model_data": 912084 },
 			"model": "dead/dead4"
+		},
+
+		{
+			"predicate": { "custom_model_data": 9120812 },
+			"model": "dead/dead12"
+		},
+		{
+			"predicate": { "custom_model_data": 9120822 },
+			"model": "dead/dead22"
 		}
 	]
 }
