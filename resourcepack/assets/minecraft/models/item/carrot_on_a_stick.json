@@ -44,6 +44,22 @@
 		{
 			"predicate": { "custom_model_data": 9005 },
 			"model": "item/m18"
+		},
+		{
+			"predicate": { "custom_model_data": 912081 },
+			"model": "dead/dead1"
+		},
+		{
+			"predicate": { "custom_model_data": 912082 },
+			"model": "dead/dead2"
+		},
+		{
+			"predicate": { "custom_model_data": 912083 },
+			"model": "dead/dead3"
+		},
+		{
+			"predicate": { "custom_model_data": 912084 },
+			"model": "dead/dead4"
 		}
 	]
 }
