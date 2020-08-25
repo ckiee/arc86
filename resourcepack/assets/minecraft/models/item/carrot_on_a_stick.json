@@ -67,8 +67,16 @@
 			"model": "dead/dead12"
 		},
 		{
+			"predicate": { "custom_model_data": 9120813 },
+			"model": "dead/dead13"
+		},
+		{
 			"predicate": { "custom_model_data": 9120822 },
 			"model": "dead/dead22"
+		},
+		{
+			"predicate": { "custom_model_data": 9120823 },
+			"model": "dead/dead23"
 		}
 	]
 }
