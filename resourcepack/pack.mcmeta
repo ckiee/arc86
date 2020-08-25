@@ -1,6 +1,20 @@
 {
     "pack": {
-        "pack_format": 5,
-        "description": "\u00A7eARC SITE-86 (rev4)\n\u00A7eronthecookie & _Star_Phoenix_"
+        "pack_format": 6,
+        "description": [
+            {
+                "text": "ARC SITE-86 (",
+                "color": "yellow"
+            },
+            {
+                "text": "525b250",
+                "color": "red",
+                "comment": "This is the version!!!"
+            },
+            {
+                "text": ")\nronthecookie & _Star_Phoenix_",
+                "color": "yellow"
+            }
+        ]
     }
 }

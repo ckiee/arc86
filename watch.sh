@@ -4,6 +4,7 @@ while true; do
 	node datapack/voicelog.js
 	node datapack/version.js
 	node resourcepack/lang.js
+	node resourcepack/meta.js
 	./update_rpack.sh &
 	rsync -r datapack/* vps:compose/data/mc/world/datapacks/arc86/ --delete
 	sleep 1;
