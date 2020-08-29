@@ -3,3 +3,5 @@ execute unless block ~ ~ ~ #arc86:scp_729[waterlogged=true] run scoreboard playe
 
 execute if block ~ ~ ~ #arc86:scp_729[waterlogged=true] run effect give @s minecraft:nausea 5
 execute if block ~ ~ ~ #arc86:scp_729[waterlogged=true] run effect give @s minecraft:blindness 5
+# immobilize, kinda
+execute if block ~ ~ ~ #arc86:scp_729[waterlogged=true] run effect give @s minecraft:levitation 5 128 true
