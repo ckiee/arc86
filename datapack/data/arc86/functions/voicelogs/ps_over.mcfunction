@@ -1,1 +1,1 @@
-scoreboard players set $time voicelog -1
+scoreboard players set @s voicelogTime -1
