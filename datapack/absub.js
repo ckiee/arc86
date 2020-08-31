@@ -14,16 +14,16 @@ const lines = Object.keys(sounds)
 		);
 		if (lastPoint !== -Infinity)
 			postLines.push(
-				`execute if score $id absubState matches ${id} if score $time absubState matches ${lastPoint} run function arc86:absub/reset`
+				`execute if score @s absubID matches ${id} if score @s absubTime matches ${lastPoint} run function arc86:absub/reset`
 			);
 		let lastPerson = "??";
 		return Object.keys(points).map((spk, i, arr) => {
 			const pk = parseInt(spk, 10);
 			const pv = points[pk];
 			const pkn = parseInt(arr[i + 1], 10);
-			const line = `execute if score $id absubState matches ${id} if score $time absubState matches ${
+			const line = `execute if score @s absubID matches ${id} if score @s absubTime matches ${
 				pkn ? `${pk}..${pkn - 1}` : pk
-			} run title @a actionbar ${JSON.stringify([
+			} run title @s actionbar ${JSON.stringify([
 				{ text: pv.person || lastPerson, bold: true },
 				{ text: ": ", bold: true },
 				{ text: pv.msg, bold: false },
