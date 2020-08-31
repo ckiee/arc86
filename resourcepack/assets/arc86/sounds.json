@@ -295,5 +295,10 @@
 		"id": 8,
 		"endTicks": 620
 	},
-	"hedream": { "sounds": ["arc86:hedream"] }
+	"hedream": { "sounds": ["arc86:hedream"] },
+	"voicelogs.lobby": {
+		"sounds": ["arc86:voicelogs/lobby"],
+		"id": 9,
+		"endTicks": 146
+	}
 }
