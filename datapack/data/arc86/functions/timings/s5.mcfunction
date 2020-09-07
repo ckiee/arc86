@@ -1,6 +1,8 @@
 scoreboard players set stage globals 5
 tp @a -57 150 4 0 0
+gamerule sendCommandFeedback false
 gamemode adventure @a
+gamerule sendCommandFeedback true
 clear @a
 effect give @a blindness 5 255 true
 effect give @a slowness 5 255 true

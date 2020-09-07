@@ -1,5 +1,7 @@
 scoreboard players set stage globals 40
+gamerule sendCommandFeedback false
 gamemode spectator @a
+gamerule sendCommandFeedback true
 #execute as @a run spectate @e[tag=credits-lock,limit=1]
 title @a reset
 title @a times 10 100 20
