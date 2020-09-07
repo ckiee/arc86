@@ -41,7 +41,13 @@ feat:
 	- Working trains that move
 	- death msgs
 	- scripted voicelogs
-
+	✔ All voiceline subtitles (intro) are borked @done(20-09-08 01:04)
+	✔ Endler's voicelog is bork, doesn't even play @done(20-09-08 01:04)
+	- Need to update Richthofen's voicelines with new ones
+	- Remove the "Falling From Grace" thing from blackout
+	- Hide "game mode set to ___" during blackout
+	- dont get outsmarted when player is moving too fast
+	
 blocked:
 	- for the end: balance all the audio
 	- graphics quality interactable sign in lobby that adjusts flicker time and other things to reduce fps lag
