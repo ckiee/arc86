@@ -43,8 +43,8 @@ feat:
 	- scripted voicelogs
 	✔ All voiceline subtitles (intro) are borked @done(20-09-08 01:04)
 	✔ Endler's voicelog is bork, doesn't even play @done(20-09-08 01:04)
-	- Need to update Richthofen's voicelines with new ones
-	- Remove the "Falling From Grace" thing from blackout
+	✔ Need to update Richthofen's voicelines with new ones @done(20-09-08 01:57)
+	✘ Remove the "Falling From Grace" thing from blackout @cancelled(20-09-08 01:57)
 	- Hide "game mode set to ___" during blackout
 	- dont get outsmarted when player is moving too fast (s17 can start early)
 
