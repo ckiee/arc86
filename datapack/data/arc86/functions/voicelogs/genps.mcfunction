@@ -5,4 +5,5 @@ scoreboard players set @s voicelogTime 0
 execute if score @s currentVoicelog matches 6 run playsound arc86:voicelogs.endler voice @s ~ ~ ~ 1 1 1
 execute if score @s currentVoicelog matches 8 run playsound arc86:voicelogs.rorkecafe voice @s ~ ~ ~ 1 1 1
 execute if score @s currentVoicelog matches 9 run playsound arc86:voicelogs.lobby voice @s ~ ~ ~ 1 1 1
+execute if score @s currentVoicelog matches 10 run playsound arc86:voicelogs.klein109 voice @s ~ ~ ~ 1 1 1
 
