@@ -300,5 +300,10 @@
 		"sounds": ["arc86:voicelogs/lobby"],
 		"id": 9,
 		"endTicks": 146
+	},
+	"voicelogs.klein109": {
+		"sounds": ["arc86:voicelogs/klein109"],
+		"id": 10,
+		"endTicks": 353
 	}
 }
