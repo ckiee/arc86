@@ -36,19 +36,19 @@
 chore:
 	- fix bug where jumping/moving sideways while opening keycard door only opens some of the door
 	- get star to make {vents,teslagate} sfx
+	- dont get outsmarted when player is moving too fast (s17 can start early)
 
 feat:
 	- Working trains that move
 	- death msgs
-	- scripted voicelogs
 	✔ All voiceline subtitles (intro) are borked @done(20-09-08 01:04)
 	✔ Endler's voicelog is bork, doesn't even play @done(20-09-08 01:04)
 	✔ Need to update Richthofen's voicelines with new ones @done(20-09-08 01:57)
 	✘ Remove the "Falling From Grace" thing from blackout @cancelled(20-09-08 01:57)
-	- Hide "game mode set to ___" during blackout
-	- dont get outsmarted when player is moving too fast (s17 can start early)
-
+	✔ Hide "game mode set to ___" during blackout @done(20-09-12 03:01)
+	
 blocked:
+	- scripted voicelogs
 	- for the end: balance all the audio
 	- graphics quality interactable sign in lobby that adjusts flicker time and other things to reduce fps lag
 	- prune chunks at end https://gist.github.com/onnowhere/48655f2cac8a2c6cb5aac308ea89360c
