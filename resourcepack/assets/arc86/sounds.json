@@ -305,5 +305,17 @@
 		"sounds": ["arc86:voicelogs/klein109"],
 		"id": 10,
 		"endTicks": 353
+	},
+	"voicelogs.lczplea": {
+		"sounds": ["arc86:voicelogs/lczplea"],
+		"id": 11,
+		"endTicks": 5,
+		"TODO": "still need to set endTicks right"
+	},
+	"voicelogs.richopsdeath": {
+		"sounds": ["arc86:voicelogs/lczplea"],
+		"id": 11,
+		"endTicks": 5,
+		"TODO": "still need to set endTicks right"
 	}
 }
