@@ -313,8 +313,8 @@
 		"TODO": "still need to set endTicks right"
 	},
 	"voicelogs.richopsdeath": {
-		"sounds": ["arc86:voicelogs/lczplea"],
-		"id": 11,
+		"sounds": ["arc86:voicelogs/richopsdeath"],
+		"id": 12,
 		"endTicks": 5,
 		"TODO": "still need to set endTicks right"
 	}
