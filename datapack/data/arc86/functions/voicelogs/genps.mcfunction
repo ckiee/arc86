@@ -6,4 +6,6 @@ execute if score @s currentVoicelog matches 6 run playsound arc86:voicelogs.endl
 execute if score @s currentVoicelog matches 8 run playsound arc86:voicelogs.rorkecafe voice @s ~ ~ ~ 1 1 1
 execute if score @s currentVoicelog matches 9 run playsound arc86:voicelogs.lobby voice @s ~ ~ ~ 1 1 1
 execute if score @s currentVoicelog matches 10 run playsound arc86:voicelogs.klein109 voice @s ~ ~ ~ 1 1 1
+execute if score @s currentVoicelog matches 11 run playsound arc86:voicelogs.lczplea voice @s ~ ~ ~ 1 1 1
+execute if score @s currentVoicelog matches 12 run playsound arc86:voicelogs.richopsdeath voice @s ~ ~ ~ 1 1 1
 
