@@ -1,3 +1,8 @@
 {
-	"values": ["arc86:escape/load", "arc86:introatrium/load", "arc86:load"]
+	"values": [
+		"arc86:escape/load",
+		"arc86:introatrium/load",
+		"arc86:load",
+		"arc86:bridvecollapse/load"
+	]
 }
