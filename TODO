@@ -41,6 +41,7 @@ chore:
 feat:
 	- Working trains that move
 	- death msgs
+	- bridve fall at /execute in minecraft:overworld run tp @s -222.31 158.53 -7.88 -106.16 55.51
 	✔ All voiceline subtitles (intro) are borked @done(20-09-08 01:04)
 	✔ Endler's voicelog is bork, doesn't even play @done(20-09-08 01:04)
 	✔ Need to update Richthofen's voicelines with new ones @done(20-09-08 01:57)
