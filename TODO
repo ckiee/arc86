@@ -37,7 +37,8 @@ chore:
 	- fix bug where jumping/moving sideways while opening keycard door only opens some of the door
 	- get star to make {vents,teslagate} sfx
 	- dont get outsmarted when player is moving too fast (s17 can start early)
-
+	- fix entity leak from bridve, probably bridve-wasmoving or something like it but aecs with no tags just keep on stacking up at the end of the part of the bridge that falls
+	
 feat:
 	- Working trains that move
 	- death msgs
