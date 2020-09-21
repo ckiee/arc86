@@ -7,4 +7,5 @@ execute if score @s currentVoicelog matches 9 if score @s voicelogTime matches 1
 execute if score @s currentVoicelog matches 10 if score @s voicelogTime matches 353.. run function arc86:voicelogs/ps_over
 execute if score @s currentVoicelog matches 11 if score @s voicelogTime matches 5.. run function arc86:voicelogs/ps_over
 execute if score @s currentVoicelog matches 12 if score @s voicelogTime matches 5.. run function arc86:voicelogs/ps_over
+execute if score @s currentVoicelog matches 13 if score @s voicelogTime matches -1.. run function arc86:voicelogs/ps_over
 

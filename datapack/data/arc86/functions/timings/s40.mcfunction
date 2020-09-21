@@ -1,3 +1,4 @@
+
 scoreboard players set stage globals 40
 gamerule sendCommandFeedback false
 gamemode spectator @a
