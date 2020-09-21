@@ -42,7 +42,11 @@ chore:
 feat:
 	- Working trains that move
 	- death msgs
-	- bridve fall at /execute in minecraft:overworld run tp @s -222.31 158.53 -7.88 -106.16 55.51
+	- Have SCP-999 give the player basic jump boost 1 and resistance 1 when the player is within 5 blocks of it
+	✔ Make blackout as soon as player hits the water for the cavern @done(20-09-21 09:29)
+	✔ Teleports player to the water pit at the end of the shafts after 10 seconds @done(20-09-21 09:29)
+	✔ Make the "TunnelsVoiceline1" play 5 seconds after entering the actual shafts themselves @done(20-09-21 11:39)
+	✔ bridve fall at /execute in minecraft:overworld run tp @s -222.31 158.53 -7.88 -106.16 55.51 @done(20-09-21 09:04)
 	✔ All voiceline subtitles (intro) are borked @done(20-09-08 01:04)
 	✔ Endler's voicelog is bork, doesn't even play @done(20-09-08 01:04)
 	✔ Need to update Richthofen's voicelines with new ones @done(20-09-08 01:57)
@@ -54,3 +58,4 @@ blocked:
 	- for the end: balance all the audio
 	- graphics quality interactable sign in lobby that adjusts flicker time and other things to reduce fps lag
 	- prune chunks at end https://gist.github.com/onnowhere/48655f2cac8a2c6cb5aac308ea89360c
+	- ensure entire game has subs when done
