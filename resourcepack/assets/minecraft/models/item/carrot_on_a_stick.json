@@ -34,6 +34,10 @@
 			"model": "cards/l12"
 		},
 		{
+			"predicate": { "custom_model_data": 8622 },
+			"model": "cards/l22"
+		},
+		{
 			"predicate": { "custom_model_data": 9002 },
 			"model": "item/rifle"
 		},
