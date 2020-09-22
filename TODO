@@ -39,10 +39,11 @@ chore:
 	- dont get outsmarted when player is moving too fast (s17 can start early)
 	- fix entity leak from bridve, probably bridve-wasmoving or something like it but aecs with no tags just keep on stacking up at the end of the part of the bridge that falls
 	
-feat:
+	feat:
 	- Working trains that move
 	- death msgs
 	- Have SCP-999 give the player basic jump boost 1 and resistance 1 when the player is within 5 blocks of it
+	- make s80 sound trigger position-based once they get in the vents a bit instead of time-based (also make sure to account ofr the way where u swim into the thingy with the hidden one)
 	✔ Make blackout as soon as player hits the water for the cavern @done(20-09-21 09:29)
 	✔ Teleports player to the water pit at the end of the shafts after 10 seconds @done(20-09-21 09:29)
 	✔ Make the "TunnelsVoiceline1" play 5 seconds after entering the actual shafts themselves @done(20-09-21 11:39)
