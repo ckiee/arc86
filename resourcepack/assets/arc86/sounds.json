@@ -322,5 +322,35 @@
 		"sounds": ["arc86:s80"],
 		"id": 13,
 		"endTicks": -1
+	},
+	"voicelogs.davishelp": {
+		"sounds": ["arc86:voicelogs/davishelp"],
+		"id": 13,
+		"endTicks": 5,
+		"TODO": "still need to set endTicks right"
+	},
+	"voicelogs.jamiefemradio": {
+		"sounds": ["arc86:voicelogs/jamiefemradio"],
+		"id": 14,
+		"endTicks": 5,
+		"TODO": "still need to set endTicks right"
+	},
+	"voicelogs.pelleannounce": {
+		"sounds": ["arc86:voicelogs/pelleannounce"],
+		"id": 15,
+		"endTicks": 5,
+		"TODO": "still need to set endTicks right"
+	},
+	"voicelogs.sadopsradio": {
+		"sounds": ["arc86:voicelogs/sadopsradio"],
+		"id": 16,
+		"endTicks": 5,
+		"TODO": "still need to set endTicks right"
+	},
+	"voicelogs.teslagategobrr": {
+		"sounds": ["arc86:voicelogs/teslagategobrr"],
+		"id": 17,
+		"endTicks": 5,
+		"TODO": "still need to set endTicks right"
 	}
 }
