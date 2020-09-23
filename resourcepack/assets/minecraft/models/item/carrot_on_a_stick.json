@@ -52,6 +52,9 @@
 		{
 			"predicate": { "custom_model_data": 9005 },
 			"model": "item/m18"
+		},		{
+			"predicate": { "custom_model_data": 9006 },
+			"model": "item/binoculars"
 		},
 		{
 			"predicate": { "custom_model_data": 912081 },
