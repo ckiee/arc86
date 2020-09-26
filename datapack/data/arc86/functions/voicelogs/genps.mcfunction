@@ -14,4 +14,6 @@ execute if score @s currentVoicelog matches 14 run playsound arc86:voicelogs.jam
 execute if score @s currentVoicelog matches 15 run playsound arc86:voicelogs.pelleannounce voice @s ~ ~ ~ 1 1 1
 execute if score @s currentVoicelog matches 16 run playsound arc86:voicelogs.sadopsradio voice @s ~ ~ ~ 1 1 1
 execute if score @s currentVoicelog matches 17 run playsound arc86:voicelogs.teslagategobrr voice @s ~ ~ ~ 1 1 1
+execute if score @s currentVoicelog matches 18 run playsound arc86:dev.sectionfail voice @s ~ ~ ~ 1 1 1
+execute if score @s currentVoicelog matches 18 run playsound arc86:dev.sectionpass voice @s ~ ~ ~ 1 1 1
 

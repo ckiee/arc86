@@ -13,4 +13,6 @@ execute if score @s currentVoicelog matches 14 if score @s voicelogTime matches 
 execute if score @s currentVoicelog matches 15 if score @s voicelogTime matches 5.. run function arc86:voicelogs/ps_over
 execute if score @s currentVoicelog matches 16 if score @s voicelogTime matches 5.. run function arc86:voicelogs/ps_over
 execute if score @s currentVoicelog matches 17 if score @s voicelogTime matches 5.. run function arc86:voicelogs/ps_over
+execute if score @s currentVoicelog matches 18 if score @s voicelogTime matches 5.. run function arc86:voicelogs/ps_over
+execute if score @s currentVoicelog matches 18 if score @s voicelogTime matches 5.. run function arc86:voicelogs/ps_over
 
