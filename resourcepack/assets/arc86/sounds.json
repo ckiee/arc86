@@ -321,7 +321,20 @@
 	"s80": {
 		"sounds": ["arc86:s80"],
 		"id": 13,
-		"endTicks": -1
+		"endTicks": -1,
+		"absub": {
+			"id": 11,
+			"points": {
+				"100": {
+					"person": "James Anson",
+					"msg": "Hey! Someone there? Are you lost?"
+				},
+				"13260": {
+					"person": "James Anson",
+					"msg": "Don't worry, here. I know this place, I'll guide you ou-"
+				}
+			}
+		}
 	},
 	"voicelogs.davishelp": {
 		"sounds": ["arc86:voicelogs/davishelp"],
@@ -351,7 +364,7 @@
 		"sounds": ["arc86:voicelogs/teslagategobrr"],
 		"id": 17,
 		"endTicks": 5,
-	"TODO": "still need to set endTicks right"
+		"TODO": "still need to set endTicks right"
 	},
 	"dev.sectionfail": {
 		"sounds": ["arc86:dev/sectionfail"],
@@ -364,5 +377,20 @@
 		"id": 18,
 		"endTicks": 5,
 		"TODO": "still need to set endTicks right"
+	},
+	"voicelogs.artu1": {
+		"sounds": ["arc86:voicelogs/artu1"],
+		"id": 19,
+		"endTicks": 766
+	},
+	"voicelogs.artu2": {
+		"sounds": ["arc86:voicelogs/artu2"],
+		"id": 20,
+		"endTicks": 973
+	},
+	"voicelogs.artu3": {
+		"sounds": ["arc86:voicelogs/artu3"],
+		"id": 21,
+		"endTicks": 1005
 	}
 }
