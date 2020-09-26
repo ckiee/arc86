@@ -53,6 +53,8 @@ execute if score @s absubID matches 6 if score @s absubTime matches 580..711 run
 execute if score @s absubID matches 6 if score @s absubTime matches 712..903 run title @s actionbar [{"text":"Endler","bold":true},{"text":": ","bold":true},{"text":"I don't like it. They say it is darkest before the dawn, but they also say it is calm before the storm.","bold":false}]
 execute if score @s absubID matches 6 if score @s absubTime matches 904..1015 run title @s actionbar [{"text":"Endler","bold":true},{"text":": ","bold":true},{"text":"I heard ICR 47 may have a lead on to something.","bold":false}]
 execute if score @s absubID matches 6 if score @s absubTime matches 1016 run title @s actionbar [{"text":"Endler","bold":true},{"text":": ","bold":true},{"text":"I hope it's the former of the two, and not the latter.","bold":false}]
+execute if score @s absubID matches 13 if score @s absubTime matches 100..13259 run title @s actionbar [{"text":"James Anson","bold":true},{"text":": ","bold":true},{"text":"Hey! Someone there? Are you lost?","bold":false}]
+execute if score @s absubID matches 13 if score @s absubTime matches 13260 run title @s actionbar [{"text":"James Anson","bold":true},{"text":": ","bold":true},{"text":"Don't worry, here. I know this place, I'll guide you ou-","bold":false}]
 
 execute if score @s absubID matches 1 if score @s absubTime matches 2160 run function arc86:absub/reset
 execute if score @s absubID matches 2 if score @s absubTime matches 600 run function arc86:absub/reset
@@ -61,4 +63,5 @@ execute if score @s absubID matches 4 if score @s absubTime matches 192 run func
 execute if score @s absubID matches 5 if score @s absubTime matches 378 run function arc86:absub/reset
 execute if score @s absubID matches 7 if score @s absubTime matches 33 run function arc86:absub/reset
 execute if score @s absubID matches 6 if score @s absubTime matches 1016 run function arc86:absub/reset
+execute if score @s absubID matches 13 if score @s absubTime matches 13260 run function arc86:absub/reset
 
