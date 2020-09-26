@@ -64,8 +64,11 @@ blocked:
 	- prune chunks at end https://gist.github.com/onnowhere/48655f2cac8a2c6cb5aac308ea89360c
 	- ensure entire game has subs when done
 	- make s10 task not cheatable by returning item
+	- remove dev.* sounds (from osu! lol)
 
 next map ideas: 
 (could be all one map)
 	- crossbow aerial combat?
-	- (lingering) potion throw comp
+	- (lingering) potion throw competitive (to kill other players, could be 2 teams one in slow tankish flying heli or whatever and other in elytras)	
+	- potion throwing how far away can you throw
+	
