@@ -351,6 +351,18 @@
 		"sounds": ["arc86:voicelogs/teslagategobrr"],
 		"id": 17,
 		"endTicks": 5,
+	"TODO": "still need to set endTicks right"
+	},
+	"dev.sectionfail": {
+		"sounds": ["arc86:dev/sectionfail"],
+		"id": 18,
+		"endTicks": 5,
+		"TODO": "still need to set endTicks right"
+	},
+	"dev.sectionpass": {
+		"sounds": ["arc86:dev/sectionpass"],
+		"id": 18,
+		"endTicks": 5,
 		"TODO": "still need to set endTicks right"
 	}
 }
