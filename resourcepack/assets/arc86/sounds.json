@@ -491,5 +491,20 @@
 		"sounds": ["arc86:voicelogs/artu3"],
 		"id": 21,
 		"endTicks": 1005
+	},
+	"voicelogs.maxwell121": {
+		"sounds": ["arc86:voicelogs/maxwell121"],
+		"id": 22,
+		"endTicks": 680
+	},
+	"voicelogs.maxwell999": {
+		"sounds": ["arc86:voicelogs/maxwell999"],
+		"id": 23,
+		"endTicks": 500
+	},
+	"voicelogs.maxwelltheory": {
+		"sounds": ["arc86:voicelogs/maxwelltheory"],
+		"id": 24,
+		"endTicks": 1160
 	}
 }
