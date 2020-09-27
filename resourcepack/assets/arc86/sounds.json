@@ -304,7 +304,24 @@
 	"voicelogs.klein109": {
 		"sounds": ["arc86:voicelogs/klein109"],
 		"id": 10,
-		"endTicks": 353
+		"endTicks": 353,
+		"absub": {
+			"id": 10,
+			"points": {
+				"20": {
+					"person": "Dr. Klein",
+					"msg": "It is come to my attention that new Class D personnel are often dared to empty the bottle."
+				},
+				"120": {
+					"person": "Dr. Klein",
+					"msg": "Guards are reminded that they are to discourage such activity, and inform them that SCP-109 is bottomless."
+				},
+				"250": {
+					"person": "Dr. Klein",
+					"msg": "Chanting 'Chug!' repeatedly is considered unprofessional."
+				}
+			}
+		}
 	},
 	"voicelogs.lczplea": {
 		"sounds": ["arc86:voicelogs/lczplea"],
@@ -326,11 +343,11 @@
 			"id": 11,
 			"points": {
 				"100": {
-					"person": "James Anson",
+					"person": "Anson",
 					"msg": "Hey! Someone there? Are you lost?"
 				},
 				"13260": {
-					"person": "James Anson",
+					"person": "Anson",
 					"msg": "Don't worry, here. I know this place, I'll guide you ou-"
 				}
 			}
@@ -381,12 +398,94 @@
 	"voicelogs.artu1": {
 		"sounds": ["arc86:voicelogs/artu1"],
 		"id": 19,
-		"endTicks": 766
+		"endTicks": 766,
+		"absub": {
+			"id": 19,
+			"points": {
+				"20": {
+					"person": "Arutiunian",
+					"msg": "Director Wallace. This is Administrator Arutiunian, ICR Forty-Seven."
+				},
+				"118": {
+					"person": "Arutiunian",
+					"msg": "I'd like to give you a fair warning of a new discovery from our site."
+				},
+				"188": {
+					"person": "Arutiunian",
+					"msg": "In your inbox, you will find a file containing all relevant data pretaining SCP-██."
+				},
+				"318": {
+					"person": "Arutiunian",
+					"msg": "Do not disclose this information to anyone."
+				},
+				"372": {
+					"person": "Arutiunian",
+					"msg": "This data transfer has been authorized by the O5 council itself, with approval from the directorial board and the oversight department as a whole."
+				},
+				"532": {
+					"person": "Arutiunian",
+					"msg": "Do everything you can to secure this information. If someone gets a hold of it, shoot them."
+				},
+				"656": {
+					"person": "Arutiunian",
+					"msg": "Ask questions later. Can't guarantee I'll have the answers, though."
+				}
+			}
+		}
 	},
 	"voicelogs.artu2": {
 		"sounds": ["arc86:voicelogs/artu2"],
 		"id": 20,
-		"endTicks": 973
+		"endTicks": 973,
+		"absub": {
+			"id": 20,
+			"points": {
+				"20": {
+					"person": "Arutiunian",
+					"msg": "Director Wallace, I'm calling on a message of extreme urgency."
+				},
+				"106": {
+					"person": "Arutiunian",
+					"msg": "The situation is worse than the overseers have predicted."
+				},
+				"164": {
+					"person": "Arutiunian",
+					"msg": "Over here, we’re looking at a Class Three security breach."
+				},
+				"232": {
+					"person": "Arutiunian",
+					"msg": "As well as medical cases spiking over four hundred percent the average."
+				},
+				"324": {
+					"person": "Arutiunian",
+					"msg": "You need to take precautions. Extreme precautions."
+				},
+				"404": {
+					"person": "Arutiunian",
+					"msg": "I spoke with the Assistant Site Director a few days ago."
+				},
+				"464": {
+					"person": "Arutiunian",
+					"msg": "We covered your plan, then-and I believed it was the best course of action."
+				},
+				"596": {
+					"person": "Arutiunian",
+					"msg": "Now, even more so."
+				},
+				"648": {
+					"person": "Arutiunian",
+					"msg": "We’re evacuating Site Forty-Seven, and standing ready for general amnestics so we can resume normal operations."
+				},
+				"778": {
+					"person": "Arutiunian",
+					"msg": "I suggest you do the same, to avoid what’s happening here, or worse."
+				},
+				"896": {
+					"person": "Arutiunian",
+					"msg": "Artur Arutiunian, Administrator."
+				}
+			}
+		}
 	},
 	"voicelogs.artu3": {
 		"sounds": ["arc86:voicelogs/artu3"],
