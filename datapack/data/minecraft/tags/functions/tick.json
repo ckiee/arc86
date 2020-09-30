@@ -22,6 +22,7 @@
 		"arc86:checkpoints/tick",
 		"arc86:respawn/tick",
 		"arc86:scps/729/tick",
+		"arc86:scps/970/tick",
 		"arc86:barrefill/tick",
 		"arc86:debugstick/tick",
 		"arc86:bridvecollapse/tick"
