@@ -506,5 +506,10 @@
 		"sounds": ["arc86:voicelogs/maxwelltheory"],
 		"id": 24,
 		"endTicks": 1160
+	},
+	"voicelogs.morriganboom": {
+		"sounds": ["arc86:voicelogs/morriganboom"],
+		"id": 25,
+		"endTicks": 920
 	}
 }
