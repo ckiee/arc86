@@ -1,0 +1,1 @@
+execute as @a[tag=about-to-drink] at @s run function arc86:scps/109/on_drink

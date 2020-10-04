@@ -1,0 +1,1 @@
+scoreboard players set @s[scores={scp330=3..}] scp330 2
