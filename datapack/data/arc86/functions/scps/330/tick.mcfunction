@@ -1,0 +1,1 @@
+effect give @e[tag=scp330] invisibility 1000000 1 true

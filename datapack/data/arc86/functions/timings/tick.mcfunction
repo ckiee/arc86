@@ -12,4 +12,6 @@ execute if score stage globals matches 60 run function arc86:timings/ticks/s60
 execute if score stage globals matches 70 run function arc86:timings/ticks/s70
 execute if score stage globals matches 80 run function arc86:timings/ticks/s80
 
+execute if score stage globals matches 10..30 run function arc86:timings/ticks/april_loop
+
 scoreboard players add stage_time globals 1

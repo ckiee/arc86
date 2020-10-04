@@ -1,0 +1,2 @@
+summon villager ~ ~-1 ~ {Tags: ["scp330"], NoGravity: 1b, Invulnerable: 1b, PersistenceRequired: 1b, NoAI: 1b, Silent: 1b, ActiveEffects: [{Id: 14b, Amplifier: 255, Duration: 20000000, ShowParticles: 0b}]}
+setblock ~ ~ ~ air

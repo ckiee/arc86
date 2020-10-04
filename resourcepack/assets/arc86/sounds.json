@@ -296,7 +296,7 @@
 		"endTicks": 620
 	},
 	"ost.dream": { "sounds": ["arc86:ost/dream"] },
-	"ost.april": { "sounds": ["arc86:ost/april"] },
+	"ost.april": { "sounds": ["arc86:ost/april"], "endTicks": 5020 },
 	"voicelogs.lobby": {
 		"sounds": ["arc86:voicelogs/lobby"],
 		"id": 9,
