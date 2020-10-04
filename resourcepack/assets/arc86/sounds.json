@@ -295,7 +295,8 @@
 		"id": 8,
 		"endTicks": 620
 	},
-	"hedream": { "sounds": ["arc86:hedream"] },
+	"ost.dream": { "sounds": ["arc86:ost/dream"] },
+	"ost.april": { "sounds": ["arc86:ost/april"] },
 	"voicelogs.lobby": {
 		"sounds": ["arc86:voicelogs/lobby"],
 		"id": 9,
@@ -510,6 +511,52 @@
 	"voicelogs.morriganboom": {
 		"sounds": ["arc86:voicelogs/morriganboom"],
 		"id": 25,
-		"endTicks": 920
+		"endTicks": 920,
+		"absub": {
+			"id": 25,
+			"points": {
+				"48": {
+					"person": "Officer",
+					"msg": "Attention personnel. Sub-Level six, section fourteen is under lockdown. Anomalous materials transfer in progress."
+				},
+				"184": {
+					"person": "Officer",
+					"msg": "Lockdown will proceed in a continuous manner towards the transfers elevator."
+				},
+				"274": {
+					"person": "Morrigan",
+					"msg": "That’s our cue. Come on. "
+				},
+				"368": {
+					"person": "Morrigan",
+					"msg": "Bill, did you-did you seal the magnetic locks properly?"
+				},
+				"448": {
+					"person": "Researcher",
+					"msg": "Most certainly did. Now let’s go."
+				},
+				"500": {
+					"person": "Morrigan",
+					"msg": "I don't know, it looks-looks a bit shifty there, is it-"
+				},
+				"566": {
+					"person": "Researcher",
+					"msg": "I'm sure I sealed it FINE! What's it with people getting on my case recently?"
+				},
+				"674": {
+					"person": "Morrigan",
+					"msg": "Alright, calm down. I didn't-"
+				},
+				"720": {
+					"person": "Researcher",
+					"msg": "Oh, sure you didn't, you piece of-"
+				},
+				"770": {
+					"person": "Morrigan",
+					"msg": "Bill, the-the damn thing, it's peeling off, it's-"
+				},
+				"836": { "person": "Researcher", "msg": "Oh, shit-!" }
+			}
+		}
 	}
 }
