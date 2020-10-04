@@ -76,6 +76,17 @@ execute if score @s absubID matches 20 if score @s absubTime matches 596..647 ru
 execute if score @s absubID matches 20 if score @s absubTime matches 648..777 run title @s actionbar [{"text":"Arutiunian","bold":true},{"text":": ","bold":true},{"text":"We’re evacuating Site Forty-Seven, and standing ready for general amnestics so we can resume normal operations.","bold":false}]
 execute if score @s absubID matches 20 if score @s absubTime matches 778..895 run title @s actionbar [{"text":"Arutiunian","bold":true},{"text":": ","bold":true},{"text":"I suggest you do the same, to avoid what’s happening here, or worse.","bold":false}]
 execute if score @s absubID matches 20 if score @s absubTime matches 896 run title @s actionbar [{"text":"Arutiunian","bold":true},{"text":": ","bold":true},{"text":"Artur Arutiunian, Administrator.","bold":false}]
+execute if score @s absubID matches 25 if score @s absubTime matches 48..183 run title @s actionbar [{"text":"Officer","bold":true},{"text":": ","bold":true},{"text":"Attention personnel. Sub-Level six, section fourteen is under lockdown. Anomalous materials transfer in progress.","bold":false}]
+execute if score @s absubID matches 25 if score @s absubTime matches 184..273 run title @s actionbar [{"text":"Officer","bold":true},{"text":": ","bold":true},{"text":"Lockdown will proceed in a continuous manner towards the transfers elevator.","bold":false}]
+execute if score @s absubID matches 25 if score @s absubTime matches 274..367 run title @s actionbar [{"text":"Morrigan","bold":true},{"text":": ","bold":true},{"text":"That’s our cue. Come on. ","bold":false}]
+execute if score @s absubID matches 25 if score @s absubTime matches 368..447 run title @s actionbar [{"text":"Morrigan","bold":true},{"text":": ","bold":true},{"text":"Bill, did you-did you seal the magnetic locks properly?","bold":false}]
+execute if score @s absubID matches 25 if score @s absubTime matches 448..499 run title @s actionbar [{"text":"Researcher","bold":true},{"text":": ","bold":true},{"text":"Most certainly did. Now let’s go.","bold":false}]
+execute if score @s absubID matches 25 if score @s absubTime matches 500..565 run title @s actionbar [{"text":"Morrigan","bold":true},{"text":": ","bold":true},{"text":"I don't know, it looks-looks a bit shifty there, is it-","bold":false}]
+execute if score @s absubID matches 25 if score @s absubTime matches 566..673 run title @s actionbar [{"text":"Researcher","bold":true},{"text":": ","bold":true},{"text":"I'm sure I sealed it FINE! What's it with people getting on my case recently?","bold":false}]
+execute if score @s absubID matches 25 if score @s absubTime matches 674..719 run title @s actionbar [{"text":"Morrigan","bold":true},{"text":": ","bold":true},{"text":"Alright, calm down. I didn't-","bold":false}]
+execute if score @s absubID matches 25 if score @s absubTime matches 720..769 run title @s actionbar [{"text":"Researcher","bold":true},{"text":": ","bold":true},{"text":"Oh, sure you didn't, you piece of-","bold":false}]
+execute if score @s absubID matches 25 if score @s absubTime matches 770..835 run title @s actionbar [{"text":"Morrigan","bold":true},{"text":": ","bold":true},{"text":"Bill, the-the damn thing, it's peeling off, it's-","bold":false}]
+execute if score @s absubID matches 25 if score @s absubTime matches 836 run title @s actionbar [{"text":"Researcher","bold":true},{"text":": ","bold":true},{"text":"Oh, shit-!","bold":false}]
 
 execute if score @s absubID matches 1 if score @s absubTime matches 2160 run function arc86:absub/reset
 execute if score @s absubID matches 2 if score @s absubTime matches 600 run function arc86:absub/reset
@@ -88,4 +99,5 @@ execute if score @s absubID matches 10 if score @s absubTime matches 250 run fun
 execute if score @s absubID matches 13 if score @s absubTime matches 13260 run function arc86:absub/reset
 execute if score @s absubID matches 19 if score @s absubTime matches 656 run function arc86:absub/reset
 execute if score @s absubID matches 20 if score @s absubTime matches 896 run function arc86:absub/reset
+execute if score @s absubID matches 25 if score @s absubTime matches 836 run function arc86:absub/reset
 
