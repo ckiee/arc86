@@ -10,3 +10,5 @@ title @a title ["",{"text":"Falling From Grace","bold":true,"color":"gold"}]
 title @a subtitle ["",{"text":"The Fall of ARC Site-86...","color":"dark_aqua", "italic": true}]
 # april_loop plays w/ record so we can do this
 stopsound @a record
+# cleanup so globals arent so messy
+scoreboard players reset april_loop_tmp globals

@@ -25,9 +25,11 @@
 		"arc86:scps/970/tick",
 		"arc86:scps/999/tick",
 		"arc86:scps/330/tick",
+		"arc86:scps/109/tick",
 		"arc86:barrefill/tick",
 		"arc86:debugstick/tick",
 		"arc86:bridvecollapse/tick",
-		"arc86:villager_click/tick"
+		"arc86:villager_click/tick",
+		"arc86:death/tick"
 	]
 }

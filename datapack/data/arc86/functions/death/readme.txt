@@ -1,0 +1,1 @@
+There is also a respawn folder but this is different.
