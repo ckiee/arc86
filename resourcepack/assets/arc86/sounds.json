@@ -336,16 +336,19 @@
 		"endTicks": 5,
 		"TODO": "still need to set endTicks right"
 	},
-	"s80": {
-		"sounds": ["arc86:s80"],
+	"s85": {
+		"sounds": ["arc86:s85"],
 		"id": 13,
 		"endTicks": -1,
 		"absub": {
-			"id": 11,
+			"id": 13,
 			"points": {
 				"100": {
 					"person": "Anson",
 					"msg": "Hey! Someone there? Are you lost?"
+				},
+				"150": {
+					"person":"","msg":"placeholder"
 				},
 				"13260": {
 					"person": "Anson",
