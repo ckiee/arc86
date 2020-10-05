@@ -13,8 +13,7 @@ execute if score star_orbit globals matches 1 as @a[tag=attracted,limit=1,sort=f
 #execute as @a[tag=prisoner] positioned -229 150 -4 unless entity @s[distance=..25] run scoreboard players set star_orbit globals 1
 #title @a actionbar {"nbt":"Tags","entity":"@e[limit=1,sort=random,distance=..10]","color":"gold"}
 execute as @e[type=minecraft:area_effect_cloud,nbt={Potion:"minecraft:strong_harming",Duration:600}] run data merge entity @s {Duration:1200}
-
-title @a[nbt={SelectedItem: {id: "minecraft:carrot_on_a_stick"}},gamemode=creative] times 0 5 0
+#title @a[nbt={SelectedItem: {id: "minecraft:carrot_on_a_stick"}},gamemode=creative] times 0 5 0
 #title @a[nbt={SelectedItem: {id: "minecraft:carrot_on_a_stick"}},gamemode=creative] title {"text":"FartView"}
 #execute as @a[nbt={SelectedItem: {id: "minecraft:carrot_on_a_stick"}},gamemode=creative] run title @s subtitle {"nbt":"SelectedItem.tag.CustomModelData","entity":"@s"}
 #replaceitem entity @a armor.head player_head{SkullOwner: {Name: "fart", Id: [I; 899494769, 499003561, -1562657876, -856564065], Properties: {textures: [{Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vZWR1Y2F0aW9uLm1pbmVjcmFmdC5uZXQvd3AtY29udGVudC91cGxvYWRzL3JlZWRvdDMucG5nIn19fQ=="}]}}}
