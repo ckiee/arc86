@@ -1,2 +1,2 @@
-# todo: do absub too
-execute if score stage_time globals matches 100 as @a at @s run playsound arc86:s80 voice @s ~ ~ ~ 1 1 1
+execute if entity @a[x=-244,y=73,z=-154,dx=5] run function arc86:timings/s85
+execute if entity @a[x=-237,y=74,z=-201,distance=..5] run function arc86:timings/s85

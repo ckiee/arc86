@@ -8,7 +8,7 @@ execute if score @s currentVoicelog matches 9 run playsound arc86:voicelogs.lobb
 execute if score @s currentVoicelog matches 10 run playsound arc86:voicelogs.klein109 voice @s ~ ~ ~ 1 1 1
 execute if score @s currentVoicelog matches 11 run playsound arc86:voicelogs.lczplea voice @s ~ ~ ~ 1 1 1
 execute if score @s currentVoicelog matches 12 run playsound arc86:voicelogs.richopsdeath voice @s ~ ~ ~ 1 1 1
-execute if score @s currentVoicelog matches 13 run playsound arc86:s80 voice @s ~ ~ ~ 1 1 1
+execute if score @s currentVoicelog matches 13 run playsound arc86:s85 voice @s ~ ~ ~ 1 1 1
 execute if score @s currentVoicelog matches 13 run playsound arc86:voicelogs.davishelp voice @s ~ ~ ~ 1 1 1
 execute if score @s currentVoicelog matches 14 run playsound arc86:voicelogs.jamiefemradio voice @s ~ ~ ~ 1 1 1
 execute if score @s currentVoicelog matches 15 run playsound arc86:voicelogs.pelleannounce voice @s ~ ~ ~ 1 1 1
