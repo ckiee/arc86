@@ -20,3 +20,4 @@ execute as @e[type=minecraft:area_effect_cloud,nbt={Potion:"minecraft:strong_har
 tp @a[x=-96,y=98,z=-378,dx=100,dz=100,dy=5,gamemode=adventure] -70.64 150.00 -379.97 -774.88 9.92
 tp @a[x=-44,y=151,z=-302,distance=..5] -70.64 150.00 -379.97 -774.88 9.92
  
+#execute as @a[name=!Yalm,name=!ronthecookie] at @s if block ~ 255 ~ air run setblock ~ 255 ~ anvil
