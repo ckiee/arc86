@@ -168,7 +168,8 @@
 				"volume": 0.6
 			}
 		],
-		"subtitle": "Reader bleeps"
+		"subtitle": "Reader bleeps",
+		"absubIgnore": true
 	},
 	"keycard.denied": {
 		"sounds": [
@@ -178,7 +179,8 @@
 				"volume": 0.6
 			}
 		],
-		"subtitle": "Reader bleeps"
+		"subtitle": "Reader bleeps",
+		"absubIgnore": true
 	},
 	"door": {
 		"sounds": [
@@ -188,12 +190,14 @@
 				"volume": 0.9
 			}
 		],
-		"subtitle": "Door slides"
+		"subtitle": "Door slides",
+		"absubIgnore": true
 	},
 
 	"guns.empty": {
 		"sounds": ["arc86:guns/empty"],
-		"subtitle": "Rifle Empty"
+		"subtitle": "Rifle Empty",
+		"absubIgnore": true
 	},
 
 	"guns.rifle.fire": {
@@ -204,11 +208,13 @@
 				"volume": 0.9
 			}
 		],
-		"subtitle": "Rifle Fire"
+		"subtitle": "Rifle Fire",
+		"absubIgnore": true
 	},
 	"guns.rifle.load": {
 		"sounds": ["arc86:guns/rifle/load"],
-		"subtitle": "Rifle Reload"
+		"subtitle": "Rifle Reload",
+		"absubIgnore": true
 	},
 
 	"guns.pistol.fire": {
@@ -219,26 +225,19 @@
 				"volume": 0.9
 			}
 		],
-		"subtitle": "Pistol Fire"
+		"subtitle": "Pistol Fire",
+		"absubIgnore": true
 	},
 	"guns.pistol.load": {
 		"sounds": ["arc86:guns/pistol/load"],
-		"subtitle": "Pistol Reload"
+		"subtitle": "Pistol Reload",
+		"absubIgnore": true
 	},
 	"ambient": {
 		"sounds": ["arc86:ambient/pac"],
 		"subtitle": "Ambient",
 		"id": 7,
-		"absub": {
-			"points": {
-				"0": { "person": "rambo", "msg": "i farted!!!" },
-				"25": { "person": "threepenny", "msg": "i didnt fart" },
-				"33": {
-					"person": "two four gayming",
-					"msg": "i am obese"
-				}
-			}
-		}
+		"absubIgnore": true
 	},
 	"voicelogs.endler": {
 		"sounds": ["arc86:voicelogs/endler"],
@@ -295,8 +294,12 @@
 		"id": 8,
 		"endTicks": 620
 	},
-	"ost.dream": { "sounds": ["arc86:ost/dream"] },
-	"ost.april": { "sounds": ["arc86:ost/april"], "endTicks": 5020 },
+	"ost.dream": { "sounds": ["arc86:ost/dream"], "absubIgnore": true },
+	"ost.april": {
+		"sounds": ["arc86:ost/april"],
+		"endTicks": 5020,
+		"absubIgnore": true
+	},
 	"voicelogs.lobby": {
 		"sounds": ["arc86:voicelogs/lobby"],
 		"id": 9,
@@ -348,7 +351,8 @@
 					"msg": "Hey! Someone there? Are you lost?"
 				},
 				"150": {
-					"person":"","msg":"placeholder"
+					"person": "",
+					"msg": "placeholder"
 				},
 				"13260": {
 					"person": "Anson",
@@ -391,13 +395,13 @@
 		"sounds": ["arc86:dev/sectionfail"],
 		"id": 18,
 		"endTicks": 5,
-		"TODO": "still need to set endTicks right"
+		"TODO": "still need to set endTicks right","absubIgnore": true
 	},
 	"dev.sectionpass": {
 		"sounds": ["arc86:dev/sectionpass"],
 		"id": 18,
 		"endTicks": 5,
-		"TODO": "still need to set endTicks right"
+		"TODO": "still need to set endTicks right","absubIgnore": true
 	},
 	"voicelogs.artu1": {
 		"sounds": ["arc86:voicelogs/artu1"],
