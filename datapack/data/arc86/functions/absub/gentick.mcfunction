@@ -39,9 +39,6 @@ execute if score @s absubID matches 5 if score @s absubTime matches 168..257 run
 execute if score @s absubID matches 5 if score @s absubTime matches 258..321 run title @s actionbar [{"text":"E.C.S","bold":true},{"text":": ","bold":true},{"text":"Site security is to immediately attempt recontainment procedures.","bold":false}]
 execute if score @s absubID matches 5 if score @s absubTime matches 322..377 run title @s actionbar [{"text":"E.C.S","bold":true},{"text":": ","bold":true},{"text":"All other non-essential personnel.","bold":false}]
 execute if score @s absubID matches 5 if score @s absubTime matches 378 run title @s actionbar [{"text":"E.C.S","bold":true},{"text":": ","bold":true},{"text":"Evacuate Site-86 at once.","bold":false}]
-execute if score @s absubID matches 7 if score @s absubTime matches 0..24 run title @s actionbar [{"text":"rambo","bold":true},{"text":": ","bold":true},{"text":"i farted!!!","bold":false}]
-execute if score @s absubID matches 7 if score @s absubTime matches 25..32 run title @s actionbar [{"text":"threepenny","bold":true},{"text":": ","bold":true},{"text":"i didnt fart","bold":false}]
-execute if score @s absubID matches 7 if score @s absubTime matches 33 run title @s actionbar [{"text":"two four gayming","bold":true},{"text":": ","bold":true},{"text":"i am obese","bold":false}]
 execute if score @s absubID matches 6 if score @s absubTime matches 20..81 run title @s actionbar [{"text":"Endler","bold":true},{"text":": ","bold":true},{"text":"Personal log. Fourth of April.","bold":false}]
 execute if score @s absubID matches 6 if score @s absubTime matches 82..139 run title @s actionbar [{"text":"Endler","bold":true},{"text":": ","bold":true},{"text":"Had an Osprey fail to take off today.","bold":false}]
 execute if score @s absubID matches 6 if score @s absubTime matches 140..199 run title @s actionbar [{"text":"Endler","bold":true},{"text":": ","bold":true},{"text":"Something went off with the left-side tiltrotor.","bold":false}]
@@ -94,7 +91,6 @@ execute if score @s absubID matches 2 if score @s absubTime matches 600 run func
 execute if score @s absubID matches 3 if score @s absubTime matches 260 run function arc86:absub/reset
 execute if score @s absubID matches 4 if score @s absubTime matches 192 run function arc86:absub/reset
 execute if score @s absubID matches 5 if score @s absubTime matches 378 run function arc86:absub/reset
-execute if score @s absubID matches 7 if score @s absubTime matches 33 run function arc86:absub/reset
 execute if score @s absubID matches 6 if score @s absubTime matches 1016 run function arc86:absub/reset
 execute if score @s absubID matches 10 if score @s absubTime matches 250 run function arc86:absub/reset
 execute if score @s absubID matches 13 if score @s absubTime matches 13260 run function arc86:absub/reset
