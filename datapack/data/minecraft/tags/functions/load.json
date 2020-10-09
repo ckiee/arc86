@@ -3,7 +3,6 @@
 		"arc86:escape/load",
 		"arc86:introatrium/load",
 		"arc86:load",
-		"arc86:bridvecollapse/load",
-		"arc86:absub/load"
+		"arc86:bridvecollapse/load"
 	]
 }
