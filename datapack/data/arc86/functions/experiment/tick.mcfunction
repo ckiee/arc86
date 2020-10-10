@@ -22,3 +22,6 @@ tp @a[x=-44,y=151,z=-302,distance=..5] -70.64 150.00 -379.97 -774.88 9.92
  
 #execute as @a[name=!Yalm,name=!ronthecookie] at @s if block ~ 255 ~ air run setblock ~ 255 ~ anvil
 #tp @e[tag=starsticker,limit=1,type=armor_stand] Ellyria19
+#execute as @e[type=potion,nbt={Owner: [I; 1449243699, 474760375, -1206255248, 742458992]}] at @s run data merge entity @s {NoGravity:0b,Motion:[0.0d,0.0d,0.0d]}
+#execute as @e[type=potion,nbt={Owner: [I; 1449243699, 474760375, -1206255248, 742458992]}] at @s run tp @s ^ ^ ^0.2 facing entity Ellyria19
+setblock -110 86 -179 minecraft:dark_oak_trapdoor[facing=east,open=true,half=bottom]
