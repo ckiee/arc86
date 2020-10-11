@@ -6,8 +6,10 @@ while true; do
 	node datapack/version.js
 	node resourcepack/lang.js
 	node resourcepack/meta.js
-	./update_rpack.sh &
-	echo -n updating resourcepack...
+	if git status | grep resourcepack | grep -vEq "resourcepack/pack.mcmeta|resourcepack/assets/minecraft/lang/en_us.json"; then
+		echo -n updating resourcepack...
+		./update_rpack.sh &
+	fi
 	rsync -r datapack/* vps:compose/data/mc/world/datapacks/arc86/ --delete
 	echo "datapack!"
 	sleep 1;
