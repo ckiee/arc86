@@ -7,3 +7,6 @@ execute as @a[x=-63,y=37,z=-176,dx=0,dy=0,dz=0] at @s run tp @s ~ ~47 ~
 execute as @e[tag=scp970-ptr] at @s positioned ~ ~ ~64 if entity @a[distance=..10] at @s run function arc86:scps/970/expand
 
 effect give @a[x=-63,y=37,z=-179,dz=-100000000,dx=-5,dy=4,gamemode=adventure] blindness 5 0 true
+
+# i tried to just do it on expand but it seems i would have to wait a few ticks and i dont wanna do that 
+scoreboard players set @e[tag=scp970vlog] voicelogID 26
