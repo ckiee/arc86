@@ -395,13 +395,15 @@
 		"sounds": ["arc86:dev/sectionfail"],
 		"id": 18,
 		"endTicks": 5,
-		"TODO": "still need to set endTicks right","absubIgnore": true
+		"TODO": "still need to set endTicks right",
+		"absubIgnore": true
 	},
 	"dev.sectionpass": {
 		"sounds": ["arc86:dev/sectionpass"],
 		"id": 18,
 		"endTicks": 5,
-		"TODO": "still need to set endTicks right","absubIgnore": true
+		"TODO": "still need to set endTicks right",
+		"absubIgnore": true
 	},
 	"voicelogs.artu1": {
 		"sounds": ["arc86:voicelogs/artu1"],
@@ -565,5 +567,10 @@
 				"836": { "person": "Researcher", "msg": "Oh, shit-!" }
 			}
 		}
+	},
+	"voicelogs.anandsuicide": {
+		"sounds": ["arc86:voicelogs/anandsuicide"],
+		"id": 26,
+		"endTicks": 1100
 	}
 }
