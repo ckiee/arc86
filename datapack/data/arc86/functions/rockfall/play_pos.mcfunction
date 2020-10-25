@@ -7,6 +7,4 @@ data modify entity @e[tag=rockfall-player,limit=1] Pose set from entity @e[tag=r
 
 scoreboard players add $pos rockfall 1
 
-execute if score $pos rockfall > $max rockfall run scoreboard players operation $pos rockfall = $min rockfall 
-# todo: dont hardcode 16
-schedule function arc86:rockfall/play_pos 1t
+execute unless score $pos rockfall > $max rockfall run schedule function arc86:rockfall/play_pos 1t
