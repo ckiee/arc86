@@ -28,3 +28,6 @@ execute if score star_orbit globals matches 1 as @a[tag=attracted,limit=1,sort=f
 #execute if block -107 85 -177 campfire[lit=true] run summon minecraft:potion -107 90 -177 {Item: {id: "minecraft:splash_potion", tag: {Potion: "water"}, Count: 1b}}
 #setblock -107 85 -174 minecraft:dark_oak_trapdoor[facing=south,half=bottom,open=false] destroy
 #execute as _Star_Phoenix_ at @s run tp @s @e[type=item_frame,sort=furthest,limit=1]
+#execute as @r[tag=mixup] at @s run tp @r[distance=15..,limit=1,tag=mixup]
+#mexecute as Yalm at @s run tp @s ~ ~ ~ facing entity _Star_Phoenix_
+#replaceitem entity _Star_Phoenix_ armor.head oak_sign
