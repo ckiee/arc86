@@ -1,4 +1,4 @@
-execute at @s run particle block red_concrete ~ ~1 ~ 0 .5 0 0.1 50
+execute at @s run particle block red_concrete ~ ~1 ~ 0 .5 0 0.1 50 normal @a[distance=..150]
 effect give @s[type=player] instant_damage
 # reduce by a heart
 execute if data entity @e[tag=ray,limit=1] SelectedItem.tag.rifle run scoreboard players operation $hpr gunHPR = $rifleHPR gunHPR
