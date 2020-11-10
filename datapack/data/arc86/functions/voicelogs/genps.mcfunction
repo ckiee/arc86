@@ -24,4 +24,6 @@ execute if score @s currentVoicelog matches 23 run playsound arc86:voicelogs.max
 execute if score @s currentVoicelog matches 24 run playsound arc86:voicelogs.maxwelltheory voice @s ~ ~ ~ 1 1 1
 execute if score @s currentVoicelog matches 25 run playsound arc86:voicelogs.morriganboom voice @s ~ ~ ~ 1 1 1
 execute if score @s currentVoicelog matches 26 run playsound arc86:voicelogs.anandsuicide voice @s ~ ~ ~ 1 1 1
+execute if score @s currentVoicelog matches 27 run playsound arc86:voicelogs.wallace1 voice @s ~ ~ ~ 1 1 1
+execute if score @s currentVoicelog matches 28 run playsound arc86:voicelogs.wallace2 voice @s ~ ~ ~ 1 1 1
 

@@ -572,5 +572,15 @@
 		"sounds": ["arc86:voicelogs/anandsuicide"],
 		"id": 26,
 		"endTicks": 1100
+	},
+	"voicelogs.wallace1": {
+		"sounds": ["arc86:voicelogs/wallace1"],
+		"id": 27,
+		"endTicks": 940
+	},
+	"voicelogs.wallace2": {
+		"sounds": ["arc86:voicelogs/wallace2"],
+		"id": 28,
+		"endTicks": 920
 	}
 }
