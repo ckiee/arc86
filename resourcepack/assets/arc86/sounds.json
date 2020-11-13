@@ -582,5 +582,10 @@
 		"sounds": ["arc86:voicelogs/wallace2"],
 		"id": 28,
 		"endTicks": 920
+	},
+	"voicelogs.davisworried": {
+		"sounds": ["arc86:voicelogs/davisworried"],
+		"id": 29,
+		"endTicks": 560
 	}
 }

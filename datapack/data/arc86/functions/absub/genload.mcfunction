@@ -17,4 +17,5 @@ tellraw @a "[!] Missing absub for voicelogs.maxwelltheory"
 tellraw @a "[!] Missing absub for voicelogs.anandsuicide"
 tellraw @a "[!] Missing absub for voicelogs.wallace1"
 tellraw @a "[!] Missing absub for voicelogs.wallace2"
+tellraw @a "[!] Missing absub for voicelogs.davisworried"
 
