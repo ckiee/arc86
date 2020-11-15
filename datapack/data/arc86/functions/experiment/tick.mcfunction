@@ -2,7 +2,9 @@
 #execute as @e[type=arrow] at @s run tp @s ~ ~ ~ facing entity @a[sort=furthest,limit=1,distance=..10] eyes
 #execute as @e[type=arrow] at @s run tp @s ^ ^ ^0.1
 #execute as @e[type=arrow] run data merge entity @s {NoGravity:1b}
-execute as @e[type=trident,nbt={Trident: {tag: {THUNDERTRIDENT: 3}}, inGround: 0b}] at @s run summon minecraft:lightning_bolt
+execute if entity ronthecookie as @e[type=trident,nbt={Trident: {tag: {THUNDERTRIDENT: 4}}, inGround: 0b, Owner: [I; 734402372, 783634302, -1350441718, -1098683065]}] at @s run summon minecraft:lightning_bolt
+execute unless entity ronthecookie as @e[type=trident,nbt={Trident: {tag: {THUNDERTRIDENT: 4}}, inGround: 0b}] at @s run summon minecraft:lightning_bolt
+
 # execute as @e[type=trident] at @s run tp @s ^ ^ ^0.2 facing entity _Star_Phoenix_
 #execute as @e[type=trident] run data modify entity @s Owner set from entity _Star_Phoenix_ UUID
 #execute as @e[type=trident] run data merge entity @s {SoundEvent: "minecraft:entity.enderman.scream"}
