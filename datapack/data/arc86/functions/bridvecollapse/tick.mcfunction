@@ -18,4 +18,5 @@ execute if entity @e[tag=bridve-wasmoving] run kill @e[tag=bridve-point]
 execute if entity @e[tag=bridve-wasmoving] positioned -225 156 -1 run kill @e[type=item,distance=..20]
 
 # NoNoGravity
-execute as @e[tag=AFB_FBs] run data merge entity @s {NoGravity: 0b}
+# this is already in introatrium, no need for dupes
+#execute as @e[tag=AFB_FBs] run data merge entity @s {NoGravity: 0b}
