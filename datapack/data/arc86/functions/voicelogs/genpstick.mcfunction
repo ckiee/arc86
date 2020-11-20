@@ -19,11 +19,11 @@ execute if score @s currentVoicelog matches 19 if score @s voicelogTime matches 
 execute if score @s currentVoicelog matches 20 if score @s voicelogTime matches 973.. run function arc86:voicelogs/ps_over
 execute if score @s currentVoicelog matches 21 if score @s voicelogTime matches 1005.. run function arc86:voicelogs/ps_over
 execute if score @s currentVoicelog matches 22 if score @s voicelogTime matches 680.. run function arc86:voicelogs/ps_over
-execute if score @s currentVoicelog matches 23 if score @s voicelogTime matches 500.. run function arc86:voicelogs/ps_over
 execute if score @s currentVoicelog matches 24 if score @s voicelogTime matches 1160.. run function arc86:voicelogs/ps_over
 execute if score @s currentVoicelog matches 25 if score @s voicelogTime matches 920.. run function arc86:voicelogs/ps_over
 execute if score @s currentVoicelog matches 26 if score @s voicelogTime matches 1100.. run function arc86:voicelogs/ps_over
 execute if score @s currentVoicelog matches 27 if score @s voicelogTime matches 940.. run function arc86:voicelogs/ps_over
 execute if score @s currentVoicelog matches 28 if score @s voicelogTime matches 920.. run function arc86:voicelogs/ps_over
 execute if score @s currentVoicelog matches 29 if score @s voicelogTime matches 560.. run function arc86:voicelogs/ps_over
+execute if score @s currentVoicelog matches 30 if score @s voicelogTime matches 5.. run function arc86:voicelogs/ps_over
 

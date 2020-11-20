@@ -279,7 +279,18 @@
 	"voicelogs.lobby": {
 		"sounds": ["arc86:voicelogs/lobby"],
 		"id": 9,
-		"endTicks": 146
+		"endTicks": 146,
+		"absub": {
+			"id": 9,
+			"points": {
+				"0": {
+					"person": "Lobby Tour",
+					"msg": "I really dunno what you were expecting this to have"
+				},
+				"70": { "person": "Lobby Tour", "msg": "but... here it is." },
+				"100": { "person": "Lobby Tour", "msg": "Cheers?" }
+			}
+		}
 	},
 	"voicelogs.klein109": {
 		"sounds": ["arc86:voicelogs/klein109"],
@@ -481,17 +492,139 @@
 	"voicelogs.maxwell121": {
 		"sounds": ["arc86:voicelogs/maxwell121"],
 		"id": 22,
-		"endTicks": 680
-	},
-	"voicelogs.maxwell999": {
-		"sounds": ["arc86:voicelogs/maxwell999"],
-		"id": 23,
-		"endTicks": 500
+		"endTicks": 680,
+		"absub": {
+			"id": 22,
+			"points": {
+				"0": { "person": "Arthur", "msg": "Director Wallace." },
+				"40": {
+					"person": "Arthur",
+					"msg": "I’m informing you of a recent event that’s a cause for concern for the Directorial Board"
+				},
+				"100": {
+					"person": "Arthur",
+					"msg": "as well as the Foundation as a whole."
+				},
+				"200": { "person": "Arthur", "msg": "Two hours ago," },
+				"220": { "person": "Arthur", "msg": "your time," },
+				"240": { "person": "Arthur", "msg": "April 11th," },
+				"260": { "person": "Arthur", "msg": " Site One Twenty-One," },
+				"270": { "person": "Arthur", "msg": "in Khabarovsk," },
+				"300": {
+					"person": "Arthur",
+					"msg": "suffered a critical containment breach."
+				},
+				"340": {
+					"person": "Arthur",
+					"msg": "Casualties are indeterminable,"
+				},
+				"380": {
+					"person": "Arthur",
+					"msg": "but we are assuming the entire complement of ninety-eight."
+				},
+				"440": {
+					"person": "Arthur",
+					"msg": "The site itself has been"
+				},
+				"460": { "person": "Arthur", "msg": "...overrun," },
+				"490": { "person": "Arthur", "msg": "with flesh." },
+				"520": {
+					"person": "Arthur",
+					"msg": "Mobile Task Forces are working to contain it,"
+				},
+				"560": {
+					"person": "Arthur",
+					"msg": "so expect resources to be diverted there for the upcoming week or so."
+				},
+				"640": { "person": "Arthur", "msg": "That is all." }
+			}
+		}
 	},
 	"voicelogs.maxwelltheory": {
 		"sounds": ["arc86:voicelogs/maxwelltheory"],
 		"id": 24,
-		"endTicks": 1160
+		"endTicks": 1160,
+		"absub": {
+			"id": 24,
+			"points": {
+				"0": { "person": "Maxwell", "msg": "Director," },
+				"20": { "person": "Maxwell", "msg": "can I--" },
+				"40": { "person": "Maxwell", "msg": "can I speak to you." },
+				"60": { "person": "Maxwell", "msg": "Off the record?" },
+				"80": {
+					"person": "Maxwell",
+					"msg": " If you want nothing to do with this,"
+				},
+				"100": { "person": "Maxwell", "msg": "then..." },
+				"120": { "person": "Maxwell", "msg": "delete this message." },
+				"140": {
+					"person": "Maxwell",
+					"msg": "And you never received it."
+				},
+				"180": {
+					"person": "Maxwell",
+					"msg": "But I’m going to be frank now."
+				},
+				"220": {
+					"person": "Maxwell",
+					"msg": "You know of the dreams we’ve all been suffering from."
+				},
+				"280": { "person": "Maxwell", "msg": "Those..." },
+				"300": { "person": "Maxwell", "msg": "those thoughts." },
+				"360": { "person": "Maxwell", "msg": " I think it’s..." },
+				"380": { "person": "Maxwell", "msg": "it’s the O5." },
+				"420": { "person": "Maxwell", "msg": "For months now, " },
+				"440": {
+					"person": "Maxwell",
+					"msg": "they’ve been considering some sort of filter for Foundation personnel."
+				},
+				"500": { "person": "Maxwell", "msg": "A..." },
+				"520": { "person": "Maxwell", "msg": "a culling," },
+				"540": { "person": "Maxwell", "msg": "if you will." },
+				"570": {
+					"person": "Maxwell",
+					"msg": "It’s not out of character for them."
+				},
+				"600": {
+					"person": "Maxwell",
+					"msg": "If they’re looking to purge certain echelons of the Foundation,"
+				},
+				"660": {
+					"person": "Maxwell",
+					"msg": "then it’s certainly plausible."
+				},
+				"700": {
+					"person": "Maxwell",
+					"msg": "You know what happened."
+				},
+				"720": { "person": "Maxwell", "msg": "With Falling Stars." },
+				"760": {
+					"person": "Maxwell",
+					"msg": "This could be the same."
+				},
+				"800": {
+					"person": "Maxwell",
+					"msg": "I’m telling you to be wary."
+				},
+				"840": { "person": "Maxwell", "msg": "Be watchful of the O5." },
+				"880": {
+					"person": "Maxwell",
+					"msg": "They’re watching everything closely now,"
+				},
+				"920": {
+					"person": "Maxwell",
+					"msg": "more closely than ever before."
+				},
+				"980": { "person": "Maxwell", "msg": "It’s like..." },
+				"990": { "person": "Maxwell", "msg": "some grand experiment." },
+				"1050": { "person": "Maxwell", "msg": "I don’t know." },
+				"1060": {
+					"person": "Maxwell",
+					"msg": "Call me paranoid if you will..."
+				},
+				"1100": { "person": "Maxwell", "msg": "but stay aware." }
+			}
+		}
 	},
 	"voicelogs.morriganboom": {
 		"sounds": ["arc86:voicelogs/morriganboom"],
@@ -563,5 +696,11 @@
 		"sounds": ["arc86:voicelogs/davisworried"],
 		"id": 29,
 		"endTicks": 560
+	},
+	"dev.slightlyhqmo": {
+		"sounds": ["arc86:dev/slightlyhqmo"],
+		"id": 30,
+		"endTicks": 5,
+		"absubIgnore": true
 	}
 }
