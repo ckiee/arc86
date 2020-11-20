@@ -134,31 +134,7 @@
 	},
 	"s50": {
 		"sounds": ["arc86:s50"],
-		"id": 5,
-		"absub": {
-			"points": {
-				"113": {
-					"person": "E.C.S",
-					"msg": "This is a Code Red containment breach alert."
-				},
-				"168": {
-					"person": "E.C.S",
-					"msg": "All personnel, set your stations to condition one."
-				},
-				"258": {
-					"person": "E.C.S",
-					"msg": "Site security is to immediately attempt recontainment procedures."
-				},
-				"322": {
-					"person": "E.C.S",
-					"msg": "All other non-essential personnel."
-				},
-				"378": {
-					"person": "E.C.S",
-					"msg": "Evacuate Site-86 at once."
-				}
-			}
-		}
+		"id": 5
 	},
 	"keycard.granted": {
 		"sounds": [
