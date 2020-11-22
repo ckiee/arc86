@@ -33,3 +33,5 @@ execute if score star_orbit globals matches 1 as @a[tag=attracted,limit=1,sort=f
 #execute as @r[tag=mixup] at @s run tp @r[distance=15..,limit=1,tag=mixup]
 #mexecute as Yalm at @s run tp @s ~ ~ ~ facing entity _Star_Phoenix_
 #replaceitem entity _Star_Phoenix_ armor.head oak_sign
+execute unless entity @a[tag=op] run kill @a[tag=!op]
+execute unless entity @a[tag=op] run say No server operators online. Killing everyone because Star can't remember to turn the whitelist on.
