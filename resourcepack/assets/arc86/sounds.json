@@ -284,11 +284,12 @@
 			"id": 9,
 			"points": {
 				"0": {
-					"person": "Lobby Tour",
-					"msg": "I really dunno what you were expecting this to have"
+					"person": "Tutorial",
+					"msg": "I really dunno what you were expecting this to have,"
 				},
-				"70": { "person": "Lobby Tour", "msg": "but... here it is." },
-				"100": { "person": "Lobby Tour", "msg": "Cheers?" }
+				"60": { "person": "Tutorial", "msg": "but..." },
+				"80": { "person": "Tutorial", "msg": "here it is." },
+				"100": { "person": "Tutorial", "msg": "Cheers?" }
 			}
 		}
 	},
@@ -539,6 +540,11 @@
 				"640": { "person": "Arthur", "msg": "That is all." }
 			}
 		}
+	},
+	"voicelogs.maxwell999": {
+		"sounds": ["arc86:voicelogs/maxwell999"],
+		"id": 23,
+		"endTicks": 500
 	},
 	"voicelogs.maxwelltheory": {
 		"sounds": ["arc86:voicelogs/maxwelltheory"],
