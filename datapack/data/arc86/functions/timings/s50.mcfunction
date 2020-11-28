@@ -7,3 +7,4 @@ effect give @a minecraft:blindness 2 255 true
 scoreboard players set $state flickerTime 2
 execute as @a at @s run playsound arc86:s50 master @s ~ ~ ~ 1 1 1
 scoreboard players set @a absubID 5
+clear @a minecraft:carrot_on_a_stick{KeycardLevel: 1}
