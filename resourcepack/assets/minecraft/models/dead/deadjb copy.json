@@ -63,9 +63,9 @@
 		},
 		{
 			"name": "right_leg",
-			"from": [3.5, 3, 6],
-			"to": [15.5, 7, 10],
-			"rotation": {"angle": -22.5, "axis": "y", "origin": [7, 5, 9]},
+			"from": [3.5, 4, 6],
+			"to": [15.5, 8, 10],
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [7, 6, 9]},
 			"faces": {
 				"north": {"uv": [5, 13, 6, 16], "rotation": 90, "texture": "#0"},
 				"east": {"uv": [7, 12, 6, 13], "rotation": 270, "texture": "#0"},
@@ -77,9 +77,9 @@
 		},
 		{
 			"name": "left_leg",
-			"from": [3.5, 9, 6],
-			"to": [15.5, 13, 10],
-			"rotation": {"angle": -22.5, "axis": "y", "origin": [4, 12, 8]},
+			"from": [3.5, 8, 6],
+			"to": [15.5, 12, 10],
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [4, 11, 8]},
 			"faces": {
 				"north": {"uv": [1, 5, 2, 8], "rotation": 90, "texture": "#0"},
 				"east": {"uv": [3, 4, 2, 5], "rotation": 270, "texture": "#0"},
@@ -93,7 +93,7 @@
 	"display": {
 		"thirdperson_righthand": {
 			"rotation": [27, 6, -94],
-			"translation": [-2.25, 5.75, 0]
+			"translation": [-2.25, 5.75, -1]
 		},
 		"head": {
 			"translation": [0, -29, 0],
