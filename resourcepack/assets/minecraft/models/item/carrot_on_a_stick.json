@@ -6,6 +6,10 @@
 
 	"overrides": [
 		{
+			"predicate": { "custom_model_data": 330 },
+			"model": "item/scp330"
+		},
+		{
 			"predicate": { "custom_model_data": 714 },
 			"model": "item/scp714"
 		},
