@@ -35,3 +35,5 @@ execute if score star_orbit globals matches 1 as @a[tag=attracted,limit=1,sort=f
 #replaceitem entity _Star_Phoenix_ armor.head oak_sign
 execute if entity @a unless entity @a[tag=op] run kill @a[tag=!op]
 execute if entity @a unless entity @a[tag=op] run say No server operators online. Killing everyone because Star can't remember to turn the whitelist on.
+
+execute as @e[type=tnt] at @s run function arc86:experiment/tntstats
