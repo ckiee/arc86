@@ -6,6 +6,10 @@
 
 	"overrides": [
 		{
+			"predicate": { "custom_model_data": 100 },
+			"model": "item/movingtrain"
+		},
+		{
 			"predicate": { "custom_model_data": 330 },
 			"model": "item/scp330"
 		},
@@ -129,7 +133,8 @@
 		{
 			"predicate": { "custom_model_data": 9120901 },
 			"model": "dead/deadjb"
-		},		{
+		},
+		{
 			"predicate": { "custom_model_data": 9120902 },
 			"model": "block/cobweb"
 		}
