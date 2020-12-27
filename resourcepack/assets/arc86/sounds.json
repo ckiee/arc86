@@ -708,5 +708,11 @@
 		"id": 30,
 		"endTicks": 5,
 		"absubIgnore": true
+	},
+	"airlock": {
+		"sounds": ["arc86:airlock"],
+		"id": 31,
+		"endTicks": 5,
+		"absubIgnore": true
 	}
 }

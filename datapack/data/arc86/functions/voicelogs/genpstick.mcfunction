@@ -27,4 +27,5 @@ execute if score @s currentVoicelog matches 27 if score @s voicelogTime matches 
 execute if score @s currentVoicelog matches 28 if score @s voicelogTime matches 920.. run function arc86:voicelogs/ps_over
 execute if score @s currentVoicelog matches 29 if score @s voicelogTime matches 560.. run function arc86:voicelogs/ps_over
 execute if score @s currentVoicelog matches 30 if score @s voicelogTime matches 5.. run function arc86:voicelogs/ps_over
+execute if score @s currentVoicelog matches 31 if score @s voicelogTime matches 5.. run function arc86:voicelogs/ps_over
 

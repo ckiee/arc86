@@ -28,4 +28,5 @@ execute if score @s currentVoicelog matches 27 run playsound arc86:voicelogs.wal
 execute if score @s currentVoicelog matches 28 run playsound arc86:voicelogs.wallace2 voice @s ~ ~ ~ 1 1 1
 execute if score @s currentVoicelog matches 29 run playsound arc86:voicelogs.davisworried voice @s ~ ~ ~ 1 1 1
 execute if score @s currentVoicelog matches 30 run playsound arc86:dev.slightlyhqmo voice @s ~ ~ ~ 1 1 1
+execute if score @s currentVoicelog matches 31 run playsound arc86:airlock voice @s ~ ~ ~ 1 1 1
 
