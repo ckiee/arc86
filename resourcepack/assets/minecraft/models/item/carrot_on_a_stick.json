@@ -42,6 +42,10 @@
 			"model": "cards/l12"
 		},
 		{
+			"predicate": { "custom_model_data": 8631 },
+			"model": "cards/l13"
+		},
+		{
 			"predicate": { "custom_model_data": 8622 },
 			"model": "cards/l22"
 		},
@@ -132,11 +136,20 @@
 		},
 		{
 			"predicate": { "custom_model_data": 9120901 },
-			"model": "dead/deadjb"
+			"model": "dead/deadjb",
+			"comment": "skip over 9120902 as it used to be a legacy thing"
 		},
 		{
 			"predicate": { "custom_model_data": 9120902 },
-			"model": "block/cobweb"
+			"model": "dead/dead4f"
+		},
+		{
+			"predicate": { "custom_model_data": 9120903 },
+			"model": "dead/dead4v"
+		},
+		{
+			"predicate": { "custom_model_data": 9120904 },
+			"model": "dead/deadd5"
 		}
 	]
 }
