@@ -271,6 +271,7 @@
 		"endTicks": 620
 	},
 	"ost.dream": { "sounds": ["arc86:ost/dream"], "absubIgnore": true },
+	"ost.asunder": { "sounds": ["arc86:ost/asunder"], "absubIgnore": true },
 	"ost.april": {
 		"sounds": ["arc86:ost/april"],
 		"endTicks": 5020,
