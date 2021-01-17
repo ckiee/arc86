@@ -1,0 +1,15 @@
+{
+	"targets": ["swap", "final"],
+	"passes": [
+		{
+			"name": "dazed",
+			"intarget": "minecraft:main",
+			"outtarget": "swap"
+		},
+		{
+			"name": "blur",
+			"intarget": "swap",
+			"outtarget": "final"
+		}
+	]
+}
