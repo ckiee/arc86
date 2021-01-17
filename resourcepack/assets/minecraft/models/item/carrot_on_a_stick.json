@@ -1,155 +1,273 @@
 {
-	"parent": "item/handheld",
-	"textures": {
-		"layer0": "item/carrot_on_a_stick"
-	},
-
-	"overrides": [
-		{
-			"predicate": { "custom_model_data": 100 },
-			"model": "item/movingtrain"
-		},
-		{
-			"predicate": { "custom_model_data": 330 },
-			"model": "item/scp330"
-		},
-		{
-			"predicate": { "custom_model_data": 714 },
-			"model": "item/scp714"
-		},
-		{
-			"predicate": { "custom_model_data": 8601 },
-			"model": "cards/l1"
-		},
-		{
-			"predicate": { "custom_model_data": 8602 },
-			"model": "cards/l2"
-		},
-		{
-			"predicate": { "custom_model_data": 8603 },
-			"model": "cards/l3"
-		},
-		{
-			"predicate": { "custom_model_data": 8604 },
-			"model": "cards/l4"
-		},
-		{
-			"predicate": { "custom_model_data": 8605 },
-			"model": "cards/l5"
-		},
-		{
-			"predicate": { "custom_model_data": 8621 },
-			"model": "cards/l12"
-		},
-		{
-			"predicate": { "custom_model_data": 8622 },
-			"model": "cards/l22"
-		},
-		{
-			"predicate": { "custom_model_data": 8631 },
-			"model": "cards/l13"
-		},
-		{
-			"predicate": { "custom_model_data": 9002 },
-			"model": "item/rifle"
-		},
-		{
-			"predicate": { "custom_model_data": 9003 },
-			"model": "radio/off"
-		},
-		{
-			"predicate": { "custom_model_data": 9004 },
-			"model": "radio/on"
-		},
-		{
-			"predicate": { "custom_model_data": 9005 },
-			"model": "item/m18"
-		},
-		{
-			"predicate": { "custom_model_data": 9006 },
-			"model": "item/binoculars"
-		},
-		{
-			"predicate": { "custom_model_data": 912081 },
-			"model": "dead/dead1"
-		},
-		{
-			"predicate": { "custom_model_data": 912082 },
-			"model": "dead/dead2"
-		},
-		{
-			"predicate": { "custom_model_data": 912083 },
-			"model": "dead/dead3"
-		},
-		{
-			"predicate": { "custom_model_data": 912084 },
-			"model": "dead/dead4"
-		},
-
-		{
-			"predicate": { "custom_model_data": 9120812 },
-			"model": "dead/dead12"
-		},
-		{
-			"predicate": { "custom_model_data": 9120813 },
-			"model": "dead/dead13"
-		},
-		{
-			"predicate": { "custom_model_data": 9120814 },
-			"model": "dead/dead14"
-		},
-		{
-			"predicate": { "custom_model_data": 9120815 },
-			"model": "dead/dead15"
-		},
-		{
-			"predicate": { "custom_model_data": 9120822 },
-			"model": "dead/dead22"
-		},
-		{
-			"predicate": { "custom_model_data": 9120823 },
-			"model": "dead/dead23"
-		},
-		{
-			"predicate": { "custom_model_data": 9120824 },
-			"model": "dead/dead24"
-		},
-		{
-			"predicate": { "custom_model_data": 9120825 },
-			"model": "dead/dead25"
-		},
-		{
-			"predicate": { "custom_model_data": 9120834 },
-			"model": "dead/dead34"
-		},
-		{
-			"predicate": { "custom_model_data": 9120835 },
-			"model": "dead/dead25"
-		},
-		{
-			"predicate": { "custom_model_data": 9120844 },
-			"model": "dead/dead44"
-		},
-		{
-			"predicate": { "custom_model_data": 9120845 },
-			"model": "dead/dead45"
-		},
-		{
-			"predicate": { "custom_model_data": 9120901 },
-			"model": "dead/deadjb",
-			"comment": "skip over 9120902 as it used to be a legacy thing"
-		},
-		{
-			"predicate": { "custom_model_data": 9120902 },
-			"model": "dead/dead4f"
-		},
-		{
-			"predicate": { "custom_model_data": 9120903 },
-			"model": "dead/dead4v"
-		},
-		{
-			"predicate": { "custom_model_data": 9120904 },
-			"model": "dead/deadd5"
-		}
-	]
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/carrot_on_a_stick"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data": 100
+            },
+            "model": "item/movingtrain"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 330
+            },
+            "model": "item/scp330"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 714
+            },
+            "model": "item/scp714"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 8601
+            },
+            "model": "cards/l1"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 8602
+            },
+            "model": "cards/l2"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 8603
+            },
+            "model": "cards/l3"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 8604
+            },
+            "model": "cards/l4"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 8605
+            },
+            "model": "cards/l5"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 8621
+            },
+            "model": "cards/l12"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 8622
+            },
+            "model": "cards/l22"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 8631
+            },
+            "model": "cards/l13"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 9002
+            },
+            "model": "item/rifle"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 9003
+            },
+            "model": "radio/off"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 9004
+            },
+            "model": "radio/on"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 9005
+            },
+            "model": "item/m18"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 9006
+            },
+            "model": "item/binoculars"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 912081
+            },
+            "model": "dead/dead1"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 912082
+            },
+            "model": "dead/dead2"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 912083
+            },
+            "model": "dead/dead3"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 912084
+            },
+            "model": "dead/dead4"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 9120812
+            },
+            "model": "dead/dead12"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 9120813
+            },
+            "model": "dead/dead13"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 9120814
+            },
+            "model": "dead/dead14"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 9120815
+            },
+            "model": "dead/dead15"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 9120816
+            },
+            "model": "dead/dead16"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 9120817
+            },
+            "model": "dead/dead17"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 9120822
+            },
+            "model": "dead/dead22"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 9120823
+            },
+            "model": "dead/dead23"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 9120824
+            },
+            "model": "dead/dead24"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 9120825
+            },
+            "model": "dead/dead25"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 9120826
+            },
+            "model": "dead/dead26"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 9120827
+            },
+            "model": "dead/dead27"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 9120834
+            },
+            "model": "dead/dead34"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 9120835
+            },
+            "model": "dead/dead35"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 9120836
+            },
+            "model": "dead/dead36"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 9120837
+            },
+            "model": "dead/dead37"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 9120844
+            },
+            "model": "dead/dead44"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 9120845
+            },
+            "model": "dead/dead45"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 9120846
+            },
+            "model": "dead/dead46"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 9120847
+            },
+            "model": "dead/dead47"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 9120901
+            },
+            "model": "dead/deadjb",
+            "comment": "skip over 9120902 as it used to be a legacy thing"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 9120902
+            },
+            "model": "dead/dead4f"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 9120903
+            },
+            "model": "dead/dead4v"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 9120904
+            },
+            "model": "dead/deadd5"
+        }
+    ]
 }

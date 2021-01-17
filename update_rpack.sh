@@ -8,4 +8,4 @@
 cd resourcepack
 zip -qr /tmp/pack.zip *
 cd ..
-rsync /tmp/pack.zip vps:compose/data/cdn/arc86pack.zip
+rsync /tmp/pack.zip vps:compose/data/cdn/arc86pack.nocache.zip
