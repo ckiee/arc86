@@ -5,6 +5,7 @@ while true; do
 	node datapack/absub.js
 	node datapack/voicelog.js
 	node datapack/version.js
+	# node datapack/shake.js run manually
 	node resourcepack/lang.js
 	node resourcepack/meta.js
 	if git status | grep resourcepack | grep -vEq "resourcepack/pack.mcmeta|resourcepack/assets/minecraft/lang/en_us.json"; then
