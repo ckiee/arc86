@@ -1,8 +1,8 @@
 
 # prep
-execute if entity @e[tag=bridve-prep2] run setblock -220 149 -13 redstone_block
-kill @e[tag=bridve-prep2]
-tag @e[tag=bridve-prep] add bridve-prep2
+# execute if entity @e[tag=bridve-prep2] run setblock -220 149 -13 redstone_block
+# kill @e[tag=bridve-prep2]
+# tag @e[tag=bridve-prep] add bridve-prep2
 
 # main logic
 execute at @e[tag=bridve-moving] as @e[tag=bridve-point,tag=!used,distance=..4] at @s run function arc86:bridvecollapse/iaptick
