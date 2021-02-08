@@ -1,5 +1,6 @@
 scoreboard players set stage globals 5
-tp @a -57 150 4 0 0
+setblock -71 220 18 redstone_block
+tp @a -57 220 5 0 90
 gamerule sendCommandFeedback false
 gamemode adventure @a
 gamerule sendCommandFeedback true
