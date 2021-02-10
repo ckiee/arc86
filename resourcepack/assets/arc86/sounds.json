@@ -272,6 +272,9 @@
 	},
 	"ost.dream": { "sounds": ["arc86:ost/dream"], "absubIgnore": true },
 	"ost.asunder": { "sounds": ["arc86:ost/asunder"], "absubIgnore": true },
+	"ost.pringle1": { "sounds": ["arc86:ost/pringle1"], "absubIgnore": true },
+	"ost.pringle2": { "sounds": ["arc86:ost/pringle2"], "absubIgnore": true },
+	"ost.pringle3": { "sounds": ["arc86:ost/pringle3"], "absubIgnore": true },
 	"ost.april": {
 		"sounds": ["arc86:ost/april"],
 		"endTicks": 5020,
