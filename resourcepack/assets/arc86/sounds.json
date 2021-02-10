@@ -715,5 +715,15 @@
 		"id": 31,
 		"endTicks": 5,
 		"absubIgnore": true
+	},
+	"voicelogs.bankscurious": {
+		"sounds": ["arc86:voicelogs/bankscurious"],
+		"id": 32,
+		"endTicks": 920
+	},
+	"voicelogs.bankslog": {
+		"sounds": ["arc86:voicelogs/bankslog"],
+		"id": 33,
+		"endTicks": 980
 	}
 }
