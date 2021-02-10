@@ -6,6 +6,20 @@
 			"ascent": 64,
 			"height": 64,
 			"chars": ["\uEC01"]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:font/black.png",
+			"ascent": 512,
+			"height": 3840,
+			"chars": ["\uEC02"]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:font/placeholder.png",
+			"ascent": 0,
+			"height": 32,
+			"chars": ["\uEC03"]
 		}
 	]
 }

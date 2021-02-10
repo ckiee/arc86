@@ -1,3 +1,6 @@
+# need to delay giving l1 bc of rendering bug
+execute if score stage_time globals matches 90 run gamerule fallDamage true
+execute if score stage_time globals matches 100 as @a run function arc86:keycard/give_l1
 execute positioned -48 150 -72 if entity @a[distance=..3] run function arc86:timings/s17
 
 bossbar set arc86:s10-goal players @a
