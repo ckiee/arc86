@@ -11,7 +11,7 @@
 			"type": "bitmap",
 			"file": "minecraft:font/black.png",
 			"ascent": 512,
-			"height": 3840,
+			"height": 2000,
 			"chars": ["\uEC02"]
 		},
 		{
