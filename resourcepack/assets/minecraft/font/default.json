@@ -20,6 +20,13 @@
 			"ascent": 0,
 			"height": 32,
 			"chars": ["\uEC03"]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:font/s9.png",
+			"ascent": 512,
+			"height": 512,
+			"chars": ["\uEC04"]
 		}
 	]
 }
