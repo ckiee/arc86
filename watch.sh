@@ -1,5 +1,5 @@
 #!/usr/bin/env nix-shell
-#!nix-shell -i bash -p nodejs rsync zip ffmpeg
+#!nix-shell -i bash -p nodejs rsync ffmpeg
 while true; do 
 	clear
 	node datapack/absub.js

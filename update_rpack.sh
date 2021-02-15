@@ -1,4 +1,5 @@
-#/bin/sh
+#!/usr/bin/env nix-shell
+#!nix-shell -i bash -p zip
 # for f in pack/assets/minecraft/sounds/*.mp3; 
 # 	do ffmpeg -i $f $(basename $f .mp3).ogg;
 # 	rm $f
