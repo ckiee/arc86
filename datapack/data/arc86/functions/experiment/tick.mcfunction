@@ -37,3 +37,5 @@ execute if entity @a unless entity @a[tag=op] run kill @a[tag=!op]
 execute if entity @a unless entity @a[tag=op] run say No server operators online. Killing everyone because Star can't remember to turn the whitelist on.
 
 execute as @e[type=tnt] at @s run function arc86:experiment/tntstats
+execute as @a[nbt={Inventory:[{Slot:103b,tag:{CustomModelData:9004}}]}] at @s run replaceitem entity @a[distance=..2] armor.head minecraft:carrot_on_a_stick{CustomModelData:9004}
+effect give @a[nbt={Inventory:[{Slot:103b,tag:{CustomModelData:9004}}]}] glowing 10 10 true
