@@ -1,4 +1,3 @@
-say frat fa rt arfrat prepare!!
 function arc86:bridvecollapse/load
 fill -222 154 -9 -228 156 7 minecraft:command_block{auto: 1b, Command: "function arc86:bridvecollapse/summon_point"}
 # s55 tick calls prepare_replace to get the schem back
