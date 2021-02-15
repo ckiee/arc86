@@ -275,6 +275,7 @@
 	"ost.pringle1": { "sounds": ["arc86:ost/pringle1"], "absubIgnore": true },
 	"ost.pringle2": { "sounds": ["arc86:ost/pringle2"], "absubIgnore": true },
 	"ost.pringle3": { "sounds": ["arc86:ost/pringle3"], "absubIgnore": true },
+	"ost.lcz": { "sounds": ["arc86:ost/lcz"], "absubIgnore": true },
 	"ost.april": {
 		"sounds": ["arc86:ost/april"],
 		"endTicks": 5020,
@@ -340,13 +341,13 @@
 			"points": {
 				"100": {
 					"person": "Anson",
-					"msg": "Hey! Someone there? Are you lost?"
+					"msg": "Hey! Someone there?"
 				},
-				"150": {
-					"person": "",
-					"msg": "placeholder"
+				"190": {
+					"person": "Anson",
+					"msg": "Are you lost?"
 				},
-				"13260": {
+				"230": {
 					"person": "Anson",
 					"msg": "Don't worry, here. I know this place, I'll guide you ou-"
 				}
@@ -722,11 +723,88 @@
 	"voicelogs.bankscurious": {
 		"sounds": ["arc86:voicelogs/bankscurious"],
 		"id": 32,
-		"endTicks": 920
+		"endTicks": 920,
+		"absub": {
+			"id": 32,
+			"points": {
+				"32": {
+					"person": "Banks",
+					"msg": "Chief Medical Officer's log, April the 6th. It's um— it's strange, I'm— I'm starting to get a lot of sleep deprivation cases."
+				},
+				"228": {
+					"person": "Banks",
+					"msg": "Now funnily enough, most of these cases seem to be, I don't know voluntary;"
+				},
+				"326": {
+					"person": "Banks",
+					"msg": "People who have chosen not to sleep, and so they're either looking for drugs to keep them awake or something to put them into a really deep sleep."
+				},
+				"516": {
+					"person": "Banks",
+					"msg": "Now I'll admit— since I've heard this, I've started thinking, quite a bit about why that might be, and I just don't have a clue."
+				},
+				"652": {
+					"person": "Banks",
+					"msg": "Now I haven't slept all that well myself after having—that dream."
+				},
+				"756": {
+					"person": "Banks",
+					"msg": "But—well, I've got a job to do and I guess I'll just see to it that I do it well."
+				}
+			}
+		}
 	},
 	"voicelogs.bankslog": {
 		"sounds": ["arc86:voicelogs/bankslog"],
 		"id": 33,
-		"endTicks": 980
+		"endTicks": 980,
+		"absub": {
+			"id": 33,
+			"points": {
+				"28": {
+					"person": "Banks",
+					"msg": "Chief Medical Officer's log. As of today, April twelfth, my stores of Triazolam are officially dry."
+				},
+				"294": {
+					"person": "Banks",
+					"msg": "Christ's sake, we ran out of Doxepin two days ago. Estazolam four. Eszopiclone been gone a whole week."
+				},
+				"456": {
+					"person": "Banks",
+					"msg": "At this point, I might seriously consider taking a frying pan to the head of some of these poor souls"
+				},
+				"550": { "person": "Banks", "msg": "and knock em' out quick." },
+				"638": {
+					"person": "Banks",
+					"msg": "Some of these poor people haven't slept for an entire week. Do you know what that does to a person?"
+				},
+				"798": {
+					"person": "Banks",
+					"msg": "Of course you do—you're the damn doctor. As if anyone else listens to these."
+				}
+			}
+		}
+	},
+	"dev.owenwasyee": {
+		"sounds": ["arc86:dev/owenwasyee"],
+		"id": 34,
+		"absubIgnore": true
+	},
+	"dev.fireandflames": {
+		"sounds": ["arc86:dev/fireandflames"],
+		"id": 35,
+		"absubIgnore": true
+	},
+	"ambient.bird": {
+		"sounds": [
+			"arc86:ambient/bird1",
+			"arc86:ambient/bird2",
+			"arc86:ambient/bird3",
+			"arc86:ambient/bird4",
+			"arc86:ambient/bird5",
+			"arc86:ambient/bird6"
+		],
+		"id": 36,
+		"absubIgnore": false
 	}
 }
