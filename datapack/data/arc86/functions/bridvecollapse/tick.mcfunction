@@ -6,7 +6,7 @@
 
 # main logic
 execute at @e[tag=bridve-moving] as @e[tag=bridve-point,tag=!used,distance=..4] at @s run function arc86:bridvecollapse/iaptick
-execute as @e[tag=bridve-moving] at @s run tp @s ~ ~ ~0.3
+execute as @e[tag=bridve-moving] at @s run tp @s ~ ~ ~1.8
 execute as @e[tag=bridve-moving] at @s run particle explosion_emitter
 
 # purger of old
