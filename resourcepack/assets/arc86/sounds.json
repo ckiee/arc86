@@ -806,5 +806,15 @@
 		],
 		"id": 36,
 		"absubIgnore": false
+	},
+	"voicelogs.goodegen": {
+		"sounds": ["arc86:voicelogs/goodegen"],
+		"id": 37,
+		"endTicks": 1100
+	},
+	"voicelogs.goodesys": {
+		"sounds": ["arc86:voicelogs/goodesys"],
+		"id": 38,
+		"endTicks": 920
 	}
 }
