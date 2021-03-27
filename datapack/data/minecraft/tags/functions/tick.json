@@ -31,6 +31,7 @@
 		"arc86:bridvecollapse/tick",
 		"arc86:villager_click/tick",
 		"arc86:death/tick",
-		"arc86:airlock/tick"
+		"arc86:airlock/tick",
+		"arc86:tramenv/tick"
 	]
 }
