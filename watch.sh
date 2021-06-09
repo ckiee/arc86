@@ -12,7 +12,7 @@ while true; do
 		echo -n updating resourcepack...
 		./update_rpack.sh &
 	fi
-	rsync -r datapack/* vps:compose/data/mc/world/datapacks/arc86/ --delete
+	rsync -r datapack/* ron@bokkusu.ronthecookie.me:/var/lib/minecraft/world/datapacks/arc86/ --delete
 	echo "datapack!"
 	sleep 1;
 done;
