@@ -1087,5 +1087,18 @@
 			"arc86:s60"
 		],
 		"id": 40
+	},
+	"s70": {
+		"sounds": [
+			"arc86:s70"
+		],
+		"id": 41
+	},
+	"ost.consumed": {
+		"sounds": [
+			"arc86:ost/consumed"
+		],
+		"absubIgnore": true,
+		"id": 42
 	}
 }
