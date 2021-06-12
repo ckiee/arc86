@@ -4,6 +4,7 @@
 		"arc86:introatrium/load",
 		"arc86:load",
 		"arc86:bridvecollapse/load",
-		"arc86:scps/999/load"
+		"arc86:scps/999/load",
+		"arc86:ambient/load"
 	]
 }
