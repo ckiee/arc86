@@ -1,3 +1,12 @@
-execute as @a run spectate @e[tag=credits-lock,limit=1]
-# /execute in minecraft:overworld run tp @s -249.59 67.00 -140.67 -501.08 -35.37
-execute if score stage_time globals matches 200 run function arc86:timings/s80
+# the fade from ../s70 (init)
+execute if score stage_time globals matches 4 run tp @a -277.38 89.72 -35.99 180.48 38.04
+
+execute if score stage_time globals matches 72 run title @a times 0 34 10
+execute if score stage_time globals matches 72 run title @a title ["\uEC02"]
+# this will finish fade at 116:
+execute if score stage_time globals matches 104 run tp @a -277.38 89.72 -35.99 180.48 38.04
+execute if score stage_time globals matches 176 run title @a times 0 30 10
+execute if score stage_time globals matches 176 run title @a title ["\uEC02"]
+
+# starting to fade back in, lets go to s80
+execute if score stage_time globals matches 206 run function arc86:timings/s80
