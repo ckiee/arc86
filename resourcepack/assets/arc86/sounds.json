@@ -1,12 +1,20 @@
 {
 	"s5": {
-		"sounds": ["arc86:s5"],
+		"sounds": [
+			"arc86:s5"
+		],
 		"subtitle": "Distant whispering",
 		"id": 1,
 		"absub": {
 			"points": {
-				"1520": { "person": "Fiorillo", "msg": "Preston?" },
-				"1600": { "person": "Fiorillo", "msg": "Preston..." },
+				"1520": {
+					"person": "Fiorillo",
+					"msg": "Preston?"
+				},
+				"1600": {
+					"person": "Fiorillo",
+					"msg": "Preston..."
+				},
 				"1640": {
 					"person": "Fiorillo",
 					"msg": "Preston, get the hell over here."
@@ -23,15 +31,30 @@
 					"person": "Fiorillo",
 					"msg": " I don’t even know why I bother."
 				},
-				"1800": { "person": "Fiorillo", "msg": "Hurry up!" },
+				"1800": {
+					"person": "Fiorillo",
+					"msg": "Hurry up!"
+				},
 				"1840": {
 					"person": "Fiorillo",
 					"msg": "Scientific atrium. Or else Heermann’ll be pissed."
 				},
-				"1900": { "person": "Fiorillo", "msg": "Again!" },
-				"1920": { "person": "Steven", "msg": "Oh well, Preston -" },
-				"1960": { "person": "Steven", "msg": "This is Steven" },
-				"1980": { "person": "Steven", "msg": "with a V." },
+				"1900": {
+					"person": "Fiorillo",
+					"msg": "Again!"
+				},
+				"1920": {
+					"person": "Steven",
+					"msg": "Oh well, Preston -"
+				},
+				"1960": {
+					"person": "Steven",
+					"msg": "This is Steven"
+				},
+				"1980": {
+					"person": "Steven",
+					"msg": "with a V."
+				},
 				"2000": {
 					"person": "Steven",
 					"msg": "I, ugh, I think I might have left my medication"
@@ -40,15 +63,22 @@
 					"person": "Steven",
 					"msg": "...in my room, can you, ugh"
 				},
-				"2120": { "person": "Steven", "msg": "Can you bring that?" },
-				"2160": { "person": "Steven", "msg": "Thanks." }
+				"2120": {
+					"person": "Steven",
+					"msg": "Can you bring that?"
+				},
+				"2160": {
+					"person": "Steven",
+					"msg": "Thanks."
+				}
 			}
 		}
 	},
 	"s17": {
-		"sounds": ["arc86:s17"],
+		"sounds": [
+			"arc86:s17"
+		],
 		"subtitle": "PA broadcast",
-
 		"id": 2,
 		"absub": {
 			"points": {
@@ -68,7 +98,10 @@
 					"person": "Pellea",
 					"msg": "Division heads, expect a visit from Ethics Committee at eleven-hundred hours."
 				},
-				"360": { "person": "Pellea", "msg": "Now hear this" },
+				"360": {
+					"person": "Pellea",
+					"msg": "Now hear this"
+				},
 				"440": {
 					"person": "Jernigan",
 					"msg": " This is Assistant Site Director Jernigan."
@@ -85,7 +118,9 @@
 		}
 	},
 	"s20": {
-		"sounds": ["arc86:s20"],
+		"sounds": [
+			"arc86:s20"
+		],
 		"subtitle": "Code YELLOW Alert",
 		"id": 3,
 		"absub": {
@@ -106,12 +141,17 @@
 					"person": "Richthofen",
 					"msg": "Backup generators are starting up,"
 				},
-				"260": { "person": "Richthofen", "msg": "Stand by." }
+				"260": {
+					"person": "Richthofen",
+					"msg": "Stand by."
+				}
 			}
 		}
 	},
 	"s30": {
-		"sounds": ["arc86:s30"],
+		"sounds": [
+			"arc86:s30"
+		],
 		"subtitle": "Code RED Alert",
 		"id": 4,
 		"absub": {
@@ -128,12 +168,17 @@
 					"person": "Richthofen",
 					"msg": "Containment may not be feasible."
 				},
-				"192": { "person": "Richthofen", "msg": "Stan-" }
+				"192": {
+					"person": "Richthofen",
+					"msg": "Stan-"
+				}
 			}
 		}
 	},
 	"s50": {
-		"sounds": ["arc86:s50"],
+		"sounds": [
+			"arc86:s50"
+		],
 		"id": 5
 	},
 	"keycard.granted": {
@@ -169,13 +214,13 @@
 		"subtitle": "Door slides",
 		"absubIgnore": true
 	},
-
 	"guns.empty": {
-		"sounds": ["arc86:guns/empty"],
+		"sounds": [
+			"arc86:guns/empty"
+		],
 		"subtitle": "Rifle Empty",
 		"absubIgnore": true
 	},
-
 	"guns.rifle.fire": {
 		"sounds": [
 			{
@@ -188,11 +233,12 @@
 		"absubIgnore": true
 	},
 	"guns.rifle.load": {
-		"sounds": ["arc86:guns/rifle/load"],
+		"sounds": [
+			"arc86:guns/rifle/load"
+		],
 		"subtitle": "Rifle Reload",
 		"absubIgnore": true
 	},
-
 	"guns.pistol.fire": {
 		"sounds": [
 			{
@@ -205,18 +251,24 @@
 		"absubIgnore": true
 	},
 	"guns.pistol.load": {
-		"sounds": ["arc86:guns/pistol/load"],
+		"sounds": [
+			"arc86:guns/pistol/load"
+		],
 		"subtitle": "Pistol Reload",
 		"absubIgnore": true
 	},
 	"ambient": {
-		"sounds": ["arc86:ambient/pac"],
+		"sounds": [
+			"arc86:ambient/pac"
+		],
 		"subtitle": "Ambient",
 		"id": 7,
 		"absubIgnore": true
 	},
 	"voicelogs.endler": {
-		"sounds": ["arc86:voicelogs/endler"],
+		"sounds": [
+			"arc86:voicelogs/endler"
+		],
 		"id": 6,
 		"endTicks": 1140,
 		"absub": {
@@ -241,7 +293,10 @@
 					"person": "Endler",
 					"msg": "One hundred and forty-eight days without incident here at Site-86."
 				},
-				"422": { "person": "Endler", "msg": "Until now." },
+				"422": {
+					"person": "Endler",
+					"msg": "Until now."
+				},
 				"462": {
 					"person": "Endler",
 					"msg": "Pfft. Well, if that is the worst that it is going to get, I'll take it."
@@ -266,23 +321,59 @@
 		}
 	},
 	"voicelogs.rorkecafe": {
-		"sounds": ["arc86:voicelogs/rorkecafe"],
+		"sounds": [
+			"arc86:voicelogs/rorkecafe"
+		],
 		"id": 8,
 		"endTicks": 620
 	},
-	"ost.dream": { "sounds": ["arc86:ost/dream"], "absubIgnore": true },
-	"ost.asunder": { "sounds": ["arc86:ost/asunder"], "absubIgnore": true },
-	"ost.pringle1": { "sounds": ["arc86:ost/pringle1"], "absubIgnore": true },
-	"ost.pringle2": { "sounds": ["arc86:ost/pringle2"], "absubIgnore": true },
-	"ost.pringle3": { "sounds": ["arc86:ost/pringle3"], "absubIgnore": true },
-	"ost.lcz": { "sounds": ["arc86:ost/lcz"], "absubIgnore": true },
+	"ost.dream": {
+		"sounds": [
+			"arc86:ost/dream"
+		],
+		"absubIgnore": true
+	},
+	"ost.asunder": {
+		"sounds": [
+			"arc86:ost/asunder"
+		],
+		"absubIgnore": true
+	},
+	"ost.pringle1": {
+		"sounds": [
+			"arc86:ost/pringle1"
+		],
+		"absubIgnore": true
+	},
+	"ost.pringle2": {
+		"sounds": [
+			"arc86:ost/pringle2"
+		],
+		"absubIgnore": true
+	},
+	"ost.pringle3": {
+		"sounds": [
+			"arc86:ost/pringle3"
+		],
+		"absubIgnore": true
+	},
+	"ost.lcz": {
+		"sounds": [
+			"arc86:ost/lcz"
+		],
+		"absubIgnore": true
+	},
 	"ost.april": {
-		"sounds": ["arc86:ost/april"],
+		"sounds": [
+			"arc86:ost/april"
+		],
 		"endTicks": 5020,
 		"absubIgnore": true
 	},
 	"voicelogs.lobby": {
-		"sounds": ["arc86:voicelogs/lobby"],
+		"sounds": [
+			"arc86:voicelogs/lobby"
+		],
 		"id": 9,
 		"endTicks": 146,
 		"absub": {
@@ -292,14 +383,25 @@
 					"person": "Tutorial",
 					"msg": "I really dunno what you were expecting this to have,"
 				},
-				"60": { "person": "Tutorial", "msg": "but..." },
-				"80": { "person": "Tutorial", "msg": "here it is." },
-				"100": { "person": "Tutorial", "msg": "Cheers?" }
+				"60": {
+					"person": "Tutorial",
+					"msg": "but..."
+				},
+				"80": {
+					"person": "Tutorial",
+					"msg": "here it is."
+				},
+				"100": {
+					"person": "Tutorial",
+					"msg": "Cheers?"
+				}
 			}
 		}
 	},
 	"voicelogs.klein109": {
-		"sounds": ["arc86:voicelogs/klein109"],
+		"sounds": [
+			"arc86:voicelogs/klein109"
+		],
 		"id": 10,
 		"endTicks": 353,
 		"absub": {
@@ -321,19 +423,25 @@
 		}
 	},
 	"voicelogs.lczplea": {
-		"sounds": ["arc86:voicelogs/lczplea"],
+		"sounds": [
+			"arc86:voicelogs/lczplea"
+		],
 		"id": 11,
 		"endTicks": 5,
 		"TODO": "still need to set endTicks right"
 	},
 	"voicelogs.richopsdeath": {
-		"sounds": ["arc86:voicelogs/richopsdeath"],
+		"sounds": [
+			"arc86:voicelogs/richopsdeath"
+		],
 		"id": 12,
 		"endTicks": 5,
 		"TODO": "still need to set endTicks right"
 	},
 	"s85": {
-		"sounds": ["arc86:s85"],
+		"sounds": [
+			"arc86:s85"
+		],
 		"id": 13,
 		"endTicks": -1,
 		"absub": {
@@ -355,51 +463,67 @@
 		}
 	},
 	"voicelogs.davishelp": {
-		"sounds": ["arc86:voicelogs/davishelp"],
+		"sounds": [
+			"arc86:voicelogs/davishelp"
+		],
 		"id": 13,
 		"endTicks": 5,
 		"TODO": "still need to set endTicks right"
 	},
 	"voicelogs.jamiefemradio": {
-		"sounds": ["arc86:voicelogs/jamiefemradio"],
+		"sounds": [
+			"arc86:voicelogs/jamiefemradio"
+		],
 		"id": 14,
 		"endTicks": 5,
 		"TODO": "still need to set endTicks right"
 	},
 	"voicelogs.pelleannounce": {
-		"sounds": ["arc86:voicelogs/pelleannounce"],
+		"sounds": [
+			"arc86:voicelogs/pelleannounce"
+		],
 		"id": 15,
 		"endTicks": 5,
 		"TODO": "still need to set endTicks right"
 	},
 	"voicelogs.sadopsradio": {
-		"sounds": ["arc86:voicelogs/sadopsradio"],
+		"sounds": [
+			"arc86:voicelogs/sadopsradio"
+		],
 		"id": 16,
 		"endTicks": 5,
 		"TODO": "still need to set endTicks right"
 	},
 	"voicelogs.teslagategobrr": {
-		"sounds": ["arc86:voicelogs/teslagategobrr"],
+		"sounds": [
+			"arc86:voicelogs/teslagategobrr"
+		],
 		"id": 17,
 		"endTicks": 5,
 		"TODO": "still need to set endTicks right"
 	},
 	"dev.sectionfail": {
-		"sounds": ["arc86:dev/sectionfail"],
+		"sounds": [
+			"arc86:dev/sectionfail"
+		],
 		"id": 18,
 		"endTicks": 5,
 		"TODO": "still need to set endTicks right",
 		"absubIgnore": true
 	},
 	"dev.sectionpass": {
-		"sounds": ["arc86:dev/sectionpass"],
+		"sounds": [
+			"arc86:dev/sectionpass"
+		],
 		"id": 18,
 		"endTicks": 5,
 		"TODO": "still need to set endTicks right",
 		"absubIgnore": true
 	},
 	"voicelogs.artu1": {
-		"sounds": ["arc86:voicelogs/artu1"],
+		"sounds": [
+			"arc86:voicelogs/artu1"
+		],
 		"id": 19,
 		"endTicks": 766,
 		"absub": {
@@ -437,7 +561,9 @@
 		}
 	},
 	"voicelogs.artu2": {
-		"sounds": ["arc86:voicelogs/artu2"],
+		"sounds": [
+			"arc86:voicelogs/artu2"
+		],
 		"id": 20,
 		"endTicks": 973,
 		"absub": {
@@ -491,18 +617,25 @@
 		}
 	},
 	"voicelogs.artu3": {
-		"sounds": ["arc86:voicelogs/artu3"],
+		"sounds": [
+			"arc86:voicelogs/artu3"
+		],
 		"id": 21,
 		"endTicks": 1005
 	},
 	"voicelogs.maxwell121": {
-		"sounds": ["arc86:voicelogs/maxwell121"],
+		"sounds": [
+			"arc86:voicelogs/maxwell121"
+		],
 		"id": 22,
 		"endTicks": 680,
 		"absub": {
 			"id": 22,
 			"points": {
-				"0": { "person": "Arthur", "msg": "Director Wallace." },
+				"0": {
+					"person": "Arthur",
+					"msg": "Director Wallace."
+				},
 				"40": {
 					"person": "Arthur",
 					"msg": "I’m informing you of a recent event that’s a cause for concern for the Directorial Board"
@@ -511,11 +644,26 @@
 					"person": "Arthur",
 					"msg": "as well as the Foundation as a whole."
 				},
-				"200": { "person": "Arthur", "msg": "Two hours ago," },
-				"220": { "person": "Arthur", "msg": "your time," },
-				"240": { "person": "Arthur", "msg": "April 11th," },
-				"260": { "person": "Arthur", "msg": " Site One Twenty-One," },
-				"270": { "person": "Arthur", "msg": "in Khabarovsk," },
+				"200": {
+					"person": "Arthur",
+					"msg": "Two hours ago,"
+				},
+				"220": {
+					"person": "Arthur",
+					"msg": "your time,"
+				},
+				"240": {
+					"person": "Arthur",
+					"msg": "April 11th,"
+				},
+				"260": {
+					"person": "Arthur",
+					"msg": " Site One Twenty-One,"
+				},
+				"270": {
+					"person": "Arthur",
+					"msg": "in Khabarovsk,"
+				},
 				"300": {
 					"person": "Arthur",
 					"msg": "suffered a critical containment breach."
@@ -532,8 +680,14 @@
 					"person": "Arthur",
 					"msg": "The site itself has been"
 				},
-				"460": { "person": "Arthur", "msg": "...overrun," },
-				"490": { "person": "Arthur", "msg": "with flesh." },
+				"460": {
+					"person": "Arthur",
+					"msg": "...overrun,"
+				},
+				"490": {
+					"person": "Arthur",
+					"msg": "with flesh."
+				},
 				"520": {
 					"person": "Arthur",
 					"msg": "Mobile Task Forces are working to contain it,"
@@ -542,32 +696,57 @@
 					"person": "Arthur",
 					"msg": "so expect resources to be diverted there for the upcoming week or so."
 				},
-				"640": { "person": "Arthur", "msg": "That is all." }
+				"640": {
+					"person": "Arthur",
+					"msg": "That is all."
+				}
 			}
 		}
 	},
 	"voicelogs.maxwell999": {
-		"sounds": ["arc86:voicelogs/maxwell999"],
+		"sounds": [
+			"arc86:voicelogs/maxwell999"
+		],
 		"id": 23,
 		"endTicks": 500
 	},
 	"voicelogs.maxwelltheory": {
-		"sounds": ["arc86:voicelogs/maxwelltheory"],
+		"sounds": [
+			"arc86:voicelogs/maxwelltheory"
+		],
 		"id": 24,
 		"endTicks": 1160,
 		"absub": {
 			"id": 24,
 			"points": {
-				"0": { "person": "Maxwell", "msg": "Director," },
-				"20": { "person": "Maxwell", "msg": "can I--" },
-				"40": { "person": "Maxwell", "msg": "can I speak to you." },
-				"60": { "person": "Maxwell", "msg": "Off the record?" },
+				"0": {
+					"person": "Maxwell",
+					"msg": "Director,"
+				},
+				"20": {
+					"person": "Maxwell",
+					"msg": "can I--"
+				},
+				"40": {
+					"person": "Maxwell",
+					"msg": "can I speak to you."
+				},
+				"60": {
+					"person": "Maxwell",
+					"msg": "Off the record?"
+				},
 				"80": {
 					"person": "Maxwell",
 					"msg": " If you want nothing to do with this,"
 				},
-				"100": { "person": "Maxwell", "msg": "then..." },
-				"120": { "person": "Maxwell", "msg": "delete this message." },
+				"100": {
+					"person": "Maxwell",
+					"msg": "then..."
+				},
+				"120": {
+					"person": "Maxwell",
+					"msg": "delete this message."
+				},
 				"140": {
 					"person": "Maxwell",
 					"msg": "And you never received it."
@@ -580,18 +759,42 @@
 					"person": "Maxwell",
 					"msg": "You know of the dreams we’ve all been suffering from."
 				},
-				"280": { "person": "Maxwell", "msg": "Those..." },
-				"300": { "person": "Maxwell", "msg": "those thoughts." },
-				"360": { "person": "Maxwell", "msg": " I think it’s..." },
-				"380": { "person": "Maxwell", "msg": "it’s the O5." },
-				"420": { "person": "Maxwell", "msg": "For months now, " },
+				"280": {
+					"person": "Maxwell",
+					"msg": "Those..."
+				},
+				"300": {
+					"person": "Maxwell",
+					"msg": "those thoughts."
+				},
+				"360": {
+					"person": "Maxwell",
+					"msg": " I think it’s..."
+				},
+				"380": {
+					"person": "Maxwell",
+					"msg": "it’s the O5."
+				},
+				"420": {
+					"person": "Maxwell",
+					"msg": "For months now, "
+				},
 				"440": {
 					"person": "Maxwell",
 					"msg": "they’ve been considering some sort of filter for Foundation personnel."
 				},
-				"500": { "person": "Maxwell", "msg": "A..." },
-				"520": { "person": "Maxwell", "msg": "a culling," },
-				"540": { "person": "Maxwell", "msg": "if you will." },
+				"500": {
+					"person": "Maxwell",
+					"msg": "A..."
+				},
+				"520": {
+					"person": "Maxwell",
+					"msg": "a culling,"
+				},
+				"540": {
+					"person": "Maxwell",
+					"msg": "if you will."
+				},
 				"570": {
 					"person": "Maxwell",
 					"msg": "It’s not out of character for them."
@@ -608,7 +811,10 @@
 					"person": "Maxwell",
 					"msg": "You know what happened."
 				},
-				"720": { "person": "Maxwell", "msg": "With Falling Stars." },
+				"720": {
+					"person": "Maxwell",
+					"msg": "With Falling Stars."
+				},
 				"760": {
 					"person": "Maxwell",
 					"msg": "This could be the same."
@@ -617,7 +823,10 @@
 					"person": "Maxwell",
 					"msg": "I’m telling you to be wary."
 				},
-				"840": { "person": "Maxwell", "msg": "Be watchful of the O5." },
+				"840": {
+					"person": "Maxwell",
+					"msg": "Be watchful of the O5."
+				},
 				"880": {
 					"person": "Maxwell",
 					"msg": "They’re watching everything closely now,"
@@ -626,19 +835,33 @@
 					"person": "Maxwell",
 					"msg": "more closely than ever before."
 				},
-				"980": { "person": "Maxwell", "msg": "It’s like..." },
-				"990": { "person": "Maxwell", "msg": "some grand experiment." },
-				"1050": { "person": "Maxwell", "msg": "I don’t know." },
+				"980": {
+					"person": "Maxwell",
+					"msg": "It’s like..."
+				},
+				"990": {
+					"person": "Maxwell",
+					"msg": "some grand experiment."
+				},
+				"1050": {
+					"person": "Maxwell",
+					"msg": "I don’t know."
+				},
 				"1060": {
 					"person": "Maxwell",
 					"msg": "Call me paranoid if you will..."
 				},
-				"1100": { "person": "Maxwell", "msg": "but stay aware." }
+				"1100": {
+					"person": "Maxwell",
+					"msg": "but stay aware."
+				}
 			}
 		}
 	},
 	"voicelogs.morriganboom": {
-		"sounds": ["arc86:voicelogs/morriganboom"],
+		"sounds": [
+			"arc86:voicelogs/morriganboom"
+		],
 		"id": 25,
 		"endTicks": 920,
 		"absub": {
@@ -684,44 +907,61 @@
 					"person": "Morrigan",
 					"msg": "Bill, the-the damn thing, it's peeling off, it's-"
 				},
-				"836": { "person": "Researcher", "msg": "Oh, shit-!" }
+				"836": {
+					"person": "Researcher",
+					"msg": "Oh, shit-!"
+				}
 			}
 		}
 	},
 	"voicelogs.anandsuicide": {
-		"sounds": ["arc86:voicelogs/anandsuicide"],
+		"sounds": [
+			"arc86:voicelogs/anandsuicide"
+		],
 		"id": 26,
 		"endTicks": 1100
 	},
 	"voicelogs.wallace1": {
-		"sounds": ["arc86:voicelogs/wallace1"],
+		"sounds": [
+			"arc86:voicelogs/wallace1"
+		],
 		"id": 27,
 		"endTicks": 940
 	},
 	"voicelogs.wallace2": {
-		"sounds": ["arc86:voicelogs/wallace2"],
+		"sounds": [
+			"arc86:voicelogs/wallace2"
+		],
 		"id": 28,
 		"endTicks": 920
 	},
 	"voicelogs.davisworried": {
-		"sounds": ["arc86:voicelogs/davisworried"],
+		"sounds": [
+			"arc86:voicelogs/davisworried"
+		],
 		"id": 29,
 		"endTicks": 560
 	},
 	"dev.slightlyhqmo": {
-		"sounds": ["arc86:dev/slightlyhqmo"],
+		"sounds": [
+			"arc86:dev/slightlyhqmo"
+		],
 		"id": 30,
 		"endTicks": 5,
 		"absubIgnore": true
 	},
 	"airlock": {
-		"sounds": ["arc86:airlock"],
+		"sounds": [
+			"arc86:airlock"
+		],
 		"id": 31,
 		"endTicks": 5,
 		"absubIgnore": true
 	},
 	"voicelogs.bankscurious": {
-		"sounds": ["arc86:voicelogs/bankscurious"],
+		"sounds": [
+			"arc86:voicelogs/bankscurious"
+		],
 		"id": 32,
 		"endTicks": 920,
 		"absub": {
@@ -755,7 +995,9 @@
 		}
 	},
 	"voicelogs.bankslog": {
-		"sounds": ["arc86:voicelogs/bankslog"],
+		"sounds": [
+			"arc86:voicelogs/bankslog"
+		],
 		"id": 33,
 		"endTicks": 980,
 		"absub": {
@@ -773,7 +1015,10 @@
 					"person": "Banks",
 					"msg": "At this point, I might seriously consider taking a frying pan to the head of some of these poor souls"
 				},
-				"550": { "person": "Banks", "msg": "and knock em' out quick." },
+				"550": {
+					"person": "Banks",
+					"msg": "and knock em' out quick."
+				},
 				"638": {
 					"person": "Banks",
 					"msg": "Some of these poor people haven't slept for an entire week. Do you know what that does to a person?"
@@ -786,12 +1031,16 @@
 		}
 	},
 	"dev.owenwasyee": {
-		"sounds": ["arc86:dev/owenwasyee"],
+		"sounds": [
+			"arc86:dev/owenwasyee"
+		],
 		"id": 34,
 		"absubIgnore": true
 	},
 	"dev.fireandflames": {
-		"sounds": ["arc86:dev/fireandflames"],
+		"sounds": [
+			"arc86:dev/fireandflames"
+		],
 		"id": 35,
 		"absubIgnore": true
 	},
@@ -808,13 +1057,35 @@
 		"absubIgnore": false
 	},
 	"voicelogs.goodegen": {
-		"sounds": ["arc86:voicelogs/goodegen"],
+		"sounds": [
+			"arc86:voicelogs/goodegen"
+		],
 		"id": 37,
 		"endTicks": 1100
 	},
 	"voicelogs.goodesys": {
-		"sounds": ["arc86:voicelogs/goodesys"],
+		"sounds": [
+			"arc86:voicelogs/goodesys"
+		],
 		"id": 38,
 		"endTicks": 920
+	},
+	"ambient.creak": {
+		"sounds": [
+			"arc86:ambient/creak1",
+			"arc86:ambient/creak2",
+			"arc86:ambient/creak3",
+			"arc86:ambient/creak4",
+			"arc86:ambient/creak5",
+			"arc86:ambient/creak6"
+		],
+		"id": 39,
+		"absubIgnore": false
+	},
+	"s60": {
+		"sounds": [
+			"arc86:s60"
+		],
+		"id": 40
 	}
 }
