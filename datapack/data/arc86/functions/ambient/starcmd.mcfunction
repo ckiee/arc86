@@ -1,0 +1,3 @@
+# Let star control the ambience
+setblock ~ ~ ~ air
+tellraw @p ["",{"text":"Creak: ","color":"light_purple"},{"text":"ON  ","color":"green","clickEvent":{"action":"run_command","value":"/scoreboard players set $creak ambient 1"}},{"text":"OFF","color":"dark_red","clickEvent":{"action":"run_command","value":"/scoreboard players set $creak ambient 0"}},"\n",{"text":"Bird: ","color":"light_purple"},{"text":"ON  ","color":"green","clickEvent":{"action":"run_command","value":"/scoreboard players set $bird ambient 1"}},{"text":"OFF","color":"dark_red","clickEvent":{"action":"run_command","value":"/scoreboard players set $bird ambient 0"}}]
