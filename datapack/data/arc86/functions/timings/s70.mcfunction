@@ -5,5 +5,5 @@ effect clear @a
 effect give @a minecraft:blindness 100000 0 true
 effect give @a minecraft:dolphins_grace 100000 100 true
 effect give @a minecraft:invisibility 100000 100 true
-title @a times 0 2 6
+title @a times 0 40 10
 title @a title ["\uEC02"]
