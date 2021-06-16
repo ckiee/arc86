@@ -18,6 +18,12 @@
 		},
 		{
 			"predicate": {
+				"custom_model_data": 404
+			},
+			"model": "item/placeholder86"
+		},
+		{
+			"predicate": {
 				"custom_model_data": 714
 			},
 			"model": "item/scp714"
@@ -290,8 +296,7 @@
 			"predicate": {
 				"custom_model_data": 9120901
 			},
-			"model": "dead/deadjb",
-			"comment": "skip over 9120902 as it used to be a legacy thing"
+			"model": "dead/deadjb"
 		},
 		{
 			"predicate": {
@@ -310,6 +315,12 @@
 				"custom_model_data": 9120904
 			},
 			"model": "dead/deadd5"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 9120905
+			},
+			"model": "dead/deadrorke"
 		},
 		{
 			"predicate": {
