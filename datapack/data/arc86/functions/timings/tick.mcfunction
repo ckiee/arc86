@@ -16,6 +16,7 @@ execute if score stage globals matches 80 run function arc86:timings/ticks/s80
 execute if score stage globals matches 85 run function arc86:timings/ticks/s85
 execute if score stage globals matches 87 run function arc86:timings/ticks/s87
 execute if score stage globals matches 95 run function arc86:timings/ticks/s95
+execute if score stage globals matches 100 run function arc86:timings/ticks/s100
 
 execute if score stage globals matches 10..30 run function arc86:timings/ticks/april_loop
 
