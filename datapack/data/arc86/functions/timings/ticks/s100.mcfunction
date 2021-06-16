@@ -1,0 +1,9 @@
+execute positioned -111 70 -205 run tag @s[dz=10,dx=32,dy=5] add s100-near
+execute positioned -120 70 -201 as @a[dx=8,dz=4,dy=5] at @s run tp @s ~1 ~ ~
+
+execute store result score $val s100 run data get entity @e[tag=rorkehead,limit=1] Pose.Head[0] 1
+execute if score $val s100 matches ..-47 run scoreboard players operation $val s100 += $inc s100
+execute store result entity @e[tag=rorkehead,limit=1] Pose.Head[0] float 1 run scoreboard players get $val s100
+
+execute if score stage_time globals matches 400 run summon item -101.24 70.00 -198.18 {Item:{id: "minecraft:written_book", tag: {pages: ['{"text":"Mr. Rorke, if you please:\\n\\nBring this data core as well as the one located in the Site Archives to the Command Center at once. Don\'t ask me for more information—I don\'t know either. All I know is that Site Administration\'s really jumpy to get it done,"}', '{"text":"so... get it done. Speak of this to no one. Try and stay awake.\\n\\n—Chief Matheson"}'], resolved: 1b, author: "Matheson, George", title: "CONFIDENTIAL"}, Count: 1b},Motion:[-0.1d,0d,-0.04d]}
+execute if score stage_time globals matches 400 run summon item -101.05 70.00 -198.4 {Item:{id: "minecraft:player_head", tag: {display: {Name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Computer Data Core ID 001"}],"text":""}', Lore: ['{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_aqua","text":"Data compiled on recent events."}],"text":""}']}, SkullOwner: {Properties: {textures: [{Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjQ1NTliMGQ4Y2Q4N2Y1ZjdmMGIxNzJmNDgyOTJjM2U4OWRiOTgxOGI2MWRlMjIxYzQ2Y2YyZGVhZDI1YTU2MCJ9fX0="}]}, Id: [I; 570334536, 232670618, -1236775580, 116049572]}}, Count: 1b}, Motion: [-0.1d, 0d, -0.04d]}
