@@ -1100,5 +1100,11 @@
 		],
 		"absubIgnore": true,
 		"id": 42
+	},
+	"s100": {
+		"sounds": [
+			"arc86:s100"
+		],
+		"id": 43
 	}
 }
