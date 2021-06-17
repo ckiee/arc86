@@ -9,6 +9,5 @@
 cd resourcepack
 zip -qr /tmp/pack.zip *
 cd ..
-rsync /tmp/pack.zip ron@bokkusu.ronthecookie.me:/var/lib/rtc-files/arc86pack.zip
+rsync /tmp/pack.zip bokkusu:/var/lib/rtc-files/arc86pack.zip
 sha1sum /tmp/pack.zip > /tmp/pack.zip.sha1
-# rsync /tmp/pack.zip.sha1 vps:compose/data/cdn/arc86pack.sha1.txt
