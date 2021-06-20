@@ -1125,5 +1125,11 @@
 		],
 		"id": 45,
 		"absubIgnore": false
+	},
+	"s82": {
+		"sounds": [
+			"arc86:s82"
+		],
+		"id": 46
 	}
 }
