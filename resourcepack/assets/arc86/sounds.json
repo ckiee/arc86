@@ -1106,5 +1106,24 @@
 			"arc86:s100"
 		],
 		"id": 43
+	},
+	"ost.mission": {
+		"sounds": [
+			"arc86:ost/mission"
+		],
+		"absubIgnore": true,
+		"id": 44
+	},
+	"ambient.groan": {
+		"sounds": [
+			"arc86:ambient/groan1",
+			"arc86:ambient/groan2",
+			"arc86:ambient/groan3",
+			"arc86:ambient/groan4",
+			"arc86:ambient/groan5",
+			"arc86:ambient/groan6"
+		],
+		"id": 45,
+		"absubIgnore": false
 	}
 }
