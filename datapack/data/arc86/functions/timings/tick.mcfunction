@@ -13,6 +13,7 @@ execute if score stage globals matches 55 run function arc86:timings/ticks/s55
 execute if score stage globals matches 60 run function arc86:timings/ticks/s60
 execute if score stage globals matches 70 run function arc86:timings/ticks/s70
 execute if score stage globals matches 80 run function arc86:timings/ticks/s80
+execute if score stage globals matches 82 run function arc86:timings/ticks/s82
 execute if score stage globals matches 85 run function arc86:timings/ticks/s85
 execute if score stage globals matches 87 run function arc86:timings/ticks/s87
 execute if score stage globals matches 95 run function arc86:timings/ticks/s95
