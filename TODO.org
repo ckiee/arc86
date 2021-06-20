@@ -64,8 +64,8 @@ need star to make keyframes and get audio
 * [X] get star to make fem dead skin so it goes along with scp970 barrel structure (has a fem voicelog but male corpse)
 
 * [ ] fix entity leak from bridve, probably bridve-wasmoving or something like it but aecs with no tags just keep on stacking up at the end of the part of the bridge that falls
-
-* [ ] get tee dee to make subs for voicelogs.maxwell{~999~,~121~,~theory~},lobby,anandsuicide,wallace1,wallace2,davisworried,richopsdeath
+* [ ] don't trigger ambience on (re)load
+it'll get problematic once they are in singleplayer and load the save while in a stage with lots of ambience on
 
 * Discussion Required
 ** [ ] think about ways to make s10 no goal complete -> s17 transition smoother * [ ] rn it [bossbar] just disappears and its awkward imo
