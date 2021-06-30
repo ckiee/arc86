@@ -1,13 +1,13 @@
 {
     "pack": {
-        "pack_format": 6,
+        "pack_format": 7,
         "description": [
             {
                 "text": "ARC SITE-86 (",
                 "color": "yellow"
             },
             {
-                "text": "0573fea",
+                "text": "7ca9f44",
                 "color": "red",
                 "comment": "the version"
             },
