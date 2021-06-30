@@ -63,18 +63,24 @@
 need star to make keyframes and get audio
 * [X] get star to make fem dead skin so it goes along with scp970 barrel structure (has a fem voicelog but male corpse)
 
-* [ ] fix entity leak from bridve, probably bridve-wasmoving or something like it but aecs with no tags just keep on stacking up at the end of the part of the bridge that falls
-* [ ] don't trigger ambience on (re)load
+* Ready To Do
+** [ ] fix entity leak from bridve, probably bridve-wasmoving or something like it but aecs with no tags just keep on stacking up at the end of the part of the bridge that falls
+** [ ] don't trigger ambience on (re)load
 it'll get problematic once they are in singleplayer and load the save while in a stage with lots of ambience on
+** [ ] rework guns to use loot tables instead (for ~guns/update_item~), maybe less lag
+** [ ] avoid using @x[score=]: https://minecraftcommands.github.io/commanders-handbook/selector-argument-order
+** [ ] make door system not leak falling_block's all the time
 
 * Discussion Required
-** [ ] think about ways to make s10 no goal complete -> s17 transition smoother * [ ] rn it [bossbar] just disappears and its awkward imo
+** [ ] think about ways to make s10 no goal complete -> s17 transition smoother
+*** [ ] rn it [bossbar] just disappears and its awkward imo
 https://i.ronthecookie.me/uUa0iLc.png
 
 * Long-term Things
 ** [ ] death msgs
 *** use https://github.com/rx-modules/PlayerMatch
-
+** [ ] use this datapack to make sure players don't do silly things https://github.com/Razboy20/version-proxy-mc-datapack
+** [ ] see what we can use advancements for instead of detecting certain events manually (stuff like scores for CoaS right click)
 * Pre-release checklist
 ** [ ] cleanup {data,resource}pack errors in logs (e.g. AnyFallingBlock, missing sound)
 ** [ ] ensure subtitle coverage with absub/genload
