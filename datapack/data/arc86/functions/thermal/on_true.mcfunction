@@ -1,5 +1,5 @@
 # its on so we toggle it off
-replaceitem entity @s armor.head air
+item replace entity @s armor.head with air
 team empty scopeColor
 effect clear @e glowing
 scoreboard players set @s thermal 100
