@@ -108,6 +108,12 @@
 		},
 		{
 			"predicate": {
+				"custom_model_data": 9008
+			},
+			"model": "item/tripod"
+		},
+		{
+			"predicate": {
 				"custom_model_data": 912081
 			},
 			"model": "dead/dead1"
