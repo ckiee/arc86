@@ -102,6 +102,12 @@
 		},
 		{
 			"predicate": {
+				"custom_model_data": 9007
+			},
+			"model": "item/broken_radio"
+		},
+		{
+			"predicate": {
 				"custom_model_data": 912081
 			},
 			"model": "dead/dead1"
