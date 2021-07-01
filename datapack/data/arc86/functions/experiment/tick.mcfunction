@@ -39,3 +39,4 @@ execute if entity @a unless entity @a[tag=op] run say No server operators online
 # execute as @e[type=tnt] at @s run function arc86:experiment/tntstats
 # execute as @a[nbt={Inventory:[{Slot:103b,tag:{CustomModelData:9004}}]}] at @s run replaceitem entity @a[distance=..2] armor.head minecraft:carrot_on_a_stick{CustomModelData:9004}
 # effect give @a[nbt={Inventory:[{Slot:103b,tag:{CustomModelData:9004}}]}] glowing 10 10 true
+execute store result bossbar minecraft:fallingbl value run execute if entity @e[type=minecraft:falling_block]
