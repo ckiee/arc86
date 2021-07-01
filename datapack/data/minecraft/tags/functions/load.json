@@ -6,7 +6,6 @@
 		"arc86:bridvecollapse/load",
 		"arc86:scps/999/load",
 		"arc86:ambient/load",
-		"arc86:teamfix/load",
-		"arc86:tutproj/load"
+		"arc86:teamfix/load"
 	]
 }
