@@ -33,10 +33,10 @@
 			progressColor: 'purple'
 		});
 	});
-	const points = [];
+	let points = [];
 	let audioPlayer;
 	function addEmptyPoint() {
-		points.push({ person: "", msg: "", time: `00:${wavesurfer.getCurrentTime()}` });
+		points=[...points, { person: "", msg: "", time: `00:${wavesurfer.getCurrentTime()}` }];
 	}
 	let transformed = {};
 	let soundID = 0;
