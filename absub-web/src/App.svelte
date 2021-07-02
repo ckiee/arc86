@@ -25,12 +25,18 @@
 			hasSubs: typeof meta.absub == "object"
 		};
 	};
+	function minSecPairToTicks(min, sec) {
+		return ~~(20 * (min * 60 + sec))
+	}
 	let wavesurfer;
 	onMount(() => {
 		wavesurfer = WaveSurfer.create({
 			container: '#waveform',
 			waveColor: 'violet',
 			progressColor: 'purple'
+		});
+		wavesurfer.on("audioprocess", () => {
+			currentTicks = minSecPairToTicks(0, wavesurfer.getCurrentTime());
 		});
 	});
 	let points = [];
@@ -40,13 +46,14 @@
 	}
 	let transformed = {};
 	let soundID = 0;
+	let currentTicks = 0;
 	let soundURL = "";
 	$: {
 		transformed = {};
 		let lastPerson;
 		for (let { msg, person, time } of points) {
 			const [min, sec] = time.split(":").map((x) => parseFloat(x));
-			const ticks = ~~(20 * (min * 60 + sec));
+			const ticks = minSecPairToTicks(min, sec);
 			if (lastPerson && (!person || person == "")) person = lastPerson;
 			transformed[ticks] = {
 				person,
@@ -82,6 +89,7 @@
 			<p style="background: orange">This sound may already have subtitles</p>
 		{/if}
 		<button on:click={wavesurfer.playPause()} >Play/Pause</button>
+		<p>Currently on tick timecode: <code>{ currentTicks }</code></p>
 	{:catch err}
 		<p style="color: red">{err.message}</p>
 	{/await}
