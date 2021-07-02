@@ -1,9 +1,7 @@
-<script lang="ts">
-	interface SoundMeta {
-		[key: string]: { id: number; sounds: string[] };
-	}
-	let soundMetaCache: SoundMeta | undefined;
-	async function getSoundMeta(): Promise<SoundMeta> {
+<script lang="js">
+	import { onMount } from 'svelte';
+	let soundMetaCache;
+	async function getSoundMeta() {
 		if (soundMetaCache) return soundMetaCache;
 		const res = await fetch(
 			"https://raw.githubusercontent.com/ronthecookie/arc86/master/resourcepack/assets/arc86/sounds.json"
@@ -11,7 +9,7 @@
 		soundMetaCache = await res.json();
 		return soundMetaCache;
 	}
-	async function getSoundMetaForID(id: number) {
+	async function getSoundMetaForID(id) {
 		const fullMeta = await getSoundMeta();
 		const meta = Object.keys(fullMeta)
 			.filter((i) => fullMeta[i].id == id)
@@ -26,23 +24,26 @@
 			ignore: meta.absubIgnore || false,
 			hasSubs: typeof meta.absub == "object"
 		};
-	}
-
-	interface Point {
-		person: string;
-		msg: string;
-		time: string;
-	}
-	let points: Point[] = [];
+	};
+	let wavesurfer;
+	onMount(() => {
+		wavesurfer = WaveSurfer.create({
+			container: '#waveform',
+			waveColor: 'violet',
+			progressColor: 'purple'
+		});
+	});
+	const points = [];
+	let audioPlayer;
 	function addEmptyPoint() {
-		points = [...points, { person: "", msg: "", time: "" }];
+		points.push({ person: "", msg: "", time: `00:${wavesurfer.getCurrentTime()}` });
 	}
 	let transformed = {};
 	let soundID = 0;
 	let soundURL = "";
 	$: {
 		transformed = {};
-		let lastPerson: string | undefined;
+		let lastPerson;
 		for (let { msg, person, time } of points) {
 			const [min, sec] = time.split(":").map((x) => parseFloat(x));
 			const ticks = ~~(20 * (min * 60 + sec));
@@ -54,7 +55,11 @@
 			lastPerson = person;
 		}
 	}
-	$: soundMeta = getSoundMetaForID(soundID);
+	let soundMeta;
+	$: {
+		soundMeta = getSoundMetaForID(soundID);
+		soundMeta.then(x => wavesurfer.load(x.url));
+	}
 </script>
 
 <main>
@@ -76,10 +81,11 @@
 		{:else if sm.hasSubs}
 			<p style="background: orange">This sound may already have subtitles</p>
 		{/if}
-		<audio controls src={sm.url} />
+		<button on:click={wavesurfer.playPause()} >Play/Pause</button>
 	{:catch err}
 		<p style="color: red">{err.message}</p>
 	{/await}
+	<div id="waveform"></div>
 
 	<hr />
 	<button on:click={addEmptyPoint}>add point</button>
