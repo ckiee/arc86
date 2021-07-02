@@ -116,7 +116,7 @@
 	],
 	"display": {
 		"head": {
-			"translation": [0, -29, 0],
+			"translation": [0, 0, 32],
 			"scale": [1.6, 1.6, 1.6]
 		},
 		"fixed": {
