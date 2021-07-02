@@ -1,8 +1,6 @@
 {
 	"s5": {
-		"sounds": [
-			"arc86:s5"
-		],
+		"sounds": ["arc86:s5"],
 		"subtitle": "Distant whispering",
 		"id": 1,
 		"absub": {
@@ -75,9 +73,7 @@
 		}
 	},
 	"s17": {
-		"sounds": [
-			"arc86:s17"
-		],
+		"sounds": ["arc86:s17"],
 		"subtitle": "PA broadcast",
 		"id": 2,
 		"absub": {
@@ -118,9 +114,7 @@
 		}
 	},
 	"s20": {
-		"sounds": [
-			"arc86:s20"
-		],
+		"sounds": ["arc86:s20"],
 		"subtitle": "Code YELLOW Alert",
 		"id": 3,
 		"absub": {
@@ -149,9 +143,7 @@
 		}
 	},
 	"s30": {
-		"sounds": [
-			"arc86:s30"
-		],
+		"sounds": ["arc86:s30"],
 		"subtitle": "Code RED Alert",
 		"id": 4,
 		"absub": {
@@ -176,9 +168,7 @@
 		}
 	},
 	"s50": {
-		"sounds": [
-			"arc86:s50"
-		],
+		"sounds": ["arc86:s50"],
 		"id": 5
 	},
 	"keycard.granted": {
@@ -215,9 +205,7 @@
 		"absubIgnore": true
 	},
 	"guns.empty": {
-		"sounds": [
-			"arc86:guns/empty"
-		],
+		"sounds": ["arc86:guns/empty"],
 		"subtitle": "Rifle Empty",
 		"absubIgnore": true
 	},
@@ -233,9 +221,7 @@
 		"absubIgnore": true
 	},
 	"guns.rifle.load": {
-		"sounds": [
-			"arc86:guns/rifle/load"
-		],
+		"sounds": ["arc86:guns/rifle/load"],
 		"subtitle": "Rifle Reload",
 		"absubIgnore": true
 	},
@@ -251,24 +237,18 @@
 		"absubIgnore": true
 	},
 	"guns.pistol.load": {
-		"sounds": [
-			"arc86:guns/pistol/load"
-		],
+		"sounds": ["arc86:guns/pistol/load"],
 		"subtitle": "Pistol Reload",
 		"absubIgnore": true
 	},
 	"ambient": {
-		"sounds": [
-			"arc86:ambient/pac"
-		],
+		"sounds": ["arc86:ambient/pac"],
 		"subtitle": "Ambient",
 		"id": 7,
 		"absubIgnore": true
 	},
 	"voicelogs.endler": {
-		"sounds": [
-			"arc86:voicelogs/endler"
-		],
+		"sounds": ["arc86:voicelogs/endler"],
 		"id": 6,
 		"endTicks": 1140,
 		"absub": {
@@ -321,59 +301,41 @@
 		}
 	},
 	"voicelogs.rorkecafe": {
-		"sounds": [
-			"arc86:voicelogs/rorkecafe"
-		],
+		"sounds": ["arc86:voicelogs/rorkecafe"],
 		"id": 8,
 		"endTicks": 620
 	},
 	"ost.dream": {
-		"sounds": [
-			"arc86:ost/dream"
-		],
+		"sounds": ["arc86:ost/dream"],
 		"absubIgnore": true
 	},
 	"ost.asunder": {
-		"sounds": [
-			"arc86:ost/asunder"
-		],
+		"sounds": ["arc86:ost/asunder"],
 		"absubIgnore": true
 	},
 	"ost.pringle1": {
-		"sounds": [
-			"arc86:ost/pringle1"
-		],
+		"sounds": ["arc86:ost/pringle1"],
 		"absubIgnore": true
 	},
 	"ost.pringle2": {
-		"sounds": [
-			"arc86:ost/pringle2"
-		],
+		"sounds": ["arc86:ost/pringle2"],
 		"absubIgnore": true
 	},
 	"ost.pringle3": {
-		"sounds": [
-			"arc86:ost/pringle3"
-		],
+		"sounds": ["arc86:ost/pringle3"],
 		"absubIgnore": true
 	},
 	"ost.lcz": {
-		"sounds": [
-			"arc86:ost/lcz"
-		],
+		"sounds": ["arc86:ost/lcz"],
 		"absubIgnore": true
 	},
 	"ost.april": {
-		"sounds": [
-			"arc86:ost/april"
-		],
+		"sounds": ["arc86:ost/april"],
 		"endTicks": 5020,
 		"absubIgnore": true
 	},
 	"voicelogs.lobby": {
-		"sounds": [
-			"arc86:voicelogs/lobby"
-		],
+		"sounds": ["arc86:voicelogs/lobby"],
 		"id": 9,
 		"endTicks": 146,
 		"absub": {
@@ -399,9 +361,7 @@
 		}
 	},
 	"voicelogs.klein109": {
-		"sounds": [
-			"arc86:voicelogs/klein109"
-		],
+		"sounds": ["arc86:voicelogs/klein109"],
 		"id": 10,
 		"endTicks": 353,
 		"absub": {
@@ -423,25 +383,19 @@
 		}
 	},
 	"voicelogs.lczplea": {
-		"sounds": [
-			"arc86:voicelogs/lczplea"
-		],
+		"sounds": ["arc86:voicelogs/lczplea"],
 		"id": 11,
 		"endTicks": 5,
 		"TODO": "still need to set endTicks right"
 	},
 	"voicelogs.richopsdeath": {
-		"sounds": [
-			"arc86:voicelogs/richopsdeath"
-		],
+		"sounds": ["arc86:voicelogs/richopsdeath"],
 		"id": 12,
 		"endTicks": 5,
 		"TODO": "still need to set endTicks right"
 	},
 	"s85": {
-		"sounds": [
-			"arc86:s85"
-		],
+		"sounds": ["arc86:s85"],
 		"id": 13,
 		"endTicks": -1,
 		"absub": {
@@ -463,67 +417,51 @@
 		}
 	},
 	"voicelogs.davishelp": {
-		"sounds": [
-			"arc86:voicelogs/davishelp"
-		],
+		"sounds": ["arc86:voicelogs/davishelp"],
 		"id": 13,
 		"endTicks": 5,
 		"TODO": "still need to set endTicks right"
 	},
 	"voicelogs.jamiefemradio": {
-		"sounds": [
-			"arc86:voicelogs/jamiefemradio"
-		],
+		"sounds": ["arc86:voicelogs/jamiefemradio"],
 		"id": 14,
 		"endTicks": 5,
 		"TODO": "still need to set endTicks right"
 	},
 	"voicelogs.pelleannounce": {
-		"sounds": [
-			"arc86:voicelogs/pelleannounce"
-		],
+		"sounds": ["arc86:voicelogs/pelleannounce"],
 		"id": 15,
 		"endTicks": 5,
 		"TODO": "still need to set endTicks right"
 	},
 	"voicelogs.sadopsradio": {
-		"sounds": [
-			"arc86:voicelogs/sadopsradio"
-		],
+		"sounds": ["arc86:voicelogs/sadopsradio"],
 		"id": 16,
 		"endTicks": 5,
 		"TODO": "still need to set endTicks right"
 	},
 	"voicelogs.teslagategobrr": {
-		"sounds": [
-			"arc86:voicelogs/teslagategobrr"
-		],
+		"sounds": ["arc86:voicelogs/teslagategobrr"],
 		"id": 17,
 		"endTicks": 5,
 		"TODO": "still need to set endTicks right"
 	},
 	"dev.sectionfail": {
-		"sounds": [
-			"arc86:dev/sectionfail"
-		],
+		"sounds": ["arc86:dev/sectionfail"],
 		"id": 18,
 		"endTicks": 5,
 		"TODO": "still need to set endTicks right",
 		"absubIgnore": true
 	},
 	"dev.sectionpass": {
-		"sounds": [
-			"arc86:dev/sectionpass"
-		],
+		"sounds": ["arc86:dev/sectionpass"],
 		"id": 18,
 		"endTicks": 5,
 		"TODO": "still need to set endTicks right",
 		"absubIgnore": true
 	},
 	"voicelogs.artu1": {
-		"sounds": [
-			"arc86:voicelogs/artu1"
-		],
+		"sounds": ["arc86:voicelogs/artu1"],
 		"id": 19,
 		"endTicks": 766,
 		"absub": {
@@ -561,9 +499,7 @@
 		}
 	},
 	"voicelogs.artu2": {
-		"sounds": [
-			"arc86:voicelogs/artu2"
-		],
+		"sounds": ["arc86:voicelogs/artu2"],
 		"id": 20,
 		"endTicks": 973,
 		"absub": {
@@ -617,16 +553,12 @@
 		}
 	},
 	"voicelogs.artu3": {
-		"sounds": [
-			"arc86:voicelogs/artu3"
-		],
+		"sounds": ["arc86:voicelogs/artu3"],
 		"id": 21,
 		"endTicks": 1005
 	},
 	"voicelogs.maxwell121": {
-		"sounds": [
-			"arc86:voicelogs/maxwell121"
-		],
+		"sounds": ["arc86:voicelogs/maxwell121"],
 		"id": 22,
 		"endTicks": 680,
 		"absub": {
@@ -704,16 +636,12 @@
 		}
 	},
 	"voicelogs.maxwell999": {
-		"sounds": [
-			"arc86:voicelogs/maxwell999"
-		],
+		"sounds": ["arc86:voicelogs/maxwell999"],
 		"id": 23,
 		"endTicks": 500
 	},
 	"voicelogs.maxwelltheory": {
-		"sounds": [
-			"arc86:voicelogs/maxwelltheory"
-		],
+		"sounds": ["arc86:voicelogs/maxwelltheory"],
 		"id": 24,
 		"endTicks": 1160,
 		"absub": {
@@ -859,9 +787,7 @@
 		}
 	},
 	"voicelogs.morriganboom": {
-		"sounds": [
-			"arc86:voicelogs/morriganboom"
-		],
+		"sounds": ["arc86:voicelogs/morriganboom"],
 		"id": 25,
 		"endTicks": 920,
 		"absub": {
@@ -915,53 +841,109 @@
 		}
 	},
 	"voicelogs.anandsuicide": {
-		"sounds": [
-			"arc86:voicelogs/anandsuicide"
-		],
+		"sounds": ["arc86:voicelogs/anandsuicide"],
 		"id": 26,
 		"endTicks": 1100
 	},
 	"voicelogs.wallace1": {
-		"sounds": [
-			"arc86:voicelogs/wallace1"
-		],
+		"sounds": ["arc86:voicelogs/wallace1"],
 		"id": 27,
-		"endTicks": 940
+		"endTicks": 945,
+		"absub": {
+			"id": 27,
+			"points": {
+				"38": { "person": "Wallace", "msg": "Base log. Fourteenth of April." },
+				"106": {
+					"person": "Wallace",
+					"msg": "Despite our efforts, I estimate over eventy percent of base personnel are compromised."
+				},
+				"270": {
+					"person": "Wallace",
+					"msg": "To what extent... I don’t know."
+				},
+				"309": {
+					"person": "Wallace",
+					"msg": "I know it’s already hard enough for me to get some rest."
+				},
+				"402": {
+					"person": "Wallace",
+					"msg": "An ARC site can’t continue to function in this manner. Not properly, at least."
+				},
+				"518": {
+					"person": "Wallace",
+					"msg": "Jernigan’s putting in an official request to logistics to cycle out some of the base personnel here."
+				},
+				"620": { "person": "Wallace", "msg": "Definitely the research staff." },
+				"680": {
+					"person": "Wallace",
+					"msg": "I know Doctor Banks can’t keep up, and frankly—frankly, neither can I."
+				},
+				"800": {
+					"person": "Wallace",
+					"msg": "If the cycles don’t work I’ll have to submit my plan to the O5. End log."
+				}
+			}
+		}
 	},
 	"voicelogs.wallace2": {
-		"sounds": [
-			"arc86:voicelogs/wallace2"
-		],
+		"sounds": ["arc86:voicelogs/wallace2"],
 		"id": 28,
-		"endTicks": 920
+		"endTicks": 920,
+		"absub": {
+			"id": 28,
+			"points": {
+				"20": {
+					"person": "Ayers",
+					"msg": "Oh, we’re not gettin’ a damned thing done, you know? My men are restless. I’m becoming restless!"
+				},
+				"152": {
+					"person": "Sanford",
+					"msg": "To hell with you and your worries, I couldn’t give a damn! Jernigan’s got a—"
+				},
+				"228": {
+					"person": "Ayers",
+					"msg": "Jernigan, Jernigan’s a goddamned IDIOT! You think any of this shit matters?"
+				},
+				"348": {
+					"person": "Sanford",
+					"msg": "If her plan works then we can forget about all this and move—"
+				},
+				"438": { "person": "Ayers", "msg": "Well it’s not going to work—" },
+				"476": {
+					"person": "Simultaneously",
+					"msg": "You don't know that—you absolute—at least try and—daft, piss-all—listen you—"
+				},
+				"592": { "person": "Sanford", "msg": "Director?" },
+				"662": {
+					"person": "Wallace",
+					"msg": "I just got off a call with the overseers. They’ve approved my request."
+				},
+				"814": {
+					"person": "Wallace",
+					"msg": "Start with the research team. We need to move quickly."
+				}
+			}
+		}
 	},
 	"voicelogs.davisworried": {
-		"sounds": [
-			"arc86:voicelogs/davisworried"
-		],
+		"sounds": ["arc86:voicelogs/davisworried"],
 		"id": 29,
 		"endTicks": 560
 	},
 	"dev.slightlyhqmo": {
-		"sounds": [
-			"arc86:dev/slightlyhqmo"
-		],
+		"sounds": ["arc86:dev/slightlyhqmo"],
 		"id": 30,
 		"endTicks": 5,
 		"absubIgnore": true
 	},
 	"airlock": {
-		"sounds": [
-			"arc86:airlock"
-		],
+		"sounds": ["arc86:airlock"],
 		"id": 31,
 		"endTicks": 5,
 		"absubIgnore": true
 	},
 	"voicelogs.bankscurious": {
-		"sounds": [
-			"arc86:voicelogs/bankscurious"
-		],
+		"sounds": ["arc86:voicelogs/bankscurious"],
 		"id": 32,
 		"endTicks": 920,
 		"absub": {
@@ -995,9 +977,7 @@
 		}
 	},
 	"voicelogs.bankslog": {
-		"sounds": [
-			"arc86:voicelogs/bankslog"
-		],
+		"sounds": ["arc86:voicelogs/bankslog"],
 		"id": 33,
 		"endTicks": 980,
 		"absub": {
@@ -1031,16 +1011,12 @@
 		}
 	},
 	"dev.owenwasyee": {
-		"sounds": [
-			"arc86:dev/owenwasyee"
-		],
+		"sounds": ["arc86:dev/owenwasyee"],
 		"id": 34,
 		"absubIgnore": true
 	},
 	"dev.fireandflames": {
-		"sounds": [
-			"arc86:dev/fireandflames"
-		],
+		"sounds": ["arc86:dev/fireandflames"],
 		"id": 35,
 		"absubIgnore": true
 	},
@@ -1057,16 +1033,12 @@
 		"absubIgnore": false
 	},
 	"voicelogs.goodegen": {
-		"sounds": [
-			"arc86:voicelogs/goodegen"
-		],
+		"sounds": ["arc86:voicelogs/goodegen"],
 		"id": 37,
 		"endTicks": 1100
 	},
 	"voicelogs.goodesys": {
-		"sounds": [
-			"arc86:voicelogs/goodesys"
-		],
+		"sounds": ["arc86:voicelogs/goodesys"],
 		"id": 38,
 		"endTicks": 920
 	},
@@ -1083,34 +1055,24 @@
 		"absubIgnore": false
 	},
 	"s60": {
-		"sounds": [
-			"arc86:s60"
-		],
+		"sounds": ["arc86:s60"],
 		"id": 40
 	},
 	"s70": {
-		"sounds": [
-			"arc86:s70"
-		],
+		"sounds": ["arc86:s70"],
 		"id": 41
 	},
 	"ost.consumed": {
-		"sounds": [
-			"arc86:ost/consumed"
-		],
+		"sounds": ["arc86:ost/consumed"],
 		"absubIgnore": true,
 		"id": 42
 	},
 	"s100": {
-		"sounds": [
-			"arc86:s100"
-		],
+		"sounds": ["arc86:s100"],
 		"id": 43
 	},
 	"ost.mission": {
-		"sounds": [
-			"arc86:ost/mission"
-		],
+		"sounds": ["arc86:ost/mission"],
 		"absubIgnore": true,
 		"id": 44
 	},
@@ -1127,9 +1089,7 @@
 		"absubIgnore": false
 	},
 	"s82": {
-		"sounds": [
-			"arc86:s82"
-		],
+		"sounds": ["arc86:s82"],
 		"id": 46
 	}
 }
