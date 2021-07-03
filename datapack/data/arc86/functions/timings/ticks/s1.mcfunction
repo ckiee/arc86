@@ -1,1 +1,1 @@
-execute as @e[tag=s1-anim,type=armor_stand] run data modify entity @s Motion[1] set value 0.11d
+execute positioned -124 149 17 unless entity @a[dz=53,dx=106,dy=20] run function arc86:timings/s2
