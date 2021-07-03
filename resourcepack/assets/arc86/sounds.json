@@ -241,12 +241,6 @@
 		"subtitle": "Pistol Reload",
 		"absubIgnore": true
 	},
-	"ambient": {
-		"sounds": ["arc86:ambient/pac"],
-		"subtitle": "Ambient",
-		"id": 7,
-		"absubIgnore": true
-	},
 	"voicelogs.endler": {
 		"sounds": ["arc86:voicelogs/endler"],
 		"id": 6,
@@ -1030,7 +1024,7 @@
 			"arc86:ambient/bird6"
 		],
 		"id": 36,
-		"absubIgnore": false
+		"absubIgnore": true
 	},
 	"voicelogs.goodegen": {
 		"sounds": ["arc86:voicelogs/goodegen"],
@@ -1052,7 +1046,7 @@
 			"arc86:ambient/creak6"
 		],
 		"id": 39,
-		"absubIgnore": false
+		"absubIgnore": true
 	},
 	"s60": {
 		"sounds": ["arc86:s60"],
@@ -1086,10 +1080,19 @@
 			"arc86:ambient/groan6"
 		],
 		"id": 45,
-		"absubIgnore": false
+		"absubIgnore": true
 	},
 	"s82": {
 		"sounds": ["arc86:s82"],
 		"id": 46
+	},
+	"ambient.projector": {
+		"sounds": ["arc86:ambient/projector"],
+		"id": 47,
+		"absubIgnore": true
+	},
+	"tutorial2": {
+		"sounds": ["arc86:tutorial2"],
+		"id": 48
 	}
 }
