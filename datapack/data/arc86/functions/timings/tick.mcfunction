@@ -2,6 +2,7 @@ execute unless score old_stage globals = stage globals run function arc86:timing
 execute store result score old_stage globals run scoreboard players get stage globals
 
 execute if score stage globals matches 1 run function arc86:timings/ticks/s1
+execute if score stage globals matches 2 run function arc86:timings/ticks/s2
 execute if score stage globals matches 5 run function arc86:timings/ticks/s5
 execute if score stage globals matches 9 run function arc86:timings/ticks/s9
 execute if score stage globals matches 10 run function arc86:timings/ticks/s10
