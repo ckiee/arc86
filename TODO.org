@@ -82,6 +82,7 @@ https://i.ronthecookie.me/uUa0iLc.png
 ** [ ] use this datapack to make sure players don't do silly things https://github.com/Razboy20/version-proxy-mc-datapack
 ** [ ] see what we can use advancements for instead of detecting certain events manually (stuff like scores for CoaS right click)
 * Pre-release checklist
+**  Use this: https://github.com/shurik204/map-prepare
 ** [ ] cleanup {data,resource}pack errors in logs (e.g. AnyFallingBlock, missing sound)
 ** [ ] ensure subtitle coverage with absub/genload
 ** [ ] graphics quality interactable sign in lobby that adjusts flicker time and other things to reduce fps lag
