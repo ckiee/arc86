@@ -1,4 +1,9 @@
 scoreboard players set stage globals 5
+
+# cleanup from prev stages
+fill -112 157 79 -106 157 81 stripped_spruce_wood[axis=y]
+kill @e[tag=s1]
+
 setblock -71 220 18 redstone_block
 tp @a -57 220 5 0 90
 gamerule sendCommandFeedback false
