@@ -1094,5 +1094,9 @@
 	"tutorial2": {
 		"sounds": ["arc86:tutorial2"],
 		"id": 48
+	},
+	"tutorial1": {
+		"sounds": ["arc86:tutorial1"],
+		"id": 49
 	}
 }
