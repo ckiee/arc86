@@ -1,0 +1,7 @@
+setblock -109 154 76 light[level=0]
+setblock -103 155 73 light[level=0]
+setblock -103 155 78 light[level=0]
+setblock -103 155 82 light[level=0]
+setblock -115 155 82 light[level=0]
+setblock -115 155 78 light[level=0]
+setblock -115 155 73 light[level=0]
