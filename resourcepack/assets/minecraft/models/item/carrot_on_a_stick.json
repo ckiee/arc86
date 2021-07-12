@@ -114,15 +114,51 @@
 		},
 		{
 			"predicate": {
-				"custom_model_data": 9009
+				"custom_model_data": 905001
 			},
-			"model": "item/tutorialtest"
+			"model": "tutorial/a1"
 		},
 		{
 			"predicate": {
-				"custom_model_data": 9010
+				"custom_model_data": 905002
 			},
-			"model": "item/tutorialtest2"
+			"model": "tutorial/b1"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 905003
+			},
+			"model": "tutorial/a2"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 905004
+			},
+			"model": "tutorial/b2"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 905005
+			},
+			"model": "tutorial/a3"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 905006
+			},
+			"model": "tutorial/b3"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 905007
+			},
+			"model": "tutorial/a4"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 905008
+			},
+			"model": "tutorial/b4"
 		},
 		{
 			"predicate": {

@@ -1,0 +1,23 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "tutorial/1",
+		"particle": "tutorial/1"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [32, 32, 0.0001],
+			"faces": {
+				"north": {"uv": [0, 0, 8, 16], "rotation": 180, "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"fixed": {
+			"rotation": [0, 0, -180],
+			"translation": [-4, -8, 19.9],
+			"scale": [2.5, 3, 2.5]
+		}
+	}
+}
