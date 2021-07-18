@@ -4,3 +4,4 @@ execute if data entity @s SelectedItem.tag.KeycardLevel at @s anchored eyes posi
 execute if data entity @s SelectedItem.tag.gun at @s run function arc86:guns/maybe_fire
 execute if data entity @s SelectedItem.tag.thermal at @s run function arc86:thermal/on_click
 execute if data entity @s SelectedItem.tag.stageSkip at @s run function arc86:timings/stage_skipper
+execute if data entity @s SelectedItem.tag.TutorialPointer at @s run function arc86:tuthelper/on_click
