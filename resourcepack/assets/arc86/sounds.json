@@ -1093,7 +1093,18 @@
 	},
 	"tutorial2": {
 		"sounds": ["arc86:tutorial2"],
-		"id": 48
+		"id": 48,
+		"absub": {
+			"id": 48,
+			"points": {
+				"20": {
+					"person": "Tutorial",
+					"msg": "Thank you for downloading our map!"
+				},
+				"60": { "person": "Tutorial", "msg": "We wish you all the best.." },
+				"100": { "person": "Tutorial", "msg": "and good luck!" }
+			}
+		}
 	},
 	"tutorial1": {
 		"sounds": ["arc86:tutorial1"],
