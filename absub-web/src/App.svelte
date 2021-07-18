@@ -4,7 +4,7 @@
 	async function getSoundMeta() {
 		if (soundMetaCache) return soundMetaCache;
 		const res = await fetch(
-			"https://raw.githubusercontent.com/ronthecookie/arc86/master/resourcepack/assets/arc86/sounds.json"
+			"https://raw.githubusercontent.com/ckiee/arc86/master/resourcepack/assets/arc86/sounds.json"
 		);
 		soundMetaCache = await res.json();
 		return soundMetaCache;
@@ -16,7 +16,7 @@
 			.map((i) => fullMeta[i])[0];
 		if (!meta) throw new Error("Sound not found by ID");
 		return {
-			url: `https://raw.githubusercontent.com/ronthecookie/arc86/master/resourcepack/assets/arc86/sounds/${meta.sounds[0].replace(
+			url: `https://raw.githubusercontent.com/ckiee/arc86/master/resourcepack/assets/arc86/sounds/${meta.sounds[0].replace(
 				"arc86:",
 				""
 			)}.ogg`,

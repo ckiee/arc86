@@ -2,8 +2,8 @@
 #execute as @e[type=arrow] at @s run tp @s ~ ~ ~ facing entity @a[sort=furthest,limit=1,distance=..10] eyes
 #execute as @e[type=arrow] at @s run tp @s ^ ^ ^0.1
 #execute as @e[type=arrow] run data merge entity @s {NoGravity:1b}
-execute if entity ronthecookie as @e[type=trident,nbt={Trident: {tag: {THUNDERTRIDENT: 4}}, inGround: 0b, Owner: [I; 734402372, 783634302, -1350441718, -1098683065]}] at @s run summon minecraft:lightning_bolt
-execute unless entity ronthecookie as @e[type=trident,nbt={Trident: {tag: {THUNDERTRIDENT: 4}}, inGround: 0b}] at @s run summon minecraft:lightning_bolt
+execute if entity ckiee as @e[type=trident,nbt={Trident: {tag: {THUNDERTRIDENT: 4}}, inGround: 0b, Owner: [I; 734402372, 783634302, -1350441718, -1098683065]}] at @s run summon minecraft:lightning_bolt
+execute unless entity ckiee as @e[type=trident,nbt={Trident: {tag: {THUNDERTRIDENT: 4}}, inGround: 0b}] at @s run summon minecraft:lightning_bolt
 
 # execute as @e[type=trident] at @s run tp @s ^ ^ ^0.2 facing entity _Star_Phoenix_
 #execute as @e[type=trident] run data modify entity @s Owner set from entity _Star_Phoenix_ UUID
@@ -22,7 +22,7 @@ execute if score star_orbit globals matches 1 as @a[tag=attracted,limit=1,sort=f
 #tp @a[x=-96,y=98,z=-378,dx=100,dz=100,dy=5,gamemode=adventure] -70.64 150.00 -379.97 -774.88 9.92
 #tp @a[x=-44,y=151,z=-302,distance=..5] -70.64 150.00 -379.97 -774.88 9.92
  
-#execute as @a[name=!Yalm,name=!ronthecookie] at @s if block ~ 255 ~ air run setblock ~ 255 ~ anvil
+#execute as @a[name=!Yalm,name=!ckiee] at @s if block ~ 255 ~ air run setblock ~ 255 ~ anvil
 #tp @e[tag=starsticker,limit=1,type=armor_stand] Ellyria19
 #execute as @e[type=potion,nbt={Owner: [I; 1449243699, 474760375, -1206255248, 742458992]}] at @s run data merge entity @s {NoGravity:0b,Motion:[0.0d,0.0d,0.0d]}
 #execute as @e[type=potion,nbt={Owner: [I; 1449243699, 474760375, -1206255248, 742458992]}] at @s run tp @s ^ ^ ^0.2 facing entity Ellyria19
