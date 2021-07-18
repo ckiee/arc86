@@ -114,6 +114,12 @@
 		},
 		{
 			"predicate": {
+				"custom_model_data": 9009
+			},
+			"model": "item/stick"
+		},
+		{
+			"predicate": {
 				"custom_model_data": 905001
 			},
 			"model": "tutorial/a1"
