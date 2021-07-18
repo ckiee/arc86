@@ -1098,6 +1098,64 @@
 	"tutorial1": {
 		"sounds": ["arc86:tutorial1"],
 		"id": 49,
-		"endTicks": 1235
+		"endTicks": 1235,
+		"absub": {
+			"id": 49,
+			"points": {
+				"160": { "person": "Tutorial", "msg": "Greetings.." },
+				"180": {
+					"person": "Tutorial",
+					"msg": "and welcome to the SCP Foundation! "
+				},
+				"220": { "person": "Tutorial", "msg": "In just a moment," },
+				"260": {
+					"person": "Tutorial",
+					"msg": "you'll find yourself in Foundation Site 86 of the Armed Research and Containment division."
+				},
+				"360": {
+					"person": "Tutorial",
+					"msg": "we have to apprise you of a few things in advance."
+				},
+				"440": { "person": "Tutorial", "msg": "a warning." },
+				"460": {
+					"person": "Tutorial",
+					"msg": "This map depicts scenes of blood and gore"
+				},
+				"520": { "person": "Tutorial", "msg": "violence," },
+				"540": { "person": "Tutorial", "msg": "death," },
+				"560": { "person": "Tutorial", "msg": "strong language," },
+				"580": { "person": "Tutorial", "msg": "and suicide." },
+				"600": {
+					"person": "Tutorial",
+					"msg": "This map also contains visuals that may be harmful to those with epilepsy."
+				},
+				"700": { "person": "Tutorial", "msg": "Proceed at your own risk." },
+				"740": {
+					"person": "Tutorial",
+					"msg": "We advise that you disable default Minecraft music and clouds,"
+				},
+				"820": {
+					"person": "Tutorial",
+					"msg": "and ask that fullbright or other means of artificially brightening your game.."
+				},
+				"900": {
+					"person": "Tutorial",
+					"msg": "be not used for the sake of immersion."
+				},
+				"960": { "person": "Tutorial", "msg": "At this time," },
+				"1000": {
+					"person": "Tutorial",
+					"msg": "please select the game difficulty you wish to experience."
+				},
+				"1060": {
+					"person": "Tutorial",
+					"msg": "You can select a difficulty by right-clicking the desired half of the screen with the pointer stick,"
+				},
+				"1180": {
+					"person": "Tutorial",
+					"msg": "and you can lock in your choice with the button."
+				}
+			}
+		}
 	}
 }
