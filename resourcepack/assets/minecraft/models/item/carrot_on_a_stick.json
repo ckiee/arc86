@@ -120,6 +120,18 @@
 		},
 		{
 			"predicate": {
+				"custom_model_data": 904999
+			},
+			"model": "tutorial/a0"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 905000
+			},
+			"model": "tutorial/b0"
+		},
+		{
+			"predicate": {
 				"custom_model_data": 905001
 			},
 			"model": "tutorial/a1"
