@@ -7,5 +7,10 @@ clear @a minecraft:carrot_on_a_stick{TutorialPointer:1b}
 
 scoreboard players set $projector ambient 0
 stopsound @a ambient
+
 execute as @a at @s run playsound arc86:tutorial2 voice @s ~ ~ ~
 scoreboard players set @a absubID 48
+
+scoreboard players set $a tuthelper 905001
+scoreboard players set $b tuthelper 905002
+function arc86:tuthelper/set_model_data
