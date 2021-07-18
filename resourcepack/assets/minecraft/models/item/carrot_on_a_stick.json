@@ -162,6 +162,18 @@
 		},
 		{
 			"predicate": {
+				"custom_model_data": 905009
+			},
+			"model": "tutorial/a5"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 905010
+			},
+			"model": "tutorial/b5"
+		},
+		{
+			"predicate": {
 				"custom_model_data": 912081
 			},
 			"model": "dead/dead1"
