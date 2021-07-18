@@ -9,3 +9,5 @@ fill -109 151 70 -109 152 70 minecraft:dark_oak_planks
 # and then close the doors:
 setblock -109 151 70 minecraft:dark_oak_door[facing=south,half=lower,hinge=left,open=false]
 setblock -109 152 70 minecraft:dark_oak_door[facing=south,half=upper,hinge=left,open=false]
+# Block the light off:
+fill -110 153 69 -108 151 69 minecraft:black_concrete
