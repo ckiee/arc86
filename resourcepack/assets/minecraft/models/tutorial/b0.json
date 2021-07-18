@@ -1,0 +1,13 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"particle": "tutorial/1"
+	},
+	"display": {
+		"fixed": {
+			"rotation": [0, 0, -180],
+			"translation": [-4, -8, 19.9],
+			"scale": [2.5, 3, 2.5]
+		}
+	}
+}
