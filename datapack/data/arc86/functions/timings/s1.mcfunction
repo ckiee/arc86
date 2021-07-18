@@ -9,3 +9,5 @@ function arc86:tuthelper/lights_on
 function arc86:tuthelper/proj_lights_off
 # the block that pops out from the floor later:
 setblock -109 150 78 minecraft:lodestone
+# unblock the entrance
+fill -110 153 69 -108 151 69 minecraft:air
