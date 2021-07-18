@@ -1,6 +1,8 @@
 execute if score stage_time globals matches 60 run function arc86:tuthelper/lights_off
 execute if score stage_time globals matches 60 as @a at @s run playsound arc86:tutorial1 voice @s ~ ~ ~
 execute if score stage_time globals matches 60 as @a at @s run scoreboard players set @a absubID 49
+execute if score stage_time globals matches 110 run function arc86:tuthelper/inc_models
+execute if score stage_time globals matches 110 run function arc86:tuthelper/proj_lights_on
 execute if score stage_time globals matches 490 run function arc86:tuthelper/inc_models
 execute if score stage_time globals matches 810 run function arc86:tuthelper/inc_models
 execute if score stage_time globals matches 1040 run function arc86:tuthelper/inc_models
