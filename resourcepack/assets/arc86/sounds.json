@@ -385,8 +385,24 @@
 	"voicelogs.richopsdeath": {
 		"sounds": ["arc86:voicelogs/richopsdeath"],
 		"id": 12,
-		"endTicks": 5,
-		"TODO": "still need to set endTicks right"
+		"endTicks": 510,
+		"absub": {
+			"id": 12,
+			"points": {
+				"33": {
+					"person": "Richthofen",
+					"msg": "All personnel, this message is direct from site command—this site is experiencing Code Blue, Black, Gray, and Kessler lockdown classifications."
+				},
+				"190": {
+					"person": "Richthofen",
+					"msg": "MTF teams are en route. CDF teams are to regroup and attempt preliminary action—"
+				},
+				"305": {
+					"person": "Richthofen",
+					"msg": "You need to stand your ground, don’t let—"
+				}
+			}
+		}
 	},
 	"s85": {
 		"sounds": ["arc86:s85"],
@@ -837,7 +853,26 @@
 	"voicelogs.anandsuicide": {
 		"sounds": ["arc86:voicelogs/anandsuicide"],
 		"id": 26,
-		"endTicks": 1100
+		"endTicks": 1106,
+		"absub": {
+			"id": 26,
+			"points": {
+				"18": { "person": "Anand", "msg": "They’re dead. They’re all dead." },
+				"115": {
+					"person": "Anand",
+					"msg": "Wilson and Mason and Louis and Drew; I—I lived, and ate, and shared jokes and fears with those guys."
+				},
+				"329": {
+					"person": "Anand",
+					"msg": "And they’re all dead. They’re all just—gone. And I’m alone."
+				},
+				"512": {
+					"person": "Anand",
+					"msg": "I haven’t seen anyone else alive. Just—noises. Terrible. Noises."
+				},
+				"791": { "person": "Anand", "msg": "I’m alone. I’m alone." }
+			}
+		}
 	},
 	"voicelogs.wallace1": {
 		"sounds": ["arc86:voicelogs/wallace1"],
@@ -1121,21 +1156,17 @@
 				"220": { "person": "Tutorial", "msg": "In just a moment," },
 				"260": {
 					"person": "Tutorial",
-					"msg": "you'll find yourself in Foundation Site 86 of the Armed Research and Containment division."
+					"msg": "you’ll find yourself in Foundation Site 86 of the Armed Research and Containment division. "
 				},
 				"360": {
 					"person": "Tutorial",
-					"msg": "we have to apprise you of a few things in advance."
+					"msg": "However, we have to apprise you of a few things in advance."
 				},
-				"440": { "person": "Tutorial", "msg": "a warning." },
+				"440": { "person": "Tutorial", "msg": "First off, a warning." },
 				"460": {
 					"person": "Tutorial",
-					"msg": "This map depicts scenes of blood and gore"
+					"msg": "This map depicts scenes of blood and gore, violence, death, strong language, and suicide."
 				},
-				"520": { "person": "Tutorial", "msg": "violence," },
-				"540": { "person": "Tutorial", "msg": "death," },
-				"560": { "person": "Tutorial", "msg": "strong language," },
-				"580": { "person": "Tutorial", "msg": "and suicide." },
 				"600": {
 					"person": "Tutorial",
 					"msg": "This map also contains visuals that may be harmful to those with epilepsy."
@@ -1153,10 +1184,9 @@
 					"person": "Tutorial",
 					"msg": "be not used for the sake of immersion."
 				},
-				"960": { "person": "Tutorial", "msg": "At this time," },
-				"1000": {
+				"960": {
 					"person": "Tutorial",
-					"msg": "please select the game difficulty you wish to experience."
+					"msg": "At this time, please select the game difficulty you wish to experience."
 				},
 				"1060": {
 					"person": "Tutorial",
