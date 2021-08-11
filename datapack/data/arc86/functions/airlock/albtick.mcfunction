@@ -1,5 +1,5 @@
-# This depends on AFB
-loot replace entity @s weapon.mainhand mine ~ ~ ~ diamond_pickaxe{Enchantments: [{id: "silk_touch", lvl: 2}], display: {Name: '{"text":"Copy State"}'}}
+# AFB probably has it's own thing for this but it might not be loaded
+function arc86:afbhelper/loot_collect_meta
 # title @a actionbar {"nbt":"HandItems","entity":"@s","color":"gold"}
 # @s IS NOT PERSISTENT
 # todo: fix debounce logic
