@@ -35,9 +35,18 @@ execute if score stage_time globals matches 250 run particle minecraft:block red
 execute if score stage_time globals matches 20..770 as @e[tag=s100-shake] at @s run function arc86:shake/genshakexz
 # Eyes Toggle Flicker
 execute if score stage_time globals matches 10 run function arc86:rorkehead/eyes_on
-execute if predicate arc86:s100_eyes_rng run function arc86:rorkehead/toggle_eyes
+execute if predicate arc86:s100_eyes_rng if score stage_time globals matches 0..800 run function arc86:rorkehead/toggle_eyes
 
 # Some dropped items
 execute if score stage_time globals matches 400 run summon item -101.24 70.00 -198.18 {Item:{id: "minecraft:written_book", tag: {pages: ['{"text":"Mr. Rorke, if you please:\\n\\nBring this data core as well as the one located in the Site Archives to the Command Center at once. Don\'t ask me for more information—I don\'t know either. All I know is that Site Administration\'s really jumpy to get it done,"}', '{"text":"so... get it done. Speak of this to no one. Try and stay awake.\\n\\n—Chief Matheson"}'], resolved: 1b, author: "Matheson, George", title: "CONFIDENTIAL"}, Count: 1b},Motion:[-0.1d,0d,-0.04d]}
 execute if score stage_time globals matches 400 run summon item -101.05 70.00 -198.4 {Item:{id: "minecraft:player_head", tag: {display: {Name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Computer Data Core ID 001"}],"text":""}', Lore: ['{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_aqua","text":"Data compiled on recent events."}],"text":""}']}, SkullOwner: {Properties: {textures: [{Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjQ1NTliMGQ4Y2Q4N2Y1ZjdmMGIxNzJmNDgyOTJjM2U4OWRiOTgxOGI2MWRlMjIxYzQ2Y2YyZGVhZDI1YTU2MCJ9fX0="}]}, Id: [I; 570334536, 232670618, -1236775580, 116049572]}}, Count: 1b}, Motion: [-0.1d, 0d, -0.04d]}
 
+# Start raising the tar up
+# It takes ~190 ticks to fully raise and we need to to finish around 722
+execute if score stage_time globals matches 532..722 as @e[tag=s100-tar-parent] at @s run tp @s ~ ~.001 ~
+# Now we consume (but stutter a bit)
+execute if score stage_time globals matches 772..790 as @e[tag=s100-shake] at @s run tp @s ~ ~-0.005 ~
+execute if score stage_time globals matches 800 run function arc86:rorkehead/eyes_off
+execute if score stage_time globals matches 797..810 as @e[tag=s100-shake] at @s run tp @s ~ ~-0.005 ~
+execute if score stage_time globals matches 823..835 as @e[tag=s100-shake] at @s run tp @s ~ ~-0.008 ~
+execute if score stage_time globals matches 845..850 as @e[tag=s100-shake] at @s run tp @s ~ ~-0.10 ~
