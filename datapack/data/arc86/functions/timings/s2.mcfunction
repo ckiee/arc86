@@ -11,3 +11,7 @@ setblock -109 151 70 minecraft:dark_oak_door[facing=south,half=lower,hinge=left,
 setblock -109 152 70 minecraft:dark_oak_door[facing=south,half=upper,hinge=left,open=false]
 # Block the light off:
 fill -110 153 69 -108 151 69 minecraft:black_concrete
+
+# Later on we let the player pick a difficulty, but
+# this is the default.
+function arc86:diffset/set_easy
