@@ -44,7 +44,10 @@ execute if score stage_time globals matches 400 run summon item -101.05 70.00 -1
 # Start raising the tar up
 # It takes ~190 ticks to fully raise and we need to to finish around 722
 execute if score stage_time globals matches 532..724 as @e[tag=s100-tar-parent] at @s run tp @s ~ ~.001 ~
+## Throw some particles around too
+execute if score stage_time globals matches 650..720 as @e[tag=s100-tar-parent] at @s run particle block black_concrete -101.99 70 -197.42 0 0 0 0 5
 # Now we consume (but stutter a bit)
+execute if score stage_time globals matches 772..850 run particle block black_concrete -101.99 69.8 -197.42 0 0 0 0 5
 execute if score stage_time globals matches 772..790 as @e[tag=s100-shake] at @s run tp @s ~ ~-0.005 ~
 execute if score stage_time globals matches 800 run function arc86:rorkehead/eyes_off
 execute if score stage_time globals matches 797..810 as @e[tag=s100-shake] at @s run tp @s ~ ~-0.005 ~
