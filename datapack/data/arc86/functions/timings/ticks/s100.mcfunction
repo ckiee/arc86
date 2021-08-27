@@ -43,7 +43,7 @@ execute if score stage_time globals matches 400 run summon item -101.05 70.00 -1
 
 # Start raising the tar up
 # It takes ~190 ticks to fully raise and we need to to finish around 722
-execute if score stage_time globals matches 532..722 as @e[tag=s100-tar-parent] at @s run tp @s ~ ~.001 ~
+execute if score stage_time globals matches 532..724 as @e[tag=s100-tar-parent] at @s run tp @s ~ ~.001 ~
 # Now we consume (but stutter a bit)
 execute if score stage_time globals matches 772..790 as @e[tag=s100-shake] at @s run tp @s ~ ~-0.005 ~
 execute if score stage_time globals matches 800 run function arc86:rorkehead/eyes_off
