@@ -126,6 +126,12 @@
 		},
 		{
 			"predicate": {
+				"custom_model_data": 9011
+			},
+			"model": "item/carbine"
+		},
+		{
+			"predicate": {
 				"custom_model_data": 904999
 			},
 			"model": "tutorial/a0"
