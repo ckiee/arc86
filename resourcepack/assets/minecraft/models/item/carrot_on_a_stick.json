@@ -132,6 +132,18 @@
 		},
 		{
 			"predicate": {
+				"custom_model_data": 9012
+			},
+			"model": "item/oldman_body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 9013
+			},
+			"model": "item/oldman_leg"
+		},
+		{
+			"predicate": {
 				"custom_model_data": 904999
 			},
 			"model": "tutorial/a0"
