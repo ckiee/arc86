@@ -30,6 +30,12 @@
 			"predicate": { "custom_model_data": 9002 },
 			"model": "item/rifle"
 		},
+		{
+			"predicate": {
+				"custom_model_data": 9011
+			},
+			"model": "item/carbine"
+		},
         {
             "predicate": {
                 "pulling": 1
