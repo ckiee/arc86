@@ -1,5 +1,5 @@
 scoreboard players reset @s coas
-data modify storage arc86:click SelectedItemCache set from storage arc86:click SelectedItemCache
+data modify storage arc86:click SelectedItemCache set from entity @s SelectedItem
 execute if data storage arc86:click SelectedItemCache.tag.KeycardLevel at @s anchored eyes positioned ^ ^ ^ anchored feet run function arc86:keycard/start_ray
 execute if data storage arc86:click SelectedItemCache.tag.gun at @s run function arc86:guns/maybe_fire
 execute if data storage arc86:click SelectedItemCache.tag.thermal at @s run function arc86:thermal/on_click
