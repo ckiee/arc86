@@ -1,5 +1,5 @@
 # ENTITIES: (by tag)
-# rorkehead - Rorke's head. Shakes Pose.Head and Pos (along with s100)
+# rorkehead - Rorke's head. Shakes Pose.Head and Pos (along with s100) using arc86:poser
 # s100 - Rorke's body, not incluidng head
 # SHOULDNT EXIST ANYMORE: rorkehead-tracker - an AEC used to calculate the direction rorke should face at stage_time 0..25
 #
@@ -9,23 +9,21 @@ execute positioned -111 70 -205 run tag @s[dz=10,dx=32,dy=5] add s100-near
 execute positioned -120 70 -201 as @a[dx=8,dz=4,dy=5] at @s run tp @s ~1 ~ ~
 
 # Get Rotation
-execute store result score $valX s100 run data get entity @e[tag=rorkehead,limit=1] Pose.Head[0] 1
-execute store result score $valY s100 run data get entity @e[tag=rorkehead,limit=1] Pose.Head[1] 1
+execute as @e[tag=rorkehead] at @s run function arc86:poser/collect
 
 ## Initial head coming up
-execute if score $valX s100 matches ..-47 if score stage_time globals matches ..20 run scoreboard players operation $valX s100 += $inc s100
+execute if score Pose.Head[0] poser matches ..-4700000 if score stage_time globals matches ..20 run scoreboard players operation Pose.Head[0] poser += $inc s100
 ## Head Rot Shake
 execute if score stage_time globals matches 40..770 as @e[tag=rorkehead,limit=1] at @s run function arc86:shake/genshakes100
 ## Physical Limits
 ### This is split into 4 parts instead of 2 so we can snap to the closest limit instead of the center value.
-execute if score $valX s100 matches -47.. run scoreboard players set $valX s100 -47
-execute if score $valX s100 matches ..-85 run scoreboard players set $valX s100 -85
-execute if score $valY s100 matches 5.. run scoreboard players set $valY s100 5
-execute if score $valY s100 matches ..-10 run scoreboard players set $valY s100 -10
+execute if score Pose.Head[0] poser matches -4700000.. run scoreboard players set Pose.Head[0] poser -4700000
+execute if score Pose.Head[0] poser matches ..-8500000 run scoreboard players set Pose.Head[0] poser -8500000
+execute if score Pose.Head[1] poser matches 500000.. run scoreboard players set Pose.Head[1] poser 500000
+execute if score Pose.Head[1] poser matches ..-1000000 run scoreboard players set Pose.Head[1] poser -1000000
 
 # Set Rotation
-execute store result entity @e[tag=rorkehead,limit=1] Pose.Head[0] float 1 run scoreboard players get $valX s100
-execute store result entity @e[tag=rorkehead,limit=1] Pose.Head[1] float 1 run scoreboard players get $valY s100
+execute as @e[tag=rorkehead] at @s run function arc86:poser/apply
 
 # If the itemframe dies: /data merge entity @e[type=item_frame,limit=1,sort=nearest] {NoGravity:1b,Tags:[s100],Fixed:1b,Invisible:1b,Invulnerable:1b,NoAI:1b}
 # Blood

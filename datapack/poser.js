@@ -36,7 +36,7 @@ fs.writeFileSync(
 		"poser",
 		"apply.mcfunction"
 	), `${HEADER}
-${eachComb(path => `execute store result entity @s ${path} float ${intScale} run scoreboard players get ${path} poser`)}
+${eachComb(path => `execute store result entity @s ${path} float ${1/intScale} run scoreboard players get ${path} poser`)}
 `,
 	{ encoding: "utf8" }
 )
