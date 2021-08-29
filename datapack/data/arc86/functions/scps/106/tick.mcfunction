@@ -1,5 +1,8 @@
-execute store result score $rightarm0 oldman run data get entity @e[tag=oldman,limit=1] Pose.RightArm[0]
-scoreboard players add $rightarm0 oldman 9
-execute store result entity @e[tag=oldman,limit=1] Pose.RightArm[0] float 1 run scoreboard players get $rightarm0 oldman
-# execute as @e[tag=oldman] at @s if predicate arc86:flicker_rng run tp @s ~ ~ ~1
-# execute as @e[tag=oldman] at @s if predicate arc86:flicker_rng run tp @s ~ ~ ~-1
+# wandering traders like to drink potions. we don't like that.
+data merge entity @e[type=wandering_trader,tag=106-pather,limit=1] {HandItems:[],Inventory:[]}
+
+execute if score $anim scp106 matches 0.. as @e[tag=106-pather] at @s run function arc86:scps/106/anim_tick
+execute if score $targeting scp106 matches 0 as @e[tag=106-pather] at @s run function arc86:scps/106/find_target
+execute if score $targeting scp106 matches 1 as @e[tag=106-pather] at @s run function arc86:scps/106/target_tick
+
+tp @e[tag=106-model,limit=1,type=armor_stand] @e[tag=106-pather,limit=1,type=wandering_trader]
