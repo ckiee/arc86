@@ -140,7 +140,13 @@
 			"predicate": {
 				"custom_model_data": 9013
 			},
-			"model": "item/oldman_leg"
+			"model": "item/oldman_right"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 9014
+			},
+			"model": "item/oldman_left"
 		},
 		{
 			"predicate": {
