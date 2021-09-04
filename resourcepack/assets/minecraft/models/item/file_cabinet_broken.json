@@ -5,6 +5,7 @@
 		"0": "item/file_cabinet",
 		"particle": "item/file_cabinet"
 	},
+	"ambientocclusion": false,
 	"elements": [
 		{
 			"from": [1, 3, 7],
