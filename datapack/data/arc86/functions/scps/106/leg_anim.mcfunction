@@ -16,4 +16,8 @@ scoreboard players operation Pose.LeftArm[0] poser -= $leg_pos scp106
 scoreboard players operation Pose.RightArm[0] poser = $leg_pos scp106
 scoreboard players operation Pose.RightArm[0] poser += $OFFSET_LEG scp106
 
+# this isn't that related, but i don't want to make another function
+# on tick as the entity selector is somewhat expensive
+particle minecraft:block black_concrete_powder ~ ~ ~
+
 function arc86:poser/apply
