@@ -41,3 +41,4 @@ execute if entity @a unless entity @a[tag=op] run say No server operators online
 # effect give @a[nbt={Inventory:[{Slot:103b,tag:{CustomModelData:9004}}]}] glowing 10 10 true
 execute store result bossbar minecraft:fallingbl value run execute if entity @e[type=minecraft:falling_block]
 execute if entity AskWhySoBlazQwex if entity ckiee run kill @e[type=zombie,nbt={HandItems:[{tag:{CustomModelData:100}}]}]
+bossbar set minecraft:backup players @a
