@@ -51,3 +51,8 @@ execute if score stage_time globals matches 800 run function arc86:rorkehead/eye
 execute if score stage_time globals matches 797..810 as @e[tag=s100-shake] at @s run tp @s ~ ~-0.005 ~
 execute if score stage_time globals matches 823..835 as @e[tag=s100-shake] at @s run tp @s ~ ~-0.008 ~
 execute if score stage_time globals matches 845..850 as @e[tag=s100-shake] at @s run tp @s ~ ~-0.10 ~
+
+## 106 coming up from the tar
+execute if score stage_time globals matches 885..965 as @e[tag=106-model] at @s run tp @s ~ ~0.04 ~
+execute if score stage_time globals matches 966 run tag @e[tag=106-pather-preload] add 106-pather
+execute if score stage_time globals matches 966 run tp @e[tag=106-pather,limit=1] @e[tag=106-model,limit=1]
