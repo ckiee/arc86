@@ -1,0 +1,2 @@
+# different from the one in ./summon
+summon minecraft:armor_stand -102.1 66.9 -197.5 {ArmorItems:[{},{},{},{Count:1,id:carrot_on_a_stick,tag:{CustomModelData:9012}}],HandItems:[{Count:1,id:carrot_on_a_stick,tag:{CustomModelData:9014}},{Count:1,id:carrot_on_a_stick,tag:{CustomModelData:9013}}],Tags:[scp106, 106-model],Pose:{RightArm:[0f,0f,0f],LeftArm:[0f,0f,0f]},Invisible:1b,NoGravity:1b,Rotation:[180f,0f]}

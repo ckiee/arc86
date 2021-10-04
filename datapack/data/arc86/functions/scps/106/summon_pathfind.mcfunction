@@ -1,0 +1,1 @@
+summon minecraft:wandering_trader -102 63 -198 {Silent:1b,Invulnerable:1b,PersistenceRequired:1b,CanPickUpLoot:0b,Willing:0b,DespawnDelay:2147483647,Tags:[scp106,106-pather-preload],Offers:{},Attributes:[{Name:generic.movement_speed,Base:0.9}],ActiveEffects:[{Id:14b,Amplifier:1b,Duration:1000000,ShowParticles:0b}],WanderTarget:{},NoAI:0b}
